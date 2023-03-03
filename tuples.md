@@ -1,7 +1,5 @@
 ---
-title: Tuples
-category: Tuples
-layout: post
+layout: default
 ---
 > [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
 >  [Control](./control.html) || [Function](./function.html)|| [Files](./files.html) || [OOP](./oop.html) ||
