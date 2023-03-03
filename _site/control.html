@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Control Structures | Pacific Beach Drive</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Control Structures" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Mike’s Drive." />
+<meta property="og:description" content="Mike’s Drive." />
+<link rel="canonical" href="http://localhost:4000/control.html" />
+<meta property="og:url" content="http://localhost:4000/control.html" />
+<meta property="og:site_name" content="Pacific Beach Drive" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Control Structures" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Mike’s Drive.","headline":"Control Structures","url":"http://localhost:4000/control.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>Pacific Beach Drive</h1>
+        </a>
+        <h2>Mike's Drive.</h2>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="./strings.html">Strings</a></td>
+        <td> </td>
+        <td><a href="./variables.html">Variables</a></td>
+        <td> </td>
+        <td><a href="./lists.html">Lists</a></td>
+        <td> </td>
+        <td><a href="./tuples.html">Tuples</a></td>
+        <td> </td>
+        <td><a href="./dictionary.html">Dictionary</a></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td><a href="./control.html">Control</a></td>
+        <td> </td>
+        <td><a href="./function.html">Function</a></td>
+        <td> </td>
+        <td><a href="./files.html">Files</a></td>
+        <td> </td>
+        <td><a href="./oop.html">OOP</a></td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<hr />
+
+<h3 id="to-alter-control-flow">to alter control flow:</h3>
+<ul>
+  <li>Conditional</li>
+  <li>while loop</li>
+  <li>for loop</li>
+  <li>Python doesn’t have a switch statement.</li>
+</ul>
+
+<h3 id="conditional">Conditional</h3>
+
+<p>Syntax</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">&lt;</span><span class="n">expression</span><span class="o">-**</span><span class="n">boolean</span><span class="o">**&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+</code></pre></div></div>
+
+<h4 id="boolean">Boolean</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="mi">10</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">)</span>
+<span class="bp">True</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="n">y</span><span class="p">:</span>                           
+<span class="k">if</span> <span class="n">x</span> <span class="ow">or</span> <span class="n">y</span><span class="p">:</span>                           
+<span class="k">if</span> <span class="n">x</span> <span class="ow">and</span> <span class="n">y</span><span class="p">:</span>                           
+<span class="k">if</span> <span class="s">'aul'</span> <span class="ow">in</span> <span class="s">'grault'</span><span class="p">:</span> 
+<span class="k">if</span> <span class="s">'quux'</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'foo'</span><span class="p">,</span> <span class="s">'bar'</span><span class="p">,</span> <span class="s">'baz'</span><span class="p">]:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">'yes'</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<h4 id="equality-equal-to-each-other">Equality (equal to each other)</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="s">"cat"</span> <span class="o">==</span> <span class="s">"dog"</span><span class="p">)</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+<h4 id="module-review">Module Review</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;</span><span class="s">"1"</span><span class="p">)</span>
+<span class="c1"># OUTPUT
+</span><span class="nc">Traceback </span><span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">"&lt;pyshell#11&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="nf">print</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;</span><span class="s">"1"</span><span class="p">)</span>
+<span class="nb">TypeError</span><span class="p">:</span> <span class="s">'&lt;'</span> <span class="ow">not</span> <span class="n">supported</span> <span class="n">between</span> <span class="n">instances</span> <span class="n">of</span> <span class="s">'int'</span> <span class="ow">and</span> <span class="s">'str'</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">==</span> <span class="s">"1"</span><span class="p">)</span>
+<span class="bp">False</span>
+</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">print</span><span class="p">(</span><span class="s">"cat"</span> <span class="o">&gt;</span> <span class="s">"Cat"</span><span class="p">)</span>
+<span class="c1"># OUTPUT
+</span><span class="bp">True</span>
+</code></pre></div></div>
+<p>=&gt; uppercase letters are alphabetically sorted before lowercase letters.</p>
+
+<h3 id="if-else-conditional">if-else conditional</h3>
+<p>Syntax</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="nf">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">&gt;</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="nf">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">&gt;</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="nf">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">&gt;</span>
+<span class="k">elif</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="nf">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">&gt;</span>
+<span class="k">elif</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="nf">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">&gt;</span>
+    <span class="p">...</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="nf">statement</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="one-line-if-statements">One-Line if Statements</h3>
+<h3 id="ternary-operator-short-hand-if">Ternary Operator (Short Hand If)</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#standard
+</span><span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+
+<span class="c1"># shorter
+</span><span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">statement</span><span class="o">&gt;</span>
+<span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">statement_1</span><span class="o">&gt;</span><span class="p">;</span> <span class="o">&lt;</span><span class="n">statement_2</span><span class="o">&gt;</span><span class="p">;</span> <span class="p">...;</span> <span class="o">&lt;</span><span class="n">statement_n</span><span class="o">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="example">Example</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="s">'f'</span> <span class="ow">in</span> <span class="s">'foo'</span><span class="p">:</span> <span class="nf">print</span><span class="p">(</span><span class="s">'1'</span><span class="p">);</span> <span class="nf">print</span><span class="p">(</span><span class="s">'2'</span><span class="p">);</span> <span class="nf">print</span><span class="p">(</span><span class="s">'3'</span><span class="p">)</span>
+<span class="c1">#Output
+</span><span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+</code></pre></div></div>
+<h3 id="if-else-short-hand">if-else short hand</h3>
+<h3 id="syntax">Syntax</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="n">expr1</span><span class="o">&gt;</span> <span class="k">if</span> <span class="o">&lt;</span><span class="n">conditional_expr</span><span class="o">&gt;</span> <span class="k">else</span> <span class="o">&lt;</span><span class="n">expr2</span><span class="o">&gt;</span>
+</code></pre></div></div>
+
+<h3 id="example-1">Example</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">'yes'</span> <span class="nf">if </span><span class="p">(</span><span class="s">'qux'</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'foo'</span><span class="p">,</span> <span class="s">'bar'</span><span class="p">,</span> <span class="s">'baz'</span><span class="p">])</span> <span class="k">else</span> <span class="s">'no'</span>
+<span class="c1">#OUTPUT
+</span><span class="s">'no'</span>
+</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">raining</span> <span class="o">=</span> <span class="bp">False</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nf">print</span><span class="p">(</span><span class="s">"Let's go to the"</span><span class="p">,</span> <span class="s">'beach'</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">raining</span> <span class="k">else</span> <span class="s">'library'</span><span class="p">)</span>
+<span class="n">Let</span><span class="s">'s go to the beach
+&gt;&gt;&gt; raining = True
+&gt;&gt;&gt; print("Let'</span><span class="n">s</span> <span class="n">go</span> <span class="n">to</span> <span class="n">the</span><span class="s">", 'beach' if not raining else 'library')
+Let's go to the library
+</span></code></pre></div></div>
+<h3 id="short-hand-in-a-function">short hand in a function</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+	<span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span><span class="mi">8</span>
+	<span class="n">st</span> <span class="o">=</span> <span class="s">"x is less than y"</span> <span class="nf">if </span><span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="n">y</span><span class="p">)</span> <span class="k">else</span> <span class="s">"x is greater than or equal to y"</span>
+	<span class="nf">print</span><span class="p">(</span><span class="n">st</span><span class="p">)</span>
+	
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+	<span class="nf">main</span><span class="p">()</span>
+
+<span class="c1">#OUPUT
+</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span><span class="p">:</span>
+<span class="p">...</span>     <span class="n">m</span> <span class="o">=</span> <span class="n">a</span>
+<span class="p">...</span> <span class="k">else</span><span class="p">:</span>
+<span class="p">...</span>     <span class="n">m</span> <span class="o">=</span> <span class="n">b</span>
+<span class="c1">#becomes
+</span><span class="o">&gt;&gt;&gt;</span> <span class="n">m</span> <span class="o">=</span> <span class="n">a</span> <span class="k">if</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span> <span class="k">else</span> <span class="n">b</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="while-loop">while loop</h3>
+<ul>
+  <li>execute a set of statements as long as a condition is true</li>
+  <li>to continuously execute code based on the value of a condition.</li>
+  <li>code block can be executed multiple times instead of just once.</li>
+  <li>performing an action over and over until a condition has changed.</li>
+  <li>code block will keep executing as long as the evaluation 
+statement is true. Once the statement is no longer true, the loop exits and the next line of code will be executed.</li>
+</ul>
+
+<h4 id="use-case">Use case</h4>
+<ul>
+  <li>use them to keep asking for a username if the one provided isn’t valid</li>
+  <li>try an operation until it succeeds.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1</span> <span class="n">x</span><span class="o">=</span><span class="mi">0</span> <span class="c1">#initializing
+</span><span class="mi">2</span> <span class="k">while</span> <span class="n">x</span><span class="o">&lt;</span><span class="mi">5</span><span class="p">:</span>
+<span class="mi">3</span>    <span class="nf">print</span><span class="p">(</span><span class="s">"Not there yet, x="</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="mi">4</span>    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">+</span><span class="mi">1</span>
+<span class="mi">5</span> <span class="nf">print</span><span class="p">(</span><span class="s">"x="</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="c1"># OUTPUT
+</span><span class="n">Not</span> <span class="n">there</span> <span class="n">yet</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">0</span>
+<span class="n">Not</span> <span class="n">there</span> <span class="n">yet</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">1</span>
+<span class="n">Not</span> <span class="n">there</span> <span class="n">yet</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">2</span>
+<span class="n">Not</span> <span class="n">there</span> <span class="n">yet</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">3</span>
+<span class="n">Not</span> <span class="n">there</span> <span class="n">yet</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">4</span>
+<span class="n">x</span><span class="o">=</span><span class="mi">5</span>
+</code></pre></div></div>
+
+<hr />
+
+<h4 id="while-loop-inside-of-a-function">while loop inside of a function.</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">attempts</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Attempt "</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+        <span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Done"</span><span class="p">)</span>
+    
+<span class="nf">attempts</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Step1:
+    <ul>
+      <li>initializing a variable called x (1).</li>
+    </ul>
+  </li>
+  <li>Step2:
+    <ul>
+      <li>the function received a value and the while loop checks if the value inside of the x variable is less than the parameter n.
+        <ul>
+          <li>If that comparison evaluates to true, then the code inside the while block is executed.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Step3:
+    <ul>
+      <li>think it through:
+        <ul>
+          <li>pass a value of 5 as a parameter to this function. In the first pass through the loop, x is always equal to 1, so the comparison: 1 smaller than or equal to 5 would be true and we then enter the body of the loop. 
+In the body, we first print a message indicating that the current attempt number and then we increase the value of x by 1.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>The process continues until the result of the comparison isn’t true anymore, which happens when x is bigger than n. In our current example, this would be when the value of x is 6.</p>
+
+<h4 id="example---to-call-a-separate-function-that-evaluates-the-condition">Example - to call a separate function that evaluates the condition.</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">username</span> <span class="o">=</span> <span class="nf">get_username</span><span class="p">()</span>
+<span class="k">while</span> <span class="ow">not</span> <span class="nf">valid_username</span><span class="p">(</span><span class="n">username</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"invalid username"</span><span class="p">)</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="nf">get_username</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>a lot of code hidden behind functions.</p>
+<h4 id="get_username-function">get_username() function</h4>
+<ul>
+  <li>asks the user for a username and a valid_username function that validates that username.</li>
+  <li>In this case, the body of the while loop will be executed until the user enters a valid username. 
+The important thing to remember is that the condition used by the while loop needs to evaluate to true or false.</li>
+</ul>
+
+<p>rundown of some of the most common pitfalls that you may come across when writing your own loops. Head on over to the next video to get started.</p>
+
+<p>If you have a loop that’s gone rogue and is not behaving as expected, it’s a good idea to check if all the variables are correctly initialized. 
+In this example, we need to set x back to 1 before starting the second loop.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1</span> <span class="k">def</span> <span class="nf">count_down</span><span class="p">(</span><span class="n">start_number</span><span class="p">):</span>
+<span class="mi">2</span>  <span class="nf">while </span><span class="p">(</span><span class="n">current</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+<span class="mi">3</span>    <span class="nf">print</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
+<span class="mi">4</span>   <span class="n">current</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="mi">5</span>  <span class="nf">print</span><span class="p">(</span><span class="s">"Zero!"</span><span class="p">)</span>
+
+<span class="nf">count_down</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># Line 2: Using variable 'current' before assignment
+</span></code></pre></div></div>
+
+<p>The fix:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">count_down</span><span class="p">(</span><span class="n">start_number</span><span class="p">):</span>
+  <span class="n">current</span> <span class="o">=</span> <span class="mi">3</span>
+  <span class="nf">while </span><span class="p">(</span><span class="n">current</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">current</span><span class="p">)</span>
+    <span class="n">current</span> <span class="o">-=</span> <span class="mi">1</span>
+  <span class="nf">print</span><span class="p">(</span><span class="s">"Zero!"</span><span class="p">)</span>
+
+<span class="nf">count_down</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1">#OUTPUT
+</span><span class="mi">3</span>
+<span class="mi">2</span>
+<span class="mi">1</span>
+<span class="n">Zero</span><span class="err">!</span>
+</code></pre></div></div>
+
+<h4 id="recap">recap</h4>
+<ul>
+  <li>whenever you’re writing a loop check that you’re initializing all the variables you want to use before you use them.</li>
+</ul>
+
+<hr />
+
+<h4 id="infinite-loops">Infinite Loops</h4>
+<ul>
+  <li>what’s called an infinite loop, a loop that keeps executing and never stops.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="n">x</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">/</span><span class="mi">2</span>
+</code></pre></div></div>
+<p>It uses the modulo operator that we saw a while back. This cycle will finish for positive and negative values of x. But what would happen if x was zero? The remainder of 0 divided by 2 is 0, so the condition would be true. The result of dividing 0 by 2 would also be zero, so the value of x wouldn’t change. This loop would go on forever, and so we’d get an infinite loop.</p>
+
+<p>If our code was called with x having the value of zero, the computer would just waste resources doing a division that would never lead to the loop stopping.</p>
+
+<p>. To avoid this, we need to think about what needs to happen for a loop to be successful.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="k">while</span> <span class="n">x</span><span class="o">%</span><span class="mi">2</span><span class="o">-=-=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">/</span><span class="mi">2</span>
+</code></pre></div></div>
+<p>In this example, we said that x needs to be different than zero. So we could nest this while loop inside an if statement just like this. 
+With this approach, the while loop is executed only when x is not zero.</p>
+
+<p>Alternatively, we could add the condition directly to the loop using a logical operator like in this example.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="n">x</span> <span class="o">!=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">/</span><span class="mi">2</span>
+</code></pre></div></div>
+<p>This makes sure we only enter the body of the loop for values of x that are both different than zero and even.</p>
+
+<h4 id="sum-up">sum up</h4>
+<ul>
+  <li>An infinite loop means the code block in the loop will continue to execute and never stop.</li>
+  <li>This can happen when the condition being evaluated in a while loop doesn’t change.</li>
+  <li>take a moment to consider the different values a variable can take - Think about unexpected values, like zero.</li>
+  <li>the break keyword to signal that the current loop should stop running. We can use it not only to stop infinite loops but also to stop a loop early if the code has already achieved what’s needed. 
+First, remember to initialize your variables, and second, check that your loops won’t run forever.</li>
+  <li>break the loop by pressing Ctrl+C</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="nf">do_something</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nf">user_requested_to_stop</span><span class="p">():</span>
+        <span class="k">break</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="for-loop">for loop?</h3>
+<ul>
+  <li>to iterate over a sequence of elements.</li>
+  <li>to iterate over a sequence of values. </li>
+</ul>
+
+<h4 id="for-loop-in-range-method">for loop in range() method</h4>
+<ul>
+  <li>iterate through a sequence of numbers generated using the range function</li>
+  <li>variable(x) will take each of the values in the sequence that loop iterates through.
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+  <span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="c1">#OUTPUT
+</span><span class="mi">0</span>
+<span class="mi">1</span>
+<span class="mi">2</span>
+<span class="mi">3</span>
+<span class="mi">4</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="for-loop-in-a-function">for loop in a function</h4>
+<ul>
+  <li>a function to calculate the square of a number, and then use a for loop to sum the squares of the numbers in a range.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">n</span><span class="o">*</span><span class="n">n</span>
+
+<span class="k">def</span> <span class="nf">sum_squares</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+        <span class="nb">sum</span> <span class="o">+=</span> <span class="nf">int</span><span class="p">(</span><span class="nf">square</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+    <span class="k">return</span> <span class="nb">sum</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="nf">sum_squares</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span> <span class="c1"># Should be 285
+</span></code></pre></div></div>
+
+<p>Iterating over numbers looks very similar to the while 
+=&gt; for loop iterates over a sequence of values of any type, not just a range of numbers. 
+Here a for loop that iterates over a list of strings. I</p>
+<ul>
+  <li>We’re iterating a list of strings. And for each of the strings in the list, we’re printing a greeting.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">friends</span> <span class="o">=</span> <span class="p">[</span><span class="err">‘</span><span class="n">Taylor</span><span class="err">’</span><span class="p">,</span> <span class="err">‘</span><span class="n">Alex</span><span class="err">’</span><span class="p">,</span> <span class="err">‘</span><span class="n">Eli</span><span class="err">’</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">friend</span> <span class="ow">in</span> <span class="n">friends</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="err">“</span><span class="n">Hi</span> <span class="err">”</span> <span class="o">+</span> <span class="n">friend</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The sequence that the for loop iterates over could contain any type of element, not just strings. For example, we could iterate over a list of numbers to calculate the total sum and average.</p>
+
+<pre><code class="language-python ">values = [23, 52, 59, 37, 48]
+sum = 0
+length = 0
+for value oil values: 
+    sum += value
+    length += 1
+print(“Total sum: ” + str(sum) + “ - Average: ” +str(sum/length))
+</code></pre>
+
+<p>we’re defining a list of values. 
+After that, we’re initializing two variables, sum and length, that will update in the body of the for loop. 
+In the for loop, we’re iterating over each of the values in the list, adding the current value to the sum of values, and then also adding 1 to length, which calculates how many elements there are in the list. 
+Once we’ve gone through the whole list, we print out the sum and the average. We’ll keep using for loops in our examples every time we want to iterate over the elements of any sequence and operate with them. 
+Some examples of sequences that we can iterate are 
+the files in a directory, 
+the lines in a file, 
+the processes running on a machine. 
+And there’s a bunch of others. </p>
+
+<p>So as an IT specialist, you’ll use for loops to automate: 
+to copy files to machines, process the contents of files, 
+automatically install software, 
+and a lot more. </p>
+
+<p>A few weeks ago, I had to update a lot of files with different values depending on their contents. So I used a for loop in a script to iterate over all the files. Then, my script took different actions based on an if condition and updated all of those files for me. It would have taken me forever if I had done this manually file by file. If you’re wondering when you should use for loops and when you should use while loops, there’s a way to tell. </p>
+
+<p>Use for loops when there’s a sequence of elements that you want to iterate. 
+Use while loops when you want to repeat an action until a condition changes. 
+And if whatever you’re trying to do can be done with either for or while loops, just use whichever one’s your favorite. I’m more of a “while” gal myself, but it’s totally your call.</p>
+
+<hr />
+
+<h3 id="for-loops-recap">For Loops Recap</h3>
+
+<h3 id="while-loop-1">while loop</h3>
+<ul>
+  <li>for performing an action over and over until a condition has changed.</li>
+</ul>
+
+<h3 id="for-loop-1">for loop</h3>
+<ul>
+  <li>to iterate over a sequence of elements. The power of for loops comes from the fact that it can iterate over a sequence of any kind of data, not just a range of numbers. You can use for loops to iterate over a list of strings, such as usernames or lines in a file.</li>
+</ul>
+
+<p>For loops allow you to iterate over a sequence of values:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+<span class="err">  </span><span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Similar to if statements and while loops, for loops begin with the keyword for with a colon at the end of the line. Just like in function definitions, while loops and if statements, the body of the for loop begins on the next line and is indented to the right. But what about the stuff in between the for keyword and the colon? In our example, we’re using the range() function to create a sequence of numbers that our for loop can iterate over. In this case, our variable x points to the current element in the sequence as the for loop iterates over the sequence of numbers. Keep in mind that in Python and many programming languages, a range of numbers will start at 0, and the list of numbers generated will be one less than the provided value. So range(5) will generate a sequence of numbers from 0 to 4, for a total of 5 numbers.
+Bringing this all together, the range(5) function will create a sequence of numbers from 0 to 4. Our for loop will iterate over this sequence of numbers, one at a time, making the numbers accessible via the variable x and the code within our loop body will execute for each iteration through the sequence. So for the first loop, x will contain 0, the next loop, 1, and so on until it reaches 4. Once the end of the sequence comes up, the loop will exit and the code will continue.</p>
+
+<h3 id="calculating-the-product-of-all-numbers-from-1-to-10">calculating the product of all numbers from 1 to 10</h3>
+<h4 id="more-for-loops-examples">More for loops examples</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">product</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nf">range </span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">product</span> <span class="o">=</span> <span class="n">product</span><span class="o">*</span><span class="n">n</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">product</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">fact</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="p">...</span>     <span class="s">"""Return the factorial of the given number."""</span>    
+<span class="p">...</span>     <span class="n">r</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="p">...</span>     <span class="k">while</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="p">...</span>         <span class="n">r</span> <span class="o">=</span> <span class="n">r</span> <span class="o">*</span> <span class="n">n</span>
+<span class="p">...</span>         <span class="n">n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="p">...</span>     <span class="k">return</span> <span class="n">r</span>  
+<span class="c1">#OUTPUT
+#362880
+</span></code></pre></div></div>
+
+<p>Additionally, we can specify a third parameter to change the size of each step. This means that instead of going one by one, we could have a larger difference between the elements.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">to_celsius</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="nf">return </span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">32</span><span class="p">)</span><span class="o">*</span><span class="mi">5</span><span class="o">/</span><span class="mi">9</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">101</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="nf">to_celsius</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>First, we’re defining a function that converts a temperature value from Fahrenheit to Celsius, and we’re simply using a conversion formula to do that. Then we have a for loop that starts at zero, and goes up to 100 in steps of 10. Notice that we’re using 101 for the upper limit instead of 100. We’re doing this because the range never includes the last element, and we want to include 100 in our range. The body of the for-loop prints the value in Fahrenheit and the value in Celsius creating a conversion table.</p>
+
+<p>0 -17.77777777777778
+10 -12.222222222222221
+20 -6.666666666666667
+30 -1.1111111111111112
+40 4.444444444444445
+50 10.0
+60 15.555555555555555
+70 21.11111111111111
+80 26.666666666666668
+90 32.22222222222222
+100 37.77777777777778</p>
+
+<p>The range function can receive one, two or three parameters. 
+If it receives one parameter, it will create a sequence one by one from zero until one less than the parameter received.
+If it receives two parameters, it will create a sequence one by one from the first parameter until one less than the second parameter. 
+Finally, if it receives three parameters, it will create a sequence starting from the first number and moving towards the second number. But this time, the jumps between the numbers will be the size of the third number, and again, it will stop before the second number.</p>
+
+<p>Sound like a lot to remember, but don’t panic. As we’ve said before, you don’t have to try to memorize it all, just keep practicing. It’ll soon become second nature. To help you practice, we’ve included all of this in a handy cheat sheet to refer to whenever you need it. You’ll find that in the next reading.</p>
+
+<h4 id="a-closer-look-at-the-range-function">A Closer Look at the Range() Function</h4>
+
+<p>Previously we had used the range() function by passing it a single parameter, and it generated a sequence of numbers from 0 to one less than we specified. 
+ the range() function can pass in two parameters: the first specifying our starting point, the second specifying the end point. Don’t forget that the sequence generated won’t contain the last element; it will stop one before the parameter specified.
+The range() function can take a third parameter, too. This third parameter lets you  alter the size of each step. So instead of creating a sequence of numbers incremented by 1, you can generate a sequence of numbers that are incremented by 5.
+To quickly recap the range() function when passing one, two, or three parameters:
+One parameter will create a sequence, one-by-one, from zero to one less than the parameter.
+Two parameters will create a sequence, one-by-one, from the first parameter to one less than the second parameter.
+Three parameters will create a sequence starting with the first parameter and stopping before the second parameter, but this time increasing each step by the third parameter.</p>
+
+<h3 id="nested-for-loops">Nested for Loops</h3>
+<p>Dominoes 
+each Domino Tiles has two numbers represented by a collection of dots carved on each half of the tile. 
+The numbers go from zero to six. 
+Tiles can be rotated so that each combination of numbers is represented only once in a set of Domino Tiles (the two three tile is the same as the three two tile, and there’s only one per set). 
+to write a program that prints each Domino Tile in a set: 
+If we take all of the tiles that have zero on the left, we can print tiles with numbers from zero to six on the right.</p>
+
+<p>But what about tiles that have one on the left? Well, we need to skip the one zero tile, because that one was already printed as zero one. 
+So we can print a list of tiles with one on the left and numbers from one to six on the right. 
+When we look at two, we would need to skip both zero and one, and so on. 
+=&gt;  we’d need to write two for loops, one inside the other. This is what we call nested for loops. Check out how this looks on Python code.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">left</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">7</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">right</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">left</span><span class="p">,</span><span class="mi">7</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"["</span><span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">left</span><span class="p">)</span> <span class="o">+</span> <span class="s">"|"</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="n">right</span><span class="p">)</span> <span class="o">+</span> <span class="s">"]"</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s">" "</span><span class="p">)</span>
+    <span class="nf">print</span><span class="p">()</span>
+
+<span class="c1"># OUTPUT
+</span><span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">0</span><span class="p">]</span> <span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">1</span><span class="p">]</span> <span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">2</span><span class="p">]</span> <span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">3</span><span class="p">]</span> <span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">4</span><span class="p">]</span> <span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">5</span><span class="p">]</span> <span class="p">[</span><span class="mi">0</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+<span class="p">[</span><span class="mi">1</span><span class="o">|</span><span class="mi">1</span><span class="p">]</span> <span class="p">[</span><span class="mi">1</span><span class="o">|</span><span class="mi">2</span><span class="p">]</span> <span class="p">[</span><span class="mi">1</span><span class="o">|</span><span class="mi">3</span><span class="p">]</span> <span class="p">[</span><span class="mi">1</span><span class="o">|</span><span class="mi">4</span><span class="p">]</span> <span class="p">[</span><span class="mi">1</span><span class="o">|</span><span class="mi">5</span><span class="p">]</span> <span class="p">[</span><span class="mi">1</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+<span class="p">[</span><span class="mi">2</span><span class="o">|</span><span class="mi">2</span><span class="p">]</span> <span class="p">[</span><span class="mi">2</span><span class="o">|</span><span class="mi">3</span><span class="p">]</span> <span class="p">[</span><span class="mi">2</span><span class="o">|</span><span class="mi">4</span><span class="p">]</span> <span class="p">[</span><span class="mi">2</span><span class="o">|</span><span class="mi">5</span><span class="p">]</span> <span class="p">[</span><span class="mi">2</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+<span class="p">[</span><span class="mi">3</span><span class="o">|</span><span class="mi">3</span><span class="p">]</span> <span class="p">[</span><span class="mi">3</span><span class="o">|</span><span class="mi">4</span><span class="p">]</span> <span class="p">[</span><span class="mi">3</span><span class="o">|</span><span class="mi">5</span><span class="p">]</span> <span class="p">[</span><span class="mi">3</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+<span class="p">[</span><span class="mi">4</span><span class="o">|</span><span class="mi">4</span><span class="p">]</span> <span class="p">[</span><span class="mi">4</span><span class="o">|</span><span class="mi">5</span><span class="p">]</span> <span class="p">[</span><span class="mi">4</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+<span class="p">[</span><span class="mi">5</span><span class="o">|</span><span class="mi">5</span><span class="p">]</span> <span class="p">[</span><span class="mi">5</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+<span class="p">[</span><span class="mi">6</span><span class="o">|</span><span class="mi">6</span><span class="p">]</span> 
+</code></pre></div></div>
+<h4 id="end-parameter">End parameter</h4>
+<p>Normally, once print has taken the content we passed and written it to the screen, then
+it writes a special character that creates a new line called the newline character. If we
+want print to write something else instead of the newline character, we use the
+end parameter, like we see in this example.</p>
+
+<p>Notice how the second for loop iterates over a different number of elements each time it’s called as the value of left changes. Depending on what you want to achieve with your nested loops, you may want both loops to always go through the same number of elements. Or you might want the second loop to connect to the first one.</p>
+
+<p>Let’s look at a different example. 
+Let’s say you run a local girl’s basketball league in your town. You have four teams that will play against each other in the league, both at home and away. You’ve stored the names of the teams in a list, like this.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">teams</span> <span class="o">=</span> <span class="p">[</span><span class="err">‘</span><span class="n">Dragons</span><span class="err">’</span><span class="p">,</span> <span class="err">‘</span><span class="n">Wolfes</span><span class="err">’</span><span class="p">,</span> <span class="err">‘</span><span class="n">Pandas</span><span class="err">’</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>We want to write a script that will output all possible team pairings. For this, the order of the names matters because for each game, the first name will be the home team and the second name is the away team. Of course, what we don’t want to do is have a team playing against itself. So what statement do we need to use to avoid that? 
+To do this, we need to use a conditional that makes sure we only print the pairing when the names are different. Check out what this looks like.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">teams</span> <span class="o">=</span> <span class="p">[</span> <span class="s">'Dragons'</span><span class="p">,</span> <span class="s">'Wolves'</span><span class="p">,</span> <span class="s">'Pandas'</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">home_team</span> <span class="ow">in</span> <span class="n">teams</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">away_team</span> <span class="ow">in</span> <span class="n">teams</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">home_team</span> <span class="o">!=</span> <span class="n">away_team</span><span class="p">:</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">home_team</span> <span class="o">+</span> <span class="err">‘</span> <span class="n">vs</span> <span class="err">’</span> <span class="o">+</span> <span class="n">away_team</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Dragons vs Wolves
+Dragons vs Pandas
+Wolves vs Dragons
+Wolves vs Pandas
+Pandas vs Dragons
+Pandas vs Wolves</p>
+
+<p>As you can see, nested loops are super useful for solving certain problems, like pairing teams. What it doesn’t solve is the question, who would win in a face-off between dragons and unicorns? If only there were some code for that.</p>
+
+<p>Anyway, we’ve seen that nested loops are a handy tool, but the longer the list your code needs to iterate through, the longer it takes your computer to complete the task.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">long_list</span><span class="p">:</span>
+    <span class="nf">do_something </span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Let’s say your manager asks you to do an operation that will run through a list of 10,000 elements. If the operation takes one millisecond per element, the whole loop would take one millisecond times 10,000 to complete, which is 10 seconds. 
+Now, imagine we add a nested loop that has to go over the same 10,000 elements.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">element1</span> <span class="ow">in</span> <span class="n">long_list</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">element2</span> <span class="ow">in</span> <span class="n">long_list</span><span class="p">:</span>
+        <span class="nf">do_something </span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This means that each iteration of the outside loop would do a full iteration of the inside loop, which again, would take ten seconds to go through the whole list. So now, the whole iteration takes 10,000 times 10 seconds, which is a 100,000 seconds, that’s over 27 hours. 
+This doesn’t mean we shouldn’t use nested loops. They are a useful tool when solving problems that require them, but we need to be careful of where and how we use them. Throughout this course, and one is coming up, we’ll look at a lot of techniques that can help us pick the right tool to use for each type of problem. Up next, we’ll look into some common errors that you might come across when writing your for loops and what to do about them.</p>
+
+<h4 id="common-errors-in-for-loops">Common errors in for Loops</h4>
+<p> But before we’re done with for loops, let’s check out some common mistakes you may come across while trying this yourself. As we’ve called out are ready, for loops iterate over sequences. The interpreter will refuse to iterate over a single element. 
+for x in 25: 
+    print(x)</p>
+
+<p>TypeERROR: int object is not iterable</p>
+
+<p>in this example, we’re trying to iterate over the number 25. Python prints a type error telling us that integers are not iterable. There are two solutions to this problem, depending on what we’re trying to do. </p>
+
+<p>If we want to go from zero to 25, then we use the range function, so 
+for x in range(25): 
+print(x) 
+but if we’re trying to iterate over a list that has 25 as the only element, then it needs to be a list and that means writing it between square brackets, </p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">25</span><span class="p">]:</span> 
+<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="err"> </span>
+<span class="n">OUTPUT</span>
+<span class="mi">25</span>
+</code></pre></div></div>
+<p>You might be wondering why you’d ever want to iterate over a list of one element and that’s a good question. Well, this kind of issue usually happens when you have a function with a for loop inside it, which is iterating over the elements of a list received by parameter. </p>
+
+<p>Say for example, you have a function that fixes the permissions of a list of files received by parameter, and you want to call this function to fix the permissions of just one specific file. To do that, you need to pass the file as the single element of a list. </p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet_friends</span><span class="p">(</span><span class="n">friends</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">friend</span> <span class="ow">in</span> <span class="n">friends</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Hi "</span> <span class="o">+</span> <span class="n">friend</span><span class="p">)</span>
+<span class="nf">greet_friends </span><span class="p">([</span><span class="err">‘</span><span class="n">Taylor</span><span class="s">', '</span><span class="n">Alex</span><span class="s">', '</span><span class="n">Pat</span><span class="s">', ‘Eli'</span><span class="p">])</span>
+<span class="n">Hi</span> <span class="n">Taylor</span>
+<span class="n">Hi</span> <span class="n">Alex</span>
+<span class="n">Hi</span> <span class="n">Pat</span>
+<span class="n">Hi</span> <span class="n">Eli</span>
+<span class="o">&gt;&gt;&gt;</span> 
+</code></pre></div></div>
+
+<p>We’re going to modify it to have the greetings inside a function. We’ve defined a greet friends function, that receives a list by parameter and iterates over that list, greeting each friend. </p>
+
+<p>But what if we only want to greet one friend instead of four? 
+Well, we still need to define a list, but with only one element. 
+But first, let’s see what would happen if we don’t do that, </p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet_friends</span><span class="p">(</span><span class="n">friends</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">friend</span> <span class="ow">in</span> <span class="n">friends</span><span class="p">:</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Hi "</span> <span class="o">+</span> <span class="n">friend</span><span class="p">)</span>
+<span class="nf">greet_friends</span><span class="p">(</span><span class="err">“</span><span class="n">Barry</span><span class="s">")
+&gt;&gt;&gt; %Run greet_friends.py
+Hi B
+Hi a
+Hi r
+Hi r
+Hi y
+&gt;&gt;&gt; 
+</span></code></pre></div></div>
+
+<p>This happens because strings are iterable, the for loop will go over each letter of the string and do the operation we asked it to do, which in this case, print a greeting. 
+Depending on what you’re trying to do, you may actually want to iterate through the letters of a string. But in this case, we don’t. </p>
+
+<p>So to sum it up, if you get an error that a certain type isn’t iterable, you need to make sure the for loop is using a sequence of elements and not just one, and if you find your code iterating through each letter of a string when you want it to do it for the whole string, you probably want to have that string be a part of a list. We’ve now learned how to write while loops and for loops. You might remember, for loops are best when you want to iterate over a known sequence of elements but when you want to operate while a certain condition is true, while loops are the best choice. Next up, we’ve got a super useful cheat sheet for you that puts all this into one handy resource. After that, head over to the practice quiz to test your knowledge and check in on how you’re doing.</p>
+
+<h4 id="things-to-watch-out-for">Things to watch out for!</h4>
+<p>Failure to initialize variables. Make sure all the variables used in the loop’s condition  are initialized before the loop.
+Unintended infinite loops. Make sure that the body of the loop modifies the variables used in the condition, so that the loop will eventually end for all possible values of the variables.
+ Typical use:
+While loops are mostly used when there’s an unknown number of operations to be performed, and a condition needs to be checked at each iteration.
+For Loops
+=&gt; iterates over a sequence of elements, executing the body of the loop for each element in the sequence.</p>
+<h5 id="syntax-1">Syntax:</h5>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">variable</span> <span class="ow">in</span> <span class="n">sequence</span><span class="p">:</span>
+    <span class="n">body</span>
+</code></pre></div></div>
+
+<h4 id="the-range-function">The range() function:</h4>
+<p>range() generates a sequence of integer numbers. It can take one, two, or three parameters:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="p">...</span> <span class="n">n</span><span class="o">-</span><span class="mi">1</span>
+<span class="nf">range</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span> <span class="n">x</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="mi">2</span><span class="p">,</span> <span class="p">...</span> <span class="n">y</span><span class="o">-</span><span class="mi">1</span>
+<span class="nf">range</span><span class="p">(</span><span class="n">p</span><span class="p">,</span><span class="n">q</span><span class="p">,</span><span class="n">r</span><span class="p">):</span> <span class="n">p</span><span class="p">,</span> <span class="n">p</span><span class="o">+</span><span class="n">r</span><span class="p">,</span> <span class="n">p</span><span class="o">+</span><span class="mi">2</span><span class="n">r</span><span class="p">,</span> <span class="n">p</span><span class="o">+</span><span class="mi">3</span><span class="n">r</span><span class="p">,</span> <span class="p">...</span> <span class="n">q</span><span class="o">-</span><span class="mi">1</span> <span class="p">(</span><span class="k">if</span> <span class="n">it</span><span class="s">'s a valid increment)
+</span></code></pre></div></div>
+
+<h4 id="common-pitfalls">Common pitfalls:</h4>
+<p>Forgetting that the upper limit of a range() isn’t included.
+Iterating over non-sequences. Integer numbers aren’t iterable. Strings are iterable letter by letter, but that might not be what you want.
+Typical use:
+For loops are mostly used when there’s a pre-defined sequence or range of numbers to iterate.</p>
+
+<p>Break &amp; Continue
+You can interrupt both while and for loops using the break keyword. We normally do this to interrupt a cycle due to a separate condition.
+You can use the continue keyword to skip the current iteration and continue with the next one. This is typically used to jump ahead when some of the elements of the sequence aren’t relevant. [https://wiki.python.org/moin/ForLoop]</p>
+
+<p>`</p>
+<h4 id="use-while-loops">use while loops</h4>
+<ul>
+  <li>when we want to do an operation while a certain condition is true or alternatively until it becomes false. 
+We use for loops</li>
+  <li>when we want to iterate over the elements of the sequence or a range of numbers. 
+we use recursion</li>
+  <li>when the problem is best solved in smaller steps and then combining those steps towards a larger solution. 
+`</li>
+</ul>
+
+<p>If you’re still not sure which is the best tool to choose for a specific problem don’t worry, that’s normal. As you keep practicing your automation skills, choosing between one option and another will become natural. So next time you find yourself doing the same or similar things over and over again, that’s your call to see if you can use a loop to get your computer to do the work for you.</p>
+
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  </body>
+</html>

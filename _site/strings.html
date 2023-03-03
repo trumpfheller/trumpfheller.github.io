@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Pacific Beach Drive | Mike’s Drive.</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Pacific Beach Drive" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Mike’s Drive." />
+<meta property="og:description" content="Mike’s Drive." />
+<link rel="canonical" href="http://localhost:4000/strings.html" />
+<meta property="og:url" content="http://localhost:4000/strings.html" />
+<meta property="og:site_name" content="Pacific Beach Drive" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Pacific Beach Drive" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Mike’s Drive.","headline":"Pacific Beach Drive","url":"http://localhost:4000/strings.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>Pacific Beach Drive</h1>
+        </a>
+        <h2>Mike's Drive.</h2>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="./strings.html">Strings</a></td>
+        <td> </td>
+        <td><a href="./variables.html">Variables</a></td>
+        <td> </td>
+        <td><a href="./lists.html">Lists</a></td>
+        <td> </td>
+        <td><a href="./tuples.html">Tuples</a></td>
+        <td> </td>
+        <td><a href="./dictionary.html">Dictionary</a></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td><a href="./control.html">Control</a></td>
+        <td> </td>
+        <td><a href="./function.html">Function</a></td>
+        <td> </td>
+        <td><a href="./files.html">Files</a></td>
+        <td> </td>
+        <td><a href="./oop.html">OOP</a></td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<hr />
+
+<h2 id="string">String</h2>
+
+<h3 id="what-is-a-string">What is a string?</h3>
+<ul>
+  <li>is a data type that’s used to represent a piece of text. </li>
+  <li>It’s written between quotes, either double quotes or single quotes. </li>
+  <li>can be as short as zero characters, usually called an empty string or really long. </li>
+  <li>strings are immutable.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">"Mike"</span>
+<span class="n">pet</span> <span class="o">=</span> <span class="s">""</span>
+<span class="n">Pet</span> <span class="o">=</span> <span class="s">'looooooooooooooooooooooooong cat'</span>
+</code></pre></div></div>
+<h3 id="operations">Operations</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">String operations</th>
+      <th style="text-align: left">what it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">len(string)</td>
+      <td style="text-align: left">Returns the length of the string</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">for character in string</td>
+      <td style="text-align: left">Iterates over each character in the string</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">if substring in string</td>
+      <td style="text-align: left">Checks whether the substring is part of the string</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string[i]</td>
+      <td style="text-align: left">Accesses the character at index i of the string, starting at zero</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string[i:j]</td>
+      <td style="text-align: left">Accesses the substring starting at index i, ending at index j-1. If i is omitted, it’s 0 by default. If j is omitted, it’s len(string) by default.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="concatenating">Concatenating</h4>
+<ul>
+  <li>using the plus sign to build longer strings.</li>
+</ul>
+
+<h4 id="len-function">len function</h4>
+<ul>
+  <li>the number of characters contained in the string. </li>
+</ul>
+
+<h4 id="example">Example</h4>
+<p>Modify the double_word function so that it returns the same word repeated twice, followed by the length of the new doubled word. =&gt; double_word(“hello”) should return hellohello10.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">double_word</span><span class="p">(</span><span class="n">word</span><span class="p">):</span>
+	<span class="k">return</span> <span class="n">word</span> <span class="o">+</span> <span class="n">word</span> <span class="o">+</span> <span class="nf">str</span><span class="p">(</span><span class="nf">len</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+
+    <span class="k">return</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="nf">double_word</span><span class="p">(</span><span class="s">"hello"</span><span class="p">))</span> 
+<span class="c1"># Should return hellohello10
+</span><span class="nf">print</span><span class="p">(</span><span class="nf">double_word</span><span class="p">(</span><span class="s">"abc"</span><span class="p">))</span>   
+<span class="c1"># Should return abcabc6
+</span><span class="nf">print</span><span class="p">(</span><span class="nf">double_word</span><span class="p">(</span><span class="s">""</span><span class="p">))</span>      
+<span class="c1"># Should return 0
+</span></code></pre></div></div>
+
+<h4 id="substring-in-string">substring in string</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pets</span> <span class="o">=</span> <span class="s">"Cats &amp; Dogs"</span>
+<span class="s">"Dragons"</span> <span class="ow">in</span> <span class="n">pets</span>
+	<span class="bp">False</span>
+</code></pre></div></div>
+
+<h4 id="string-indexing-and-slicing">String Indexing and Slicing</h4>
+<ul>
+  <li>to access just a specific character or characters? </li>
+  <li>to access a portion of a string, called a slice or a substring</li>
+  <li>using square brackets and the location, or index, of the character you want to access.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">name</span> <span class="o">=</span> <span class="s">"Mike"</span>
+	<span class="nf">print</span><span class="p">(</span><span class="n">name</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+	<span class="c1">#OUTPUT
+</span>	<span class="n">k</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruit</span> <span class="o">=</span> <span class="s">"Mangosteen"</span>
+<span class="n">fruit</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+<span class="c1">#OUTPUT
+</span><span class="s">'ang'</span>
+
+<span class="n">fruit</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span>
+<span class="c1">#OUTPUT
+</span><span class="s">'Mango'</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruit</span> <span class="o">=</span> <span class="s">"Pineapple"</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruit</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span>
+<span class="c1"># OUTOUT
+</span><span class="n">Pine</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruit</span><span class="p">[</span><span class="mi">4</span><span class="p">:])</span>
+<span class="c1"># OUTOUT
+</span><span class="n">apple</span>
+</code></pre></div></div>
+
+<h4 id="negative-indexes">negative indexes. </h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">text</span> <span class="o">=</span> <span class="s">"Random staring with a lot of characters"</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">OUTPUT</span>
+<span class="n">s</span>
+<span class="n">r</span>
+</code></pre></div></div>
+
+<ul>
+  <li>don’t know the length of the string (it doesn’t matter). </li>
+  <li>Negative indexes lets us access the positions in the string starting from the last. </li>
+  <li>If you try to access an index that’s larger than the length of your string, you’ll get an IndexError.</li>
+</ul>
+
+<h4 id="changing-a-character-in-a-string">Changing a character in a string</h4>
+<ul>
+  <li>strings in Python are immutable. =&gt; create a new string based on the old one.</li>
+  <li>You don’t replace a string, but create a new variable.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">message</span> <span class="o">=</span> <span class="s">"A kong string with a silly typo"</span>
+<span class="n">new_message</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span> <span class="s">'l'</span> <span class="o">+</span> <span class="n">message</span><span class="p">[</span><span class="mi">3</span><span class="p">:]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">new_message</span><span class="p">)</span>
+<span class="n">A</span> <span class="nb">long</span> <span class="n">string</span> <span class="k">with</span> <span class="n">a</span> <span class="n">silly</span> <span class="n">typo</span>
+</code></pre></div></div>
+
+<h4 id="index-method-find-character-to-change">index() Method Find character to change</h4>
+<ul>
+  <li>how are we supposed to know which character to change? </li>
+  <li>returns just the first position that matches.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pets</span> <span class="o">=</span> <span class="s">"Cats &amp; Dogs"</span>
+<span class="n">pets</span><span class="p">.</span><span class="nf">index</span><span class="p">(</span><span class="s">"&amp;"</span><span class="p">)</span>
+<span class="c1"># OUTPUT
+</span><span class="mi">5</span>
+</code></pre></div></div>
+
+<h3 id="string-methods">String methods</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">String methods</th>
+      <th style="text-align: left">what it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">string.lower() / string.upper()</td>
+      <td style="text-align: left">Returns a copy of the string with all lower / upper case characters</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string.lstrip() / string.rstrip() / string.strip()</td>
+      <td style="text-align: left">Returns a copy of the string without left / right / left or right whitespace</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string.count(substring)</td>
+      <td style="text-align: left">Returns the number of times substring is present in the string</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string.isnumeric()</td>
+      <td style="text-align: left">Returns True if there are only numeric characters in the string. If not, returns False.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string.isalpha()</td>
+      <td style="text-align: left">Returns True if there are only alphabetic characters in the string. If not, returns False.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string.split() / string.split(delimiter)</td>
+      <td style="text-align: left">Returns a list of substrings that were separated by whitespace / delimiter</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">string.replace(old, new)</td>
+      <td style="text-align: left">Returns a new string where all occurrences of old have been replaced by new.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">delimiter.join(list of strings)</td>
+      <td style="text-align: left">Returns a new string with all the strings joined by the delimiter</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>string method lower will return the string with all characters changed to lowercase.</li>
+  <li>The inverse of this is the upper method, which will return the string all in uppercase. Just like with previous methods, we call these on a string using dot notation, like “this is a string”.upper(). This would return the string “THIS IS A STRING”. This can be super handy when checking user input, since someone might type in all lowercase, all uppercase, or even a mixture of cases.</li>
+  <li>strip method to remove surrounding whitespace from a string. Whitespace includes spaces, tabs, and newline characters.</li>
+  <li>lstrip and rstrip methods to remove whitespace only from the left or the right side of the string, respectively.</li>
+  <li>count() method can be used to return the number of times a substring appears in a string. This can be handy for finding out how many characters appear in a string, or counting the number of times a certain word appears in a sentence or paragraph.</li>
+  <li>endswith() method: to check if a string ends with a given substring. This will return True if the substring is found at the end of the string, and False if not.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"Forest"</span><span class="p">.</span><span class="nf">endswidth</span><span class="p">(</span><span class="s">"rest"</span><span class="p">)</span>
+<span class="c1">#OUTPUT
+</span><span class="bp">True</span>
+
+<span class="n">txt</span> <span class="o">=</span> <span class="s">"Hello, welcome to my world."</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">txt</span><span class="p">.</span><span class="nf">startswith</span><span class="p">(</span><span class="s">"Hello"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>The isnumeric method can check if a string is composed of only numbers. If the string contains only numbers, this method will return True. We can use this to check if a string contains numbers before passing the string to the int() function to convert it to an integer, avoiding an error. Useful!</li>
+</ul>
+
+<h4 id="stringlower-method">string.lower() method</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">answer</span> <span class="o">=</span> <span class="s">'YES'</span>
+	<span class="k">if</span> <span class="n">answer</span><span class="p">.</span><span class="nf">lower</span><span class="p">()</span> <span class="o">==</span><span class="s">"yes"</span><span class="p">:</span>
+		<span class="nf">print</span><span class="p">(</span><span class="s">"User said yes"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><a href="https://docs.python.org/3/library/stdtypes.html#string-methods">docs.python.org</a></p>
+
+<hr />
+
+<h3 id="formatting">Formatting</h3>
+
+<p><a href="https://www.w3schools.com/python/python_string_formatting.asp">w3schools</a></p>
+
+<h4 id="-formatting">%-formatting</h4>
+
+<pre><code class="language-pyton">&gt;&gt;&gt; name = "Eric"
+&gt;&gt;&gt; "Hello, %s." % name
+'Hello, Eric.'
+</code></pre>
+<h4 id="strformat">str.format()</h4>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s">'name'</span><span class="p">:</span> <span class="s">'Eric'</span><span class="p">,</span> <span class="s">'age'</span><span class="p">:</span> <span class="mi">74</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="s">"Hello, {name}. You are {age}."</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">person</span><span class="p">[</span><span class="s">'name'</span><span class="p">],</span> <span class="n">age</span><span class="o">=</span><span class="n">person</span><span class="p">[</span><span class="s">'age'</span><span class="p">])</span>
+<span class="s">'Hello, Eric. You are 74.'</span>
+</code></pre></div></div>
+
+<h4 id="f-strings">f-Strings</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"Eric"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">age</span> <span class="o">=</span> <span class="mi">74</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="sa">f</span><span class="s">"Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">. You are </span><span class="si">{</span><span class="n">age</span><span class="si">}</span><span class="s">."</span>
+<span class="s">'Hello, Eric. You are 74.'</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">name</span> <span class="o">=</span> <span class="s">"Eric"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">profession</span> <span class="o">=</span> <span class="s">"comedian"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">affiliation</span> <span class="o">=</span> <span class="s">"Monty Python"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span> <span class="o">=</span> <span class="p">(</span>
+<span class="p">...</span>     <span class="sa">f</span><span class="s">"Hi </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">. "</span>
+<span class="p">...</span>     <span class="sa">f</span><span class="s">"You are a </span><span class="si">{</span><span class="n">profession</span><span class="si">}</span><span class="s">. "</span>
+<span class="p">...</span>     <span class="sa">f</span><span class="s">"You were in </span><span class="si">{</span><span class="n">affiliation</span><span class="si">}</span><span class="s">."</span>
+<span class="p">...</span> <span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span>
+<span class="s">'Hi Eric. You are a comedian. You were in Monty Python.'</span>
+</code></pre></div></div>
+
+<h3 id="print-function">print() function</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># basic print() function
+</span><span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s">"one"</span><span class="p">,</span> <span class="s">"two"</span><span class="p">,</span> <span class="s">"three"</span><span class="p">,</span> <span class="s">"four"</span><span class="p">,</span> <span class="s">"five"</span><span class="p">]</span>
+<span class="nf">print</span><span class="p">(</span><span class="o">*</span><span class="n">values</span><span class="p">)</span>
+
+<span class="c1"># use the 'sep' argument to control the separator between values:
+</span><span class="nf">print</span><span class="p">(</span><span class="o">*</span><span class="n">values</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">' -- '</span><span class="p">)</span>
+
+<span class="c1"># use the 'end' argument to control the line ending characters
+# let's auto-print the current line number along with each item!
+</span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nf">len</span><span class="p">(</span><span class="n">values</span><span class="p">)):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">end</span><span class="o">=</span><span class="sa">f</span><span class="s">" [line: </span><span class="si">{</span><span class="nf">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="si">}</span><span class="s">]</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+
+<span class="c1"># you can even redirect print() output to a file:
+</span><span class="n">newfile</span> <span class="o">=</span> <span class="nf">open</span><span class="p">(</span><span class="s">"output.txt"</span><span class="p">,</span><span class="s">"w"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="o">*</span><span class="n">values</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">' -- '</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">newfile</span><span class="p">,</span> <span class="n">flush</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">newfile</span><span class="p">.</span><span class="nf">close</span><span class="p">()</span>
+
+</code></pre></div></div>
+<blockquote>
+  <p><a href="https://docs.python.org/3/library/functions.html#print">docs.python</a></p>
+</blockquote>
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  </body>
+</html>

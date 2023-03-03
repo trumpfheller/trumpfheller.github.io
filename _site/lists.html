@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lists | Pacific Beach Drive</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Lists" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Mike’s Drive." />
+<meta property="og:description" content="Mike’s Drive." />
+<link rel="canonical" href="http://localhost:4000/lists.html" />
+<meta property="og:url" content="http://localhost:4000/lists.html" />
+<meta property="og:site_name" content="Pacific Beach Drive" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Lists" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Mike’s Drive.","headline":"Lists","url":"http://localhost:4000/lists.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="http://localhost:4000/">
+          <h1>Pacific Beach Drive</h1>
+        </a>
+        <h2>Mike's Drive.</h2>
+        
+        
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="./strings.html">Strings</a></td>
+        <td> </td>
+        <td><a href="./variables.html">Variables</a></td>
+        <td> </td>
+        <td><a href="./lists.html">Lists</a></td>
+        <td> </td>
+        <td><a href="./tuples.html">Tuples</a></td>
+        <td> </td>
+        <td><a href="./dictionary.html">Dictionary</a></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td><a href="./control.html">Control</a></td>
+        <td> </td>
+        <td><a href="./function.html">Function</a></td>
+        <td> </td>
+        <td><a href="./files.html">Files</a></td>
+        <td> </td>
+        <td><a href="./oop.html">OOP</a></td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<hr />
+<h3 id="sequences">SEQUENCES</h3>
+<ul>
+  <li>Strings are sequences of characters and are immutable. </li>
+  <li>Lists are sequences of elements of any type and are mutable. </li>
+  <li>Tuples are sequences of elements of any type that are immutable.</li>
+  <li>Methods used
+    <ul>
+      <li>iterating over them using for-loops, </li>
+      <li>indexing using the len function to know the length of the sequence, </li>
+      <li>using plus to concatenate two sequences and </li>
+      <li>using in to verify if the sequence contains an element. </li>
+    </ul>
+  </li>
+  <li>Sequences have similar properties, like
+    <ul>
+      <li>being able to iterate over them using for loops;</li>
+      <li>support indexing;</li>
+      <li>using the len function to find the length of the sequence;</li>
+      <li>using the plus operator + in order to concatenate; and</li>
+      <li>using the in keyword to check if the sequence contains a value.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="common-sequence-operations">Common sequence operations</h4>
+<ul>
+  <li>len(sequence)
+    <ul>
+      <li>Returns the length of the sequence</li>
+    </ul>
+  </li>
+  <li>for element in sequence
+    <ul>
+      <li>Iterates over each element in the sequence</li>
+    </ul>
+  </li>
+  <li>if element in sequence
+    <ul>
+      <li>Checks whether the element is part of the sequence</li>
+    </ul>
+  </li>
+  <li>sequence[i]
+    <ul>
+      <li>Accesses the element at index i of the sequence, starting at zero</li>
+    </ul>
+  </li>
+  <li>sequence[i:j]
+    <ul>
+      <li>Accesses a slice starting at index i, ending at index j-1. If i is omitted, it’s 0 by default. If j is omitted, it’s len(sequence) by default.</li>
+    </ul>
+  </li>
+  <li>for index, element in enumerate(sequence)
+    <ul>
+      <li>Iterates over both the indexes and the elements in the sequence at the same time</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="list">List</h3>
+<ul>
+  <li>Lists are ordered.
+    <ul>
+      <li>the items have a defined order, and that order will not change.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="lists-defined">Lists Defined</h3>
+<ul>
+  <li>Define lists by using square brackets and the elements stored in the list separated by commas:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s">"This"</span><span class="p">,</span> <span class="s">"is"</span><span class="p">,</span> <span class="s">"a"</span><span class="p">,</span> <span class="s">"list"</span><span class="p">].</span> 
+  <span class="c1">#its contents is a list of strings.
+</span></code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="common-list-operations">Common list operations</h4>
+<ul>
+  <li>len(list)
+    <ul>
+      <li>returns the number of elements in a list: would return 4.</li>
+    </ul>
+  </li>
+  <li>to check the type of x using the type function
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nf">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+  <span class="o">&lt;</span><span class="k">class</span> <span class="nc">list</span><span class="o">&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>print function:
+    <ul>
+      <li>to show the contents of the whole list. </li>
+    </ul>
+  </li>
+  <li>keyword “in”:
+    <ul>
+      <li>to check if a list contains a certain element
+        <ul>
+          <li>If the element is present, it will return a True boolean.</li>
+          <li>If the element is not found in the list, it will return False.  </li>
+        </ul>
+      </li>
+      <li>result of this check is a Boolean, which we can use as a condition for branching or looping.
+        <h4 id="example">Example</h4>
+        <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="s">"This"</span><span class="p">,</span> <span class="s">"is"</span><span class="p">,</span> <span class="s">"a"</span><span class="p">,</span> <span class="s">"list"</span><span class="p">]</span>
+  <span class="s">"Today"</span> <span class="ow">in</span> <span class="n">x</span>
+  <span class="c1">#OUTPUT
+</span>  <span class="bp">False</span>
+  <span class="c1">#"This" in list would return True.
+</span></code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>indexing</p>
+
+    <p>Syntax</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  list.index(elmnt)
+</code></pre></div>    </div>
+    <ul>
+      <li>to access individual elements depending on their position in the list:
+        <ul>
+          <li>use the index we want to access (like with strings). </li>
+          <li>if we try to access an element after the end of the list We get an index error. We can’t go over the end of the list. </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      <span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'banana'</span><span class="p">,</span> <span class="s">'cherry'</span><span class="p">]</span>
+      <span class="n">x</span> <span class="o">=</span> <span class="n">fruits</span><span class="p">.</span><span class="nf">index</span><span class="p">(</span><span class="s">"cherry"</span><span class="p">)</span>
+      <span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+      <span class="c1">#OUTOUT
+</span>      <span class="mi">2</span>
+</code></pre></div>    </div>
+  </li>
+  <li>slice
+    <ul>
+      <li>use indexes to create a slice of the list. 
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x[1:3] 
+</code></pre></div>        </div>
+        <p>So the range starts at index one and goes up to the second index minus one.</p>
+        <pre><code class="language- ">x[:2] 
+</code></pre>
+        <p>First value defaults to zero and the second value to the length of the list.</p>
+      </li>
+    </ul>
+  </li>
+  <li>split() method
+    <ul>
+      <li>splits a string into a list.</li>
+    </ul>
+
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      <span class="c1"># Example 1
+</span>      <span class="n">txt</span> <span class="o">=</span> <span class="s">"welcome to the wild"</span>
+      <span class="n">x</span> <span class="o">=</span> <span class="n">txt</span><span class="p">.</span><span class="nf">split</span><span class="p">()</span>
+      <span class="nf">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+      <span class="c1">#OUTPUT
+</span>      <span class="c1">#['welcome', 'to', 'the', 'wild']
+</span></code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="modifying-lists">Modifying Lists</h3>
+<p>Most of these methods come from the fact that lists are mutable sequences.</p>
+<ul>
+  <li>lists are mutable (we can add, remove, or modify elements in a list.)</li>
+  <li>strings are not mutable. </li>
+  <li>Changing the list means we keep the same box and we add, remove, or change the elements inside that box.</li>
+</ul>
+
+<h4 id="list-specific-methods-w3schools">List-specific methods <a href="https://www.w3schools.com/python/python_ref_list.asp">w3schools</a></h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">method</th>
+      <th style="text-align: left">what it does</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">list[i] = x</td>
+      <td style="text-align: left">Replaces the element at index i with x</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.append(x)</td>
+      <td style="text-align: left">Inserts x at the end of the list</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.insert(i, x)</td>
+      <td style="text-align: left">Inserts x at index i</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.pop(i)</td>
+      <td style="text-align: left">Returns the element a index i, also removing it from the list. If i is omitted, the last element is returned and removed.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.remove(x)</td>
+      <td style="text-align: left">Removes the first occurrence of x in the list</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.sort()</td>
+      <td style="text-align: left">Sorts the items in the list</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.reverse()</td>
+      <td style="text-align: left">Reverses the order of items of the list</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.clear()</td>
+      <td style="text-align: left">Removes all the items of the list</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.copy()</td>
+      <td style="text-align: left">Creates a copy of the list</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">list.extend(other_list)</td>
+      <td style="text-align: left">Appends all the elements of other_list at the end of list</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="append-method">append() method</h4>
+
+<ul>
+  <li>adding an element to a list (adds a new element at the end of the list.)</li>
+  <li>list.append(“New data”) would add the string “New data” to the end of the list.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">"apple"</span><span class="p">,</span> <span class="s">"banana"</span><span class="p">,</span> <span class="s">"cherry"</span><span class="p">]</span>
+	<span class="n">fruits</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="s">"orange"</span><span class="p">)</span>
+	<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+	<span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'banana'</span><span class="p">,</span> <span class="s">'cherry'</span><span class="p">,</span> <span class="s">'orange'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="insert-method">insert() method</h4>
+<ul>
+  <li>If you want to add an element to a list in a specific position, instead of at the end.</li>
+  <li>The method takes two parameters:
+    <ul>
+      <li>an index as the first parameter</li>
+      <li>element as the second parameter. </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">list</span><span class="p">.</span><span class="nf">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s">"New data"</span><span class="p">)</span> 
+</code></pre></div></div>
+<ul>
+  <li>would add the string “New data” to the front of the list.</li>
+  <li>This wouldn’t overwrite the existing element at the start of the list.</li>
+  <li>It would just shift all the other elements by one.</li>
+  <li>If you specify an index that’s larger than the length of the list, the element will simply be added to the end of the list.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Apple"</span><span class="p">,</span> <span class="s">"Melon"</span><span class="p">]</span>
+<span class="n">fruits</span><span class="p">.</span><span class="nf">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s">"Orange"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Apple"</span><span class="p">,</span> <span class="s">"Melon"</span><span class="p">]</span>
+</code></pre></div></div>
+<p>What happens if we use a number larger than the length of the list?</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span><span class="p">.</span><span class="nf">insert</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="s">"Peach"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Apple"</span><span class="p">,</span> <span class="s">"Melon"</span><span class="p">,</span> <span class="s">"Peach"</span><span class="p">]</span>
+</code></pre></div></div>
+<p>No errors. If an index higher is than the current length, the element just gets added to the end. Y</p>
+<ul>
+  <li>usually, you either
+    <ul>
+      <li>add at the beginning using insert() at the zero index</li>
+      <li>add at the end using append(). </li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Kiwi"</span><span class="p">,</span><span class="s">"Peach"</span><span class="p">]</span>
+<span class="n">fruits</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s">"Strawberry"</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Strawberry"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Kiwi"</span><span class="p">,</span><span class="s">"Peach"</span><span class="p">]</span>
+
+</code></pre></div></div>
+
+<h4 id="replace-via-indexing">replace via indexing</h4>
+<p>you can change an element in a list
+to overwrite the value stored at the specified index. 
+For example, you can enter</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nb">list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s">"Old data"</span> 
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>to overwrite the first element in a list with the new string "Old data".
+</code></pre></div></div>
+
+<h4 id="pop-method">pop() method </h4>
+<ul>
+  <li>Another way we can remove elements</li>
+  <li>method receives an index.</li>
+  <li>pop method returns the element that was removed at the index that was passed.</li>
+  <li>to change an item by assigning something else to that position, 
+Syntax
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  list.pop(pos)
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Apple"</span><span class="p">]</span>
+<span class="n">fruits</span><span class="p">.</span><span class="nf">pop</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="remove-method">remove() method</h4>
+<ul>
+  <li>remove elements from the list using the value of the element we want to remove. </li>
+  <li>removes the first occurrence of the element from the list.</li>
+  <li>
+    <p>If the element is not in the list - we get a value error (“element isn’t in the list”). </p>
+  </li>
+  <li>Syntax
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      <span class="nb">list</span><span class="p">.</span><span class="nf">remove</span><span class="p">(</span><span class="n">elmnt</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p>This method takes an element as a parameter, and removes the first occurrence of the element. 
+If the element isn’t found in the list, you’ll get a ValueError error explaining that the element was not found in the list.</p>
+  </li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">,</span> <span class="s">"Apple"</span><span class="p">]</span>
+<span class="n">fruits</span><span class="p">.</span><span class="nf">remove</span><span class="p">(</span><span class="s">"Apple"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+<span class="p">[</span><span class="s">"Orange"</span><span class="p">,</span> <span class="s">"Pineapple"</span><span class="p">,</span> <span class="s">"Banana"</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="same-result-accomplished-with-pop">same result accomplished with pop()</h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'banana'</span><span class="p">,</span> <span class="s">'cherry'</span><span class="p">]</span>
+	<span class="n">fruits</span><span class="p">.</span><span class="nf">pop</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+	<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+	<span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'cherry'</span><span class="p">]</span>
+</code></pre></div></div>
+<p>This method differs from the remove method in that it takes an index as a parameter, and returns the element that was removed. 
+This can be useful if you don’t know what the value is, but you know where it’s located. 
+This can also be useful when you need to access the data and also want to remove it from the list.</p>
+
+<h4 id="use-cases">Use cases</h4>
+<ul>
+  <li>If the list contains hosts on a network, you could add or remove hosts as they come online or offline. </li>
+  <li>If the list contains users authorized to run a certain process, you could add or remove users when permissions are granted or removed and so on. </li>
+  <li>you’ll use a list whenever you need to write a program that’ll handle a variable amount of elements</li>
+  <li>You will use whenever you need to write a programm that’ll handle a sequence of a fixed amount of elements.</li>
+</ul>
+
+<h4 id="reversed-method">reversed() method</h4>
+<ul>
+  <li>specify the sequence in a forward direction
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nf">reversed</span><span class="p">(</span><span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)):</span>
+     <span class="nf">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="c1">#OUTPUT
+</span><span class="mi">9</span>
+<span class="mi">7</span>
+<span class="mi">5</span>
+<span class="mi">3</span>
+<span class="mi">1</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h4 id="extendmethod">extend() method.</h4>
+<ul>
+  <li>adds the specified list elements (or any iterable) to the end of the current list.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'banana'</span><span class="p">,</span> <span class="s">'cherry'</span><span class="p">]</span>
+	<span class="n">cars</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Ford'</span><span class="p">,</span> <span class="s">'BMW'</span><span class="p">,</span> <span class="s">'Volvo'</span><span class="p">]</span>
+	<span class="n">fruits</span><span class="p">.</span><span class="nf">extend</span><span class="p">(</span><span class="n">cars</span><span class="p">)</span>
+	<span class="nf">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+	<span class="p">[</span><span class="s">'apple'</span><span class="p">,</span> <span class="s">'banana'</span><span class="p">,</span> <span class="s">'cherry'</span><span class="p">,</span> <span class="s">'Ford'</span><span class="p">,</span> <span class="s">'BMW'</span><span class="p">,</span> <span class="s">'Volvo'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="enumerate---iterating-over-lists">Enumerate - <a href="https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate">Iterating Over Lists</a></h4>
+<ul>
+  <li>When looping through a sequence, the position index and corresponding value can be retrieved at the same time.</li>
+  <li>to access the elements in a list, along with the index of the element in question.</li>
+  <li>takes a list as a parameter and returns a tuple for each element in the list. 
+The first value of the tuple is the index and the second value is the element itself.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">([</span><span class="s">'tic'</span><span class="p">,</span> <span class="s">'tac'</span><span class="p">,</span> <span class="s">'toe'</span><span class="p">]):</span>
+<span class="p">...</span>     <span class="nf">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+<span class="mi">0</span> <span class="n">tic</span>
+<span class="mi">1</span> <span class="n">tac</span>
+<span class="mi">2</span> <span class="n">toe</span>
+</code></pre></div></div>
+
+<h4 id="list-comprehensions">List Comprehensions</h4>
+<ul>
+  <li>creating lists in a shorter way. </li>
+  <li>create new lists based on sequences or ranges.</li>
+  <li>to create a list based on a range like in this example. Or based on the contents of a list a tuple a string or any other Python sequence. </li>
+  <li>The syntax tries to copy how you would express these concepts with natural language. </li>
+</ul>
+
+<p>Syntax:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>newlist = [expression for item in iterable if condition == True]
+</code></pre></div></div>
+
+<p>to create a list with multiples of 7 from 7 to 70.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">multiples</span> <span class="o">=</span> <span class="p">[]</span>
+	<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
+	<span class="n">multiples</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mi">7</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">multiples</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">49</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">70</span><span class="p">]</span>
+</code></pre></div></div>
+<p>=&gt; same in just one line - with list comprehension.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">multiples</span> <span class="o">=</span> <span class="p">[</span> <span class="n">x</span> <span class="o">*</span> <span class="mi">7</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)]</span><span class="err"> </span>
+<span class="nf">print</span><span class="p">(</span><span class="n">multiples</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">28</span><span class="p">,</span> <span class="mi">35</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">49</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">70</span><span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="example-2">Example #2 </h4>
+<ul>
+  <li>a list of strings with the names of programming languages</li>
+  <li>generate a list of the length of the strings. </li>
+</ul>
+
+<p>We could iterate over the list and add them using a pen like we did before. </p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">languages</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"Ruby"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"Perl"</span><span class="p">,</span> <span class="s">"Go"</span><span class="p">]</span>
+<span class="n">lengths</span> <span class="o">=</span> <span class="p">[</span><span class="nf">len</span><span class="p">(</span><span class="n">language</span><span class="p">)</span> <span class="k">for</span> <span class="n">language</span> <span class="ow">in</span> <span class="n">languages</span><span class="p">]</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">lengths</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+</code></pre></div></div>
+<p>Or we could use a list comprehension like this</p>
+
+<h4 id="list-comprehensions-and-conditional-clause">List comprehensions and conditional clause. </h4>
+<ul>
+  <li>all the numbers that are divisible by 3 between 0 and a 100.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">z</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">101</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span> 
+<span class="nf">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="mi">27</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">33</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">39</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">51</span><span class="p">,</span> <span class="mi">54</span><span class="p">,</span> <span class="mi">57</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">63</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">69</span><span class="p">,</span> <span class="mi">72</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">78</span><span class="p">,</span> <span class="mi">81</span><span class="p">,</span> <span class="mi">84</span><span class="p">,</span> <span class="mi">87</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">93</span><span class="p">,</span> <span class="mi">96</span><span class="p">,</span> <span class="mi">99</span><span class="p">]</span>
+</code></pre></div></div>
+<p>In this case we just want the element x to be a part of the list, 
+but we only want the numbers where the remainder of the division by 3 is 0. 
+So we add the conditional clause after the range. </p>
+
+<p>Using list comprehensions when programming in Python is totally optional. 
+Sometimes it can make the code look nicer and more readable, at other times it can have the opposite effect, 
+especially if we try to pack too much information together. 
+In general, it’s a good idea to know that list comprehensions exist, 
+especially when you’re trying to understand someone else’s code. </p>
+
+<p>to create a new list from a sequence or a range in a single line 
+[You can create lists from sequences using a for loop].
+For example,</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">x</span><span class="o">*</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span> 
+</code></pre></div></div>
+<p>This would iterate over the range 1 to 10, and multiply each element in the range by 2. This would result in a list of the multiples of 2, from 2 to 20.</p>
+
+<p>to build even more complex and powerful statements: appending an if statement to the end of the comprehension.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">101</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span> 
+</code></pre></div></div>
+<p>would generate a list containing all the integers divisible by 10 from 1 to 100. The if statement we added here evaluates each value in the range from 1 to 100 to check if it’s evenly divisible by 10. If it is, it gets added to the list.</p>
+
+<p>List comprehensions can be really powerful, but they can also be super complex, resulting in code that’s hard to read. Be careful when using them, since it might make it more difficult for someone else looking at your code to easily understand what the code is doing.</p>
+
+<p>[expression for variable in sequence] Creates a new list based on the given sequence. Each element is the result of the given expression.
+[expression for variable in sequence if condition] Creates a new list based on the given sequence. Each element is the result of the given expression; elements only get added if the condition is true.</p>
+
+<hr />
+
+<h4 id="for-more-info">For more info</h4>
+<ul>
+  <li><a href="https://docs.python.org/3/library/stdtypes.html#lists">pythong.org - lists</a></li>
+  <li><a href="https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types">pythong.org - mutable-sequence-type</a></li>
+  <li><a href="https://www.w3schools.com/python/python_lists_comprehension.asp">w3schools - comprehension</a></li>
+</ul>
+
+
+        </section>
+
+        <aside id="sidebar">
+          
+
+          
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  </body>
+</html>
