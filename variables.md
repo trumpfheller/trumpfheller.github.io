@@ -1,4 +1,5 @@
 ---
+title: Variables
 layout: default
 ---
 > [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
