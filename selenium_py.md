@@ -83,10 +83,6 @@ emailElem.send_keys('mikeTester@gmail.com')
 passwordElem = browser.find_element_by_id('google1234')
 passwordElem.send_keys('1234')
 passwordElem.submit()
-
-# next in terminal call it
-python3 get_firefox.py
-
 ```
 ## Sending special keys
 
@@ -96,19 +92,13 @@ from selenium.webdriver.common.keys import keys
 browser = webdriver.Firefox()
 browser.get('')
 htmlElem.send_keys(Keys.END)  #scolls to bottom
-
-# next in terminal call it
-python3 get_firefox.py
-
 ```
+    
 ## Clicking Browser Buttons
-```python
-
-
-# next in terminal call it
-python3 get_firefox.py
-
-```
+- browser.back()
+- browser.forward()
+- browser.refresh()
+- browser.quit()
 
 ## Take screenshots 
     
