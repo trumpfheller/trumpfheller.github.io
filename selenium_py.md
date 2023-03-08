@@ -107,7 +107,8 @@ python3 get_firefox.py
 ```
 
 ## Take screenshots 
-    Pre-requisites
+    **Pre-requisites**
+    
     ```
     Open Terminal (Applications/Terminal) and run:
     xcode-select -install (prompted to install Xcode Command Line Tools)
