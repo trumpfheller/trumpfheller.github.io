@@ -126,7 +126,7 @@ python3 get_firefox.py
 ## taking a screenshot on Chrome
 ```
 Open Terminal (Applications/Terminal) and run:
-xcode-select -install (You will be prompted to install the Xcode Command Line Tools)
+xcode-select -install (prompted to install Xcode Command Line Tools)
 sudo easy_install pip
 [ORRrrrr just use one of the next]
 sudo pip install pillow
