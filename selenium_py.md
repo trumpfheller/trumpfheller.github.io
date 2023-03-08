@@ -37,7 +37,7 @@ If no element (Playbook) eistson the page that match the method is looking for, 
 #### find_elements.* methods
 - returns a list of WebElement_* objects for every matching element on the page.
 
-List
+
 | Method name        | web element object/list returned |
 |:-------------|:------------------|
 | browser.find_element_by_name(name) | Elements that use the CSS class name  |
