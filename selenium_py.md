@@ -91,7 +91,11 @@ python3 get_firefox.py
 ## Sending special keys
 
 ```python
-
+from selenium import webdriver
+from selenium.webdriver.common.keys import keys
+browser = webdriver.Firefox()
+browser.get('')
+htmlElem.send_keys(Keys.END)  #scolls to bottom
 
 # next in terminal call it
 python3 get_firefox.py
@@ -107,6 +111,7 @@ python3 get_firefox.py
 ```
 
 ## Take screenshots 
+    
     **Pre-requisites**
     
     ```
@@ -137,7 +142,7 @@ python3 get_firefox.py
 
 ```
     
-## On Chrome
+### On Chrome
 
 ```python
 from selenium import webdriver
