@@ -117,8 +117,8 @@ python3 get_firefox.py
     pip install pillow
     pip install Pillow
     ```
-    
-    ###on Firefox
+
+### On Firefox
 ```python
 from selenium import webdriver
 from PIL import Image
@@ -136,7 +136,7 @@ python3 get_firefox.py
 
 ```
     
-## taking a screenshot on Chrome
+## On Chrome
 
 ```python
 from selenium import webdriver
