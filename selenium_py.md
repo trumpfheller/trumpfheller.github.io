@@ -30,9 +30,9 @@ python3 get_firefox.py
 ```
 
 
-### Finding Elements on the page
+## Finding Elements on the page
 
-#### find_element.* methods
+### find_element.* methods
 - returns a single web object, representing the first element on th epage that matches your query
 
 ```python
@@ -49,7 +49,7 @@ except:
 If no element (Playbook) eistson the page that match the method is looking for, Selenium module raises a NoSuchElement exception. If you do not want this exception to crash your program, add try and except statements to the code.
 
 
-#### find_elements.* methods
+### find_elements.* methods
 - returns a list of WebElement_* objects for every matching element on the page.
 
 
@@ -71,7 +71,7 @@ If no element (Playbook) eistson the page that match the method is looking for, 
 | browser.find_elements_by_ |   |
 
 
-### Filling out and submitting forms
+## Filling out and submitting forms
 - Selenium has a module for keyboard keys.
 
 ```python
@@ -88,7 +88,7 @@ passwordElem.submit()
 python3 get_firefox.py
 
 ```
-### Sending special keys
+## Sending special keys
 
 ```python
 
@@ -97,7 +97,7 @@ python3 get_firefox.py
 python3 get_firefox.py
 
 ```
-### Clicking Browser Buttons
+## Clicking Browser Buttons
 ```python
 
 
@@ -106,7 +106,7 @@ python3 get_firefox.py
 
 ```
 
-### Take screenshots on Firefox
+## Take screenshots on Firefox
 ```python
 from selenium import webdriver
 from PIL import Image
@@ -123,7 +123,7 @@ except:
 python3 get_firefox.py
 
 ```
-### taking a screenshot on Chrome
+## taking a screenshot on Chrome
 ```
 Open Terminal (Applications/Terminal) and run:
 xcode-select -install (You will be prompted to install the Xcode Command Line Tools)
