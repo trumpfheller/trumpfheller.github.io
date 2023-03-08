@@ -106,7 +106,19 @@ python3 get_firefox.py
 
 ```
 
-## Take screenshots on Firefox
+## Take screenshots 
+    Pre-requisites
+    ```
+    Open Terminal (Applications/Terminal) and run:
+    xcode-select -install (prompted to install Xcode Command Line Tools)
+    sudo easy_install pip
+    [alternative]
+    sudo pip install pillow
+    pip install pillow
+    pip install Pillow
+    ```
+    
+    ###on Firefox
 ```python
 from selenium import webdriver
 from PIL import Image
@@ -123,16 +135,9 @@ except:
 python3 get_firefox.py
 
 ```
+    
 ## taking a screenshot on Chrome
-```
-Open Terminal (Applications/Terminal) and run:
-xcode-select -install (prompted to install Xcode Command Line Tools)
-sudo easy_install pip
-[ORRrrrr just use one of the next]
-sudo pip install pillow
-pip install pillow
-pip install Pillow
-```
+
 ```python
 from selenium import webdriver
 from PIL import Image
