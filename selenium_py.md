@@ -2,12 +2,27 @@
 layout: default
 ---
 
-#### to open Firefox browser
+## Open Firefox browser
 
 ```python
 from selenium import webdriver
 browser = webdriver.Firefox()
 browser.get("http://www.google.com")
+
+# next in terminal call it
+python3 get_firefox.py
+
+```
+
+## Open Chrome browser
+
+```python
+from selenium import webdriver
+driver = webdriver.Chrome()
+# URL of website
+browser.get("https://trumpfheller.github.io/")
+# Opening the website
+driver.get(url)
 
 # next in terminal call it
 python3 get_firefox.py
