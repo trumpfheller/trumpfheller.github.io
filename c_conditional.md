@@ -1,6 +1,4 @@
 ---
-title: Control Structures
-category: Control Flow
 layout: post
 ---
 
