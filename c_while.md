@@ -72,16 +72,15 @@ while not valid_username(username):
     username = get_username()
 ```
 
- a lot of code hidden behind functions. 
 #### get_username() function 
 - asks the user for a username and a valid_username function that validates that username. 
-- In this case, the body of the while loop will be executed until the user enters a valid username. 
-The important thing to remember is that the condition used by the while loop needs to evaluate to true or false. 
+- here the body of the while loop will be executed until the user enters a valid username. 
+=> the condition used by the while loop needs to evaluate to true or false. 
 
-rundown of some of the most common pitfalls that you may come across when writing your own loops. Head on over to the next video to get started.
+Most common pitfalls when writing loops. 
 
 
-If you have a loop that's gone rogue and is not behaving as expected, it's a good idea to check if all the variables are correctly initialized. 
+If you have a loop that's not behaving as expected, check if all the variables are correctly initialized. 
 In this example, we need to set x back to 1 before starting the second loop. 
 
 ```python
@@ -113,11 +112,6 @@ count_down(3)
 1
 Zero!
 ```
-
-
-
-#### recap 
-- whenever you're writing a loop check that you're initializing all the variables you want to use before you use them. 
 
 ***
 
