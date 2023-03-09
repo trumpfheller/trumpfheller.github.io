@@ -22,9 +22,9 @@ currently working on.
   - [Tuples](./tuples.html)
   - Dictionary [Link](./another-page.html).
   - [Control](./control.html)
-  - Function & Exceptions [Link](./another-page.html).
+  - [Function & Exceptions](./function.html).
   - Files [Link](./another-page.html).
-  - OOP [Link](./oop.html)
+  - [OOP](./oop.html)
 
 - Selenium & Python [Compendium]
   - [basic](./selenium_py.html)
