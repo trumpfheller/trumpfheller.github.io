@@ -115,7 +115,7 @@ Zero!
 ***
 
 ### Infinite Loops 
-- a loop that keeps executing and never stops. 
+- the code block in the loop will continue to execute and never stop (condition being evaluated in a while loop doesn't change). 
 
 ```python
 # using the modulo operator
