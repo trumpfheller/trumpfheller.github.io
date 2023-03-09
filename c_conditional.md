@@ -61,10 +61,10 @@ True
 ### if-else conditional
 Syntax
 ```python
-if <expr>:
-    <statement(s)>
-else:
-    <statement(s)>
+	if <expr>:
+    		<statement(s)>
+	else:
+    		<statement(s)>
 ```
 
 ```python
