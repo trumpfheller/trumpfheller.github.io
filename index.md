@@ -27,8 +27,9 @@ currently working on.
   - OOP [Link](./another-page.html).
 
 - Selenium & Python [Compendium]
-  - [basic](./selenium_py.html).
+  - [basic](./selenium_py.html)
   - [longer code example - work in progress](./another-page.html).
+  - [framework](./framework.html)
   
 - MyJava Basics [Compendium]
   - [Link - work in progress](./another-page.html).
