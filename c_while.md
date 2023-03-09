@@ -60,7 +60,8 @@ attempts(5)
 In the body, we first print a message indicating that the current attempt number and then we increase the value of x by 1. 
 
 
-The process continues until the result of the comparison isn't true anymore, which happens when x is bigger than n. In our current example, this would be when the value of x is 6. 
+The process continues until the result of the comparison isn't true anymore, which happens when x is bigger than n. 
+In this example, when the value of x is 6. 
  
 #### Example - to call a separate function that evaluates the condition. 
 
