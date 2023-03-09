@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-# test test test env - Update
 
-- This is more for me to keep track of the projects I am 
-currently working on. 
 - content restructure & development, re-think & re-create.
 
 * * *
