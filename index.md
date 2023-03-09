@@ -24,7 +24,7 @@ currently working on.
   - [Control](./control.html)
   - Function & Exceptions [Link](./another-page.html).
   - Files [Link](./another-page.html).
-  - OOP [Link](./another-page.html).
+  - OOP [Link](./oop.html)
 
 - Selenium & Python [Compendium]
   - [basic](./selenium_py.html)
