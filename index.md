@@ -17,7 +17,7 @@ layout: default
   - [Variables](./variables.html)
   - [Lists](./lists.html)
   - [Tuples](./tuples.html)
-  - Dictionary [Link](./another-page.html).
+  - [Dictionary](./dictionary.html).
   - [Control](./control.html)
   - [Function & Exceptions](./function.html).
   - Files [Link](./another-page.html).
