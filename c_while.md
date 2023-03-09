@@ -122,15 +122,12 @@ Zero!
 while x%2 ==0:
     x = x/2
 ```
-This cycle will finish for positive and negative values of x. 
-But what would happen if x was zero? 
-The remainder of 0 divided by 2 is 0, so the condition would be true. 
+What would happen if x was zero? 
+The remainder of 0 divided by 2 is 0, and the condition would be true. 
 The result of dividing 0 by 2 would also be zero, so the value of x wouldn't change. 
-This loop would go on forever, and so we'd get an infinite loop. 
+This loop would go on forever, and so we'd get an infinite loop.
 
-If our code was called with x having the value of zero, the computer would just waste resources doing a division that would never lead to the loop stopping. 
-
-. To avoid this: x needs to be different than zero (nest this while loop inside an if statement). 
+To avoid this: x needs to be different than zero (nest this while loop inside an if statement).
 
 ```python
 if x != 0:
