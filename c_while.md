@@ -127,14 +127,14 @@ The remainder of 0 divided by 2 is 0, and the condition would be true.
 The result of dividing 0 by 2 would also be zero, so the value of x wouldn't change. 
 This loop would go on forever, and so we'd get an infinite loop.
 
-To avoid this: x needs to be different than zero (nest this while loop inside an if statement).
+Solution: nest this while loop inside an if statement.
+so that the while loop is executed only when x is not zero
 
 ```python
 if x != 0:
     while x%2-=-=0:
         x = x/2
 ```
-With this approach, the while loop is executed only when x is not zero. 
 
 Alternatively, 
 * add the condition directly to the loop using a logical operator:
