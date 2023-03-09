@@ -7,11 +7,11 @@ layout: default
 
 ***
 
-### for loop
+## for loop
 - to iterate over a sequence of elements.
 - to iterate over a sequence of values. 
 
-#### for loop in range() method
+### for loop in range() method
 - iterate through a sequence of numbers generated using the range function
 - variable(x) will take each of the values in the sequence that loop iterates through.
 ```python
@@ -24,3 +24,20 @@ for x in range(5):
 3
 4
 ```
+### for loop in a function 
+- use a for loop to sum the squares of the numbers in a range.
+
+```python
+def square(n):
+    """function to calculate the square of a number"""
+    return n*n
+
+def sum_squares(x):
+    sum = 0
+    for n in range(x):
+        sum += int(square(n))
+    return sum
+
+print(sum_squares(10)) # Should be 285
+```
+[maybe add an user input?]
