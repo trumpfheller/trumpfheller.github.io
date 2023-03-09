@@ -28,7 +28,7 @@ layout: default
   - [longer code example - work in progress](./another-page.html).
   - [framework](./framework.html)
   
-- MyJava Basics [Compendium]
+- MyJava Basics (Compendium)
   - [Link - work in progress](./another-page.html).
 
 - Selenium & Java [Compendium]
