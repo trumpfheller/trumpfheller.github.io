@@ -122,6 +122,8 @@ Zero!
 while x%2 ==0:
     x = x/2
 ```
+
+- try different values a variable can take (unexpected values, like zero).
 What would happen if x was zero? 
 The remainder of 0 divided by 2 is 0, and the condition would be true. 
 The result of dividing 0 by 2 would also be zero, so the value of x wouldn't change. 
@@ -145,13 +147,8 @@ while x != 0 and x % 2 == 0:
 ```
 We only enter the body of the loop for values of x that are both different than zero and even. 
 
-## sum up
-- An infinite loop means the code block in the loop will continue to execute and never stop. 
-- This can happen when the condition being evaluated in a while loop doesn't change. 
-- take a moment to consider the different values a variable can take - Think about unexpected values, like zero.
-- the break keyword to signal that the current loop should stop running. We can use it not only to stop infinite loops but also to stop a loop early if the code has already achieved what's needed. 
-First, remember to initialize your variables, and second, check that your loops won't run forever.
-- break the loop by pressing Ctrl+C
+#### the break keyword 
+- to signal that the current loop should stop running. We can use it not only to stop infinite loops but also to stop a loop early if the code has already achieved what's needed. 
 
  ```python 
 while True:
@@ -159,5 +156,9 @@ while True:
     if user_requested_to_stop():
         break
 ```
+
+* remember to initialize your variables
+* check that your loops won't run forever.
+* break the loop by pressing Ctrl+C
 
 ***
