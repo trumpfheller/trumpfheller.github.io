@@ -7,8 +7,7 @@ layout: default
 
 ***
 
-
-### while loop
+## while loop
 - execute a set of statements as long as a condition is true
 - to continuously execute code based on the value of a condition. 
 - code block can be executed multiple times instead of just once.
@@ -16,7 +15,7 @@ layout: default
 - code block will keep executing as long as the evaluation 
 statement is true. Once the statement is no longer true, the loop exits and the next line of code will be executed.
 
-#### Use case
+### Use case
 - use them to keep asking for a username if the one provided isn't valid
 - try an operation until it succeeds.
 
@@ -37,7 +36,7 @@ x=5
 
 ***
 
-#### while loop inside of a function. 
+### while loop inside of a function. 
 ```python
 def attempts(n):
     x = 1
@@ -72,7 +71,7 @@ while not valid_username(username):
     username = get_username()
 ```
 
-#### get_username() function 
+### get_username() function 
 - asks the user for a username and a valid_username function that validates that username. 
 - here the body of the while loop will be executed until the user enters a valid username. 
 => the condition used by the while loop needs to evaluate to true or false. 
@@ -115,36 +114,41 @@ Zero!
 
 ***
 
-#### Infinite Loops 
-- what's called an infinite loop, a loop that keeps executing and never stops. 
+### Infinite Loops 
+- a loop that keeps executing and never stops. 
 
 ```python
+# using the modulo operator
 while x%2 ==0:
     x = x/2
 ```
-It uses the modulo operator that we saw a while back. This cycle will finish for positive and negative values of x. But what would happen if x was zero? The remainder of 0 divided by 2 is 0, so the condition would be true. The result of dividing 0 by 2 would also be zero, so the value of x wouldn't change. This loop would go on forever, and so we'd get an infinite loop. 
+This cycle will finish for positive and negative values of x. 
+But what would happen if x was zero? 
+The remainder of 0 divided by 2 is 0, so the condition would be true. 
+The result of dividing 0 by 2 would also be zero, so the value of x wouldn't change. 
+This loop would go on forever, and so we'd get an infinite loop. 
 
 If our code was called with x having the value of zero, the computer would just waste resources doing a division that would never lead to the loop stopping. 
 
-. To avoid this, we need to think about what needs to happen for a loop to be successful.
+. To avoid this: x needs to be different than zero (nest this while loop inside an if statement). 
 
 ```python
 if x != 0:
     while x%2-=-=0:
         x = x/2
 ```
- In this example, we said that x needs to be different than zero. So we could nest this while loop inside an if statement just like this. 
 With this approach, the while loop is executed only when x is not zero. 
 
-Alternatively, we could add the condition directly to the loop using a logical operator like in this example.
+Alternatively, 
+* add the condition directly to the loop using a logical operator:
 
 ```python
 while x != 0 and x % 2 == 0:
     x = x /2
 ```
-This makes sure we only enter the body of the loop for values of x that are both different than zero and even. 
+We only enter the body of the loop for values of x that are both different than zero and even. 
 
-#### sum up
+## sum up
 - An infinite loop means the code block in the loop will continue to execute and never stop. 
 - This can happen when the condition being evaluated in a while loop doesn't change. 
 - take a moment to consider the different values a variable can take - Think about unexpected values, like zero.
