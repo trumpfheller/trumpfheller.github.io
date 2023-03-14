@@ -30,7 +30,7 @@ if 'quux' in ['foo', 'bar', 'baz']:
 print("cat" == "dog")
 False
 ```
-#### Module Review
+
 ```python
 print(1<"1")
 # OUTPUT
