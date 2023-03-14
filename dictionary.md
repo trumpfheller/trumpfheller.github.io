@@ -120,3 +120,132 @@ csv -> 17
 py -> 23
 ```
 
+### Iterating Through .items() method 
+- returns a new view of the dictionary’s items:
+
+```python
+a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
+d_items = a_dict.items()
+d_items  # Here d_items is a view of items
+dict_items([('color', 'blue'), ('fruit', 'apple'), ('pet', 'dog')])
+```
+- d_items provides a dynamic view on the dictionary’s entries => when the dictionary changes, the views reflect these changes.
+alternative using the **view object** returned by .items():
+
+```python
+for item in a_dict.items():
+...     print(item)
+...
+('color', 'blue')
+('fruit', 'apple')
+('pet', 'dog')
+```
+
+```python
+for item in a_dict.items():
+	print(type(item))
+#OUTPUT
+('color', 'blue')
+<class 'tuple'>
+('fruit', 'apple')
+<class 'tuple'>
+('pet', 'dog')
+<class 'tuple'>
+```
+
+Now you can do tuple unpacking to iterate through the keys and values.
+
+```python
+for key, value in a_dict.items():
+...     print(key, '->', value)
+...
+color -> blue
+fruit -> apple
+pet -> dog
+# now more readable and Pythonic.
+```
+
+values() and .keys() return view objects just like .items(),
+
+### Iterating Through .keys() method
+
+```python
+a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
+>>> keys = a_dict.keys()
+>>> keys
+dict_keys(['color', 'fruit', 'pet'])
+```
+```python
+for key in a_dict.keys():
+...     print(key)
+...
+color
+fruit
+pet
+```
+```python
+for key in a_dict.keys():
+...     print(key, '->', a_dict[key])
+...
+color -> blue
+fruit -> apple
+pet -> dog
+```
+
+### Iterating Through .values() method
+
+```python
+a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
+values = a_dict.values()
+values
+dict_values(['blue', 'apple', 'dog'])
+```
+```python
+for value in a_dict.values():
+...     print(value)
+...
+blue
+apple
+dog
+```
+
+So if you use a dictionary in a for loop, the iteration variable will go through the keys in the dictionary.
+to access the associated values, you can either use the keys as indexes of the dictionary 
+or 
+you can use the items method which returns a tuple for each element in the dictionary. 
+The tuple's first element is the key. 
+Its second element is the value. 
+
+```python
+file_counts ={'jpeg': 10, 'txt': 14, 'csv': 2, 'py': 23}
+for ext, amount in file_counts.items(): 
+  print("there are {} files with the .{} extension".format(amount, ext)) 
+
+#OUTPUT
+> there are 10 files with the .jpgextension
+> there are 14 files with the .txtextension
+> there are 2 files with the .csvextension
+> there are 23 files with the .pyextension
+```
+
+To access the keys of a dictionary or the values with their corresponding dictionary methods
+ 
+```python
+print(file_counts.keys())
+dict_keys(['jpg', 'txt', 'csv', 'py'])
+
+print(file_counts.values())
+dict_values([10, 14, 2, 23])
+```
+These methods return special data types related to the dictionary. You just need to iterate them as you would with any sequence.
+```python 
+for value in file_counts.values(): 
+   print(value)
+10
+14
+2
+23
+```
+* use items to get key value pairs, file_counts.items()
+* keys to get the keys, and file_counts.keys()
+* values to get the values. file_counts.values()
