@@ -8,7 +8,7 @@ layout: default
 
 ## Defining Functions
 
-### Syntax
+Syntax
 ```python
 def function_name(parameter):
   """ function takes parameter and does stuff."""
@@ -19,7 +19,7 @@ def function_name(parameter):
 function_name()
 # the caller gets the function going
 ```
-#### docstring vs comments
+docstring vs comments
 > ***docstring*** describes the function's external behavior, and the parameters it takes.
 
 >  ***comments*** should document internal info about how the code works.
@@ -32,7 +32,7 @@ function_name()
 ```python
 def func_name(arg1, arg2=default2)
 ```
-#### Example
+Example
 
 ```python
 def power (x, y=2):
