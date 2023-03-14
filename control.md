@@ -10,5 +10,5 @@ layout: default
 > [Conditional](./c_conditional.html) || [while loop](./c_while.html) || [for loop](./c_for.html)
 
 
-- Python doesn’t have a switch statement.
+> Python doesn’t have a switch statement.
 
