@@ -12,14 +12,8 @@ layout: default
 
 Syntax
 ```python
-if <expression-**boolean**>:
+if <expression-boolean>:
     <statement>
-```
-
-#### Boolean
-```python
-print(10>1)
-True
 ```
 
 ```python
@@ -29,7 +23,6 @@ if x and y:
 if 'aul' in 'grault': 
 if 'quux' in ['foo', 'bar', 'baz']:
     print('yes')
-
 ```
 
 #### Equality (equal to each other)
@@ -144,3 +137,9 @@ if a > b:
 ```
 
 ***
+
+#### Boolean
+```python
+print(10>1)
+True
+```
