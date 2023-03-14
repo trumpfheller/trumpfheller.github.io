@@ -56,10 +56,19 @@ False
 ```
 
 
-
 Dictionaries are mutable, (can be modified by adding, removing, and replacing elements in a dictionary, similar to lists). 
 
+#### add entry
+- Dictionaries are mutable (can add remove and replace entries). 
+- To add an entry in a dictionary, just use the square brackets to create the key and assign a new value to it. 
 
+```python
+file_counts = {'txt': 14, 'csv': 2, 'py': 23, 'cfg': 8} 
+file_counts["cfg"] = 8 
+print(file_counts)
+# OUTPUT
+{'txt': 14, 'csv': 2, 'py': 23, 'cfg': 8} 
+```
 
 
 
