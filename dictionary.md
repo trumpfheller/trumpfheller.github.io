@@ -29,6 +29,8 @@ In a Python dictionary, the word would be the key and the definition would be t
 - For a list the index is always a number, for a dictionary key it can be a different data type:
 	- strings, integers, floats, tuples, and more. 
 
+> to test 2 liners use [IDLE](https://realpython.com/python-idle/)
+
 Store the number of files corresponding to each extension.
 
 ```python
