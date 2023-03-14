@@ -251,3 +251,53 @@ for value in file_counts.values(): 
 * use items to get key value pairs, file_counts.items()
 * keys to get the keys, and file_counts.keys()
 * values to get the values. file_counts.values()
+
+*** 
+
+| Operations        |  what it does          | 
+|:-------------|:------------------|
+| len(dictionary)           | Returns the number of items in the dictionary | 
+| for key in dictionary | Iterates over each key in the dictionary   | 
+| for key, value in dictionary.items() | Iterates over each key,value pair in the dictionary | 
+| if key in dictionary           | Checks whether the key is in the dictionary | 
+| dictionary[key] | Accesses the item with key key of the dictionary | 
+| dictionary[key] = value | Sets the value associated with key | 
+| del dictionary[key] | Removes the item with key key from the dictionary | 
+
+
+| Methods        | what it does         |
+|:-------------|:------------------|
+| dict.get(key, default) | Returns the element corresponding to key, or default if it's not present |
+| dict.keys() | Returns a sequence containing the keys in the dictionary   | 
+| dict.values() | Returns a sequence containing the values in the dictionary  | 
+| dict.update(other_dictionary) | Updates the dictionary with the items coming from the other dictionary. Existing entries will be replaced; new entries will be added. | 
+| dict.clear()           | Removes all the items of the dictionary | 
+
+[documentation for dictionary operations and methods](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
+
+*** 
+
+
+### Tutorial 
+*  [docs.python.org](http://docs.python.org/tutorial/)
+
+### Style Guide for Python Code
+* [python.org](http://www.python.org/dev/peps/pep-0008/)
+
+
+#### Formatting
+- can be messy with all the quotation marks.
+- single for the dict and double for formatting. 
+
+```python
+>>> comedian = {'name': 'Eric Idle', 'age': 74}
+>>> f"The comedian is {comedian['name']}, aged {comedian['age']}."
+The comedian is Eric Idle, aged 74.
+```
+
+
+```python
+	x = {} 
+	print(type(x))
+	<class 'dict'>
+```
