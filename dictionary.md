@@ -97,5 +97,26 @@ file_counts ={'jpeg': 10, 'txt': 14, 'csv': 17, 'py': 23}
 
 ### Iterating over the Contents of a Dictionary
 
+```python
+file_counts ={'jpeg': 10, 'txt': 14, 'csv': 17, 'py': 23}
+for key in file_counts: 
+	print(key)
+#OUPUT
+jpg
+txt
+csv
+py
+```
 
+#### to get access to the values
+
+```python
+>>> for key in a_dict:
+...     print(key, '->', file_counts[key])
+	# indexing operator []
+jpeg -> 10
+txt -> 14
+csv -> 17
+py -> 23
+```
 
