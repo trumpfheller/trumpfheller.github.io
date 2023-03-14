@@ -21,7 +21,7 @@ layout: default
   - [Control](./control.html)
   - [Function & Exceptions](./function.html).
   - [Files](./files.html).
-  - [OOP](./oop.html)
+  - [OOP](./oop.html).
 
 - Selenium & Python [Compendium]
   - [basic](./selenium_py.html)
