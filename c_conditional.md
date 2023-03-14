@@ -30,6 +30,12 @@ if 'quux' in ['foo', 'bar', 'baz']:
 print("cat" == "dog")
 False
 ```
+```python
+print("cat" > "Cat")
+# OUTPUT
+True
+```
+=> uppercase letters are alphabetically sorted before lowercase letters.
 
 ```python
 print(1<"1")
@@ -42,12 +48,7 @@ TypeError: '<' not supported between instances of 'int' and 'str'
 print(1 == "1")
 False
 ```
-```python
-print("cat" > "Cat")
-# OUTPUT
-True
-```
-=> uppercase letters are alphabetically sorted before lowercase letters.
+
 
 ### if-else conditional
 Syntax
