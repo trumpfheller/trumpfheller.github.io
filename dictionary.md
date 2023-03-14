@@ -13,6 +13,10 @@ layout: default
 - Data in a dictionary is organized into pairs of keys and values. 
 - use the key to access the corresponding value (indexed by keys).
 
+Image to remember:
+In an English language dictionary the word comes with a definition.<br>
+In a Python dictionary, the word would be the key and the definition would be the value. 
+
 ### Syntax
  ```python
 	x = {key1:value1, key2:value2} 
@@ -25,8 +29,7 @@ layout: default
 - For a list the index is always a number, for a dictionary key it can be a different data type:
 	- strings, integers, floats, tuples, and more. 
 
-In an English language dictionary the word comes with a definition.<br>
-In a Python dictionary, the word would be the key and the definition would be the value.  
+ 
 example. 
 
 
