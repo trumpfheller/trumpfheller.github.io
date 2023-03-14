@@ -29,8 +29,15 @@ In a Python dictionary, the word would be the key and the definition would be t
 - For a list the index is always a number, for a dictionary key it can be a different data type:
 	- strings, integers, floats, tuples, and more. 
 
+```python
+file_counts ={"jpeg":10, "txt":14, "csv":2, "py":23}
+print(file_counts)
+{'jpeg': 10, 'txt': 14, 'csv': 2, 'py': 23}
+```
  
-example. 
+To check if a key is contained in a dictionary using the **in** keyword. Just like other uses of this keyword, it will return True if the key is found in the dictionary; otherwise it will return False.
+
+Dictionaries are mutable, (can be modified by adding, removing, and replacing elements in a dictionary, similar to lists). 
 
 
 
