@@ -209,12 +209,14 @@ apple
 dog
 ```
 
-So if you use a dictionary in a for loop, the iteration variable will go through the keys in the dictionary.
-to access the associated values, you can either use the keys as indexes of the dictionary 
-or 
-you can use the items method which returns a tuple for each element in the dictionary. 
-The tuple's first element is the key. 
-Its second element is the value. 
+### a dictionary in a for loop, 
+- the iteration variable will go through the keys in the dictionary.
+- to access the associated values,
+	- use the keys as indexes of the dictionary 
+	or 
+	- use the items method which returns a tuple for each element in the dictionary. 
+		- The tuple's first element is the key. 
+		- Its second element is the value. 
 
 ```python
 file_counts ={'jpeg': 10, 'txt': 14, 'csv': 2, 'py': 23}
@@ -237,7 +239,7 @@ dict_keys(['jpg', 'txt', 'csv', 'py'])
 print(file_counts.values())
 dict_values([10, 14, 2, 23])
 ```
-These methods return special data types related to the dictionary. You just need to iterate them as you would with any sequence.
+These methods return special data types related to the dictionary. => just iterate them as you would with any sequence.
 ```python 
 for value in file_counts.values(): 
    print(value)
