@@ -72,6 +72,28 @@ print(file_counts)
 {'txt': 14, 'csv': 2, 'py': 23, 'cfg': 8} 
 ```
 
+#### **modify** the value of an existing key  
+- keys inside of a dictionary are unique. 
+- When you use a key that already exists to set a value, the value that was already paired with that key is replaced. 
+
+```python
+file_counts["csv"] = 17
+print(file_counts)
+# Before
+{'txt': 14, 'csv': 2, 'py': 23, 'cfg': 8}
+# After
+{'txt': 14, 'csv': 17, 'py': 23, 'cfg': 8}
+```
+
+#### delete entry
+- delete elements from a dictionary with the del keyword by passing the dictionary and the key to the element as if we were trying to access it. 
+```python
+file_counts ={'jpeg': 10, 'txt': 14, 'csv': 17, 'py': 23, 'cfg': 8}
+del file_counts["cfg"]
+print(file_counts)
+file_counts ={'jpeg': 10, 'txt': 14, 'csv': 17, 'py': 23}
+```
+
 
 
 
