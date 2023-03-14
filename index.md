@@ -17,10 +17,10 @@ layout: default
   - [Variables](./variables.html)
   - [Lists](./lists.html)
   - [Tuples](./tuples.html)
-  - [Dictionary](./dictionary.html).
+  - [Dictionary](./dictionary.html)
   - [Control](./control.html)
   - [Function & Exceptions](./function.html).
-  - Files [Link](./another-page.html).
+  - [Files](./files.html).
   - [OOP](./oop.html)
 
 - Selenium & Python [Compendium]
