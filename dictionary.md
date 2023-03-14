@@ -286,7 +286,6 @@ for value in file_counts.values(): 
 
 
 #### Formatting
-- can be messy with all the quotation marks.
 - single for the dict and double for formatting. 
 
 ```python
