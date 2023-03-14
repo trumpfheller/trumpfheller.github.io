@@ -95,11 +95,7 @@ file_counts ={'jpeg': 10, 'txt': 14, 'csv': 17, 'py': 23}
 ```
 
 
+### Iterating over the Contents of a Dictionary
 
 
 
-```python
-	x = {} 
-	print(type(x))
-	<class 'dict'>
-```
