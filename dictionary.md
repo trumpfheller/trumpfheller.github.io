@@ -25,7 +25,7 @@ layout: default
 - different data types as keys are available:
 	- strings, integers, floats, tuples, and more. (in a list the index must be a number)
 
-In an English language dictionary the word comes with a definition.
+In an English language dictionary the word comes with a definition.<br>
 In a Python dictionary, the word would be the key and the definition would be the value.  
 example. 
 
