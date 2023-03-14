@@ -36,9 +36,26 @@ file_counts ={"jpeg":10, "txt":14, "csv":2, "py":23}
 print(file_counts)
 {'jpeg': 10, 'txt': 14, 'csv': 2, 'py': 23}
 ```
- 
+
+Find out how many text files there are in the dictionary. use the key txt to access its associated value. 
+```python
+file_counts = {"jpeg": 10, "txt": 14, "csv": 2, "py": 23}
+file_counts["txt"]
+#OUTPUT 
+14
+```
+
 To check if a key is contained in a dictionary using the **in** keyword. <br>
 It will return True if the key is found in the dictionary; otherwise it will return False.
+```python
+file_counts = {"txt": 14, "csv": 2, "py": 23}
+"jpeg" in file_counts
+True
+"html" in file_counts 
+False
+```
+
+
 
 Dictionaries are mutable, (can be modified by adding, removing, and replacing elements in a dictionary, similar to lists). 
 
