@@ -71,9 +71,29 @@ else:
     <statement(s)>
 ```
 
-### One-Line if Statements
-### Ternary Operator (Short Hand If)
+```python
+def hint_username(username):
+	if len(username) < 3:
+		print("Invalid username")
+	elif len(username) > 15:
+		print("Invalid username - 15 char minimum, dude.")
+		
+	else:
+		print("FullblownValid")
 
+def number_group(number):
+  if number > 0:
+    return "Positive"
+  elif number < 0:
+    return "negative"
+  else:
+    return "Zero"
+
+print(number_group(10)) # Positive
+print(number_group(0)) # Zero
+print(number_group(-5)) #Should be Negative
+```
+#### One-Line if Statements || Ternary Operator (Short Hand If)
 
 ```python
 #standard
@@ -82,7 +102,7 @@ if <expr>:
 
 # shorter
 if <expr>: <statement>
-if <expr>: <statement_1>; <statement_2>; ...; <statement_n>
+if <expr>: <statement_1>; <statement_2>; <statement_n>
 ```
 
 ### Example
@@ -95,12 +115,12 @@ if 'f' in 'foo': print('1'); print('2'); print('3')
 3
 ```
 ### if-else short hand
-### Syntax
+Syntax
 ```python 
 <expr1> if <conditional_expr> else <expr2>
 ```
 
-### Example
+Example
 ```python
 'yes' if ('qux' in ['foo', 'bar', 'baz']) else 'no'
 #OUTPUT
