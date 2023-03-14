@@ -22,8 +22,8 @@ layout: default
 - Dictionaries are used to organize elements into collections (like lists). 
 - Dictionaries map keys to values and store them in an array or collection.
 - The keys must be of a hashable type, which means that they must have a hash value that never changes during the key’s lifetime.
-- different data types as keys are available:
-	- strings, integers, floats, tuples, and more. (in a list the index must be a number)
+- For a list the index is always a number, for a dictionary key it can be a different data type:
+	- strings, integers, floats, tuples, and more. 
 
 In an English language dictionary the word comes with a definition.<br>
 In a Python dictionary, the word would be the key and the definition would be the value.  
