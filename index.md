@@ -38,6 +38,7 @@ layout: default
   - [Job search with ? in progress](./another-page.html).
   - [framework](./framework.html)
   - [Cucumber](./cucumber.html)
+  - [pytest](./pytest.html)
   
 - MyJava Basics (Compendium)
   - [Link - work in progress](./another-page.html).
