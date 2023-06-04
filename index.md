@@ -37,6 +37,7 @@ layout: default
   - [Job search with Google](./selenium_python/googlesearch.html)
   - [Job search with ? in progress](./another-page.html).
   - [framework](./framework.html)
+  - [Cucumber](./cucumber.html)
   
 - MyJava Basics (Compendium)
   - [Link - work in progress](./another-page.html).
