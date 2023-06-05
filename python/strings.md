@@ -68,10 +68,10 @@ pets = "Cats & Dogs"
 
 
 ```python
-	name = "Mike"
-	print(name[2])
-	#OUTPUT
-	k
+name = "Mike"
+print(name[2])
+# OUTPUT
+# k
 ```
 
 ```python
