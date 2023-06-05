@@ -45,7 +45,9 @@ layout: default
 * for index, element in enumerate(sequence) 
     - Iterates over both the indexes and the elements in the sequence at the same time
 
-### List
+***
+
+## List
 - are sequences of elements of any type 
 - are mutable. 
 - are ordered.
