@@ -13,7 +13,7 @@ layout: default
 	- are immutable. 
 - **Lists** 
 	- are sequences of elements of any type 
-	- are mutable. 
+	- are mutable. (we can add, remove, or modify elements in a list.) 
 - **Tuples** 
 	- are sequences of elements of any type 
 	- are immutable.
@@ -49,7 +49,7 @@ layout: default
 
 ## List
 - are sequences of elements of any type 
-- are mutable. 
+- are mutable. (we can add, remove, or modify elements in a list.) 
 - are ordered.
     - the items have a defined order, 
     - that order will not change.
