@@ -134,8 +134,6 @@ pets.index("&")
 ```
 
 
-String methods
-
 | String methods | what it does | 
 |:-------------|:------------------|:------|
 | string.lower() / string.upper()           | Returns a copy of the string with all lower / upper case characters | 
@@ -147,8 +145,7 @@ String methods
 | string.replace(old, new) | Returns a new string where all occurrences of old have been replaced by new.   | 
 | delimiter.join(list of strings)           | Returns a new string with all the strings joined by the delimiter       | 
 
-- string method lower will return the string with all characters changed to lowercase.
-- The inverse of this is the upper method, which will return the string all in uppercase. Just like with previous methods, we call these on a string using dot notation, like "this is a string".upper(). This would return the string "THIS IS A STRING". This can be super handy when checking user input, since someone might type in all lowercase, all uppercase, or even a mixture of cases.
+- string method **lower**/string.upper() can be super handy when checking user input, since someone might type in all lowercase, all uppercase, or even a mixture of cases.
 - strip method to remove surrounding whitespace from a string. Whitespace includes spaces, tabs, and newline characters. 
 - lstrip and rstrip methods to remove whitespace only from the left or the right side of the string, respectively.
 - count() method can be used to return the number of times a substring appears in a string. This can be handy for finding out how many characters appear in a string, or counting the number of times a certain word appears in a sentence or paragraph.
