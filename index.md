@@ -31,6 +31,8 @@ layout: default
   - [Exceptions](./python/exceptions.html).
   - [Files](./python/files.html).
   - [OOP](./python/oop.html)
+  - [Algorithms](./python/algorithms.html)
+  - [Data Structure](./python/datastructure.html)
 
 - Selenium & Python [Compendium]
   - [Basic](./selenium_python/selenium_py.html)
