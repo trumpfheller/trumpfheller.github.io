@@ -54,14 +54,12 @@ layout: default
     - the items have a defined order, 
     - that order will not change.
 
-### Lists Defined
-- Define lists by using square brackets and the elements stored in the list separated by commas: 
+**Syntax**
 ```python
-	list = ["This", "is", "a", "list"]. 
-    #its contents is a list of strings.
+	list = ["This", "is", "a", "list"] 
+    # its contents is a list of strings.
 ```
-
-#### Common list operations
+**Common list operations**
 - len(list) 
     * returns the number of elements in a list: would return 4. 
 
