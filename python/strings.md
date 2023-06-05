@@ -145,6 +145,7 @@ pets.index("&")
 | string.replace(old, new) | Returns a new string where all occurrences of old have been replaced by new.   | 
 | delimiter.join(list of strings)           | Returns a new string with all the strings joined by the delimiter       | 
 
+
 - string method **lower**/string.upper() can be super handy when checking user input, since someone might type in all lowercase, all uppercase, or even a mixture of cases.
 - strip method to remove surrounding whitespace from a string. Whitespace includes spaces, tabs, and newline characters. 
 - lstrip and rstrip methods to remove whitespace only from the left or the right side of the string, respectively.
