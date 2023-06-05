@@ -8,9 +8,15 @@ layout: default
 
 ***
 ### SEQUENCES
-- **Strings** are sequences of characters and are immutable. 
-- **Lists** are sequences of elements of any type and are mutable. 
-- **Tuples** are sequences of elements of any type that are immutable.
+- **Strings** 
+	- are sequences of characters 
+	- are immutable. 
+- **Lists** 
+	- are sequences of elements of any type 
+	- are mutable. 
+- **Tuples** are sequences of elements of any type 
+	- are immutable.
+	
 - Methods used
     - iterating over them using **for-loops**, 
     - indexing using the **len** function to find the length of the sequence, 
