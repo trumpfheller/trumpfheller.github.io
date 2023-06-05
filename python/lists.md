@@ -94,9 +94,9 @@ layout: default
     
  **Syntax**
  
-    ```
-    list.index(elmnt)
-    ```
+```
+list.index(elmnt)
+```
 - to access individual elements depending on their position in the list: 
         - use the index we want to access (like with strings). 
         - if we try to access an element after the end of the list We get an index error. We can't go over the end of the list. 
