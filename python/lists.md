@@ -14,7 +14,8 @@ layout: default
 - **Lists** 
 	- are sequences of elements of any type 
 	- are mutable. 
-- **Tuples** are sequences of elements of any type 
+- **Tuples** 
+	- are sequences of elements of any type 
 	- are immutable.
 	
 - Methods used
