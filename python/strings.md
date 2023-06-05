@@ -149,7 +149,9 @@ pets.index("&")
 - string method **lower**/string.upper() can be super handy when checking user input, since someone might type in all lowercase, all uppercase, or even a mixture of cases.
 - strip method to remove surrounding whitespace from a string. Whitespace includes spaces, tabs, and newline characters. 
 - lstrip and rstrip methods to remove whitespace only from the left or the right side of the string, respectively.
-- count() method can be used to return the number of times a substring appears in a string. This can be handy for finding out how many characters appear in a string, or counting the number of times a certain word appears in a sentence or paragraph.
+- count() method for finding out 
+	- how many characters appear in a string, 
+	- counting the number of times a certain word appears in a sentence or paragraph.
 - endswith() method: to check if a string ends with a given substring. This will return True if the substring is found at the end of the string, and False if not.
 
 ```python
