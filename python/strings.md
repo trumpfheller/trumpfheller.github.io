@@ -21,7 +21,7 @@ pet = 'looooooooooooooooooooooooong cat'
 ```
 Operations
 
-| <span style="display: inline-block; width:250px">String operations</span> | what it does          
+| <span style="display: inline-block; width:270px">String operations</span> | what it does          
 |:----------------|:--------|
 |  |  | 
 | len(string) | Returns the length of the string | 
