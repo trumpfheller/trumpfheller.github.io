@@ -19,7 +19,6 @@ name = "Mike"
 pet = ""# called an empty string
 pet = 'looooooooooooooooooooooooong cat'
 ```
-Operations
 
 | <span style="display: inline-block; width:270px">String operations</span> | what it does          
 |:----------------|:--------|
@@ -34,7 +33,7 @@ Operations
 - using the plus sign to build longer strings.
 
 #### len function
-- the number of characters contained in the string. 
+- number of characters contained in the string. 
 
 Example
 Modify the double_word function so that it returns the same word repeated twice, followed by the length of the new doubled word. => double_word("hello") should return hellohello10.
