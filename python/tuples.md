@@ -52,12 +52,12 @@ layout: default
 - assinging a sequence of values to a variable.
 - Since tuples are indexed, they can have items with the same value.
 
-	```python
-	thistuple = ("apple", "banana", "cherry", "apple", "cherry")
-	print(thistuple)
+```python
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
 ```  
 
-#### position has meaning
+#### Position has meaning
 A lists can hold any number of elements and we can add, remove and modify their contents as much as we want, but 
 there are cases when we want to make sure an element in a certain position or index refers to one specific thing and won't change.  
 
