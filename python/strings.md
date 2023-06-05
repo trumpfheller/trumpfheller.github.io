@@ -15,9 +15,9 @@ layout: default
 
 ```python
 name = "Mike"
-pet = ""
-# called an empty string
-Pet = 'looooooooooooooooooooooooong cat'
+
+pet = ""# called an empty string
+pet = 'looooooooooooooooooooooooong cat'
 ```
 Operations
 
