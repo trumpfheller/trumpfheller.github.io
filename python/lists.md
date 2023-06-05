@@ -88,20 +88,21 @@ layout: default
 **indexing**
     
  **Syntax**
+ 
     ```
     list.index(elmnt)
     ```
-    - to access individual elements depending on their position in the list: 
+- to access individual elements depending on their position in the list: 
         - use the index we want to access (like with strings). 
         - if we try to access an element after the end of the list We get an index error. We can't go over the end of the list. 
 
-    ```python
+```python
         fruits = ['apple', 'banana', 'cherry']
         x = fruits.index("cherry")
         print(x)
         #OUTOUT
         2
-    ```
+```
 
 **slice method**
     - use indexes to create a slice of the list. 
