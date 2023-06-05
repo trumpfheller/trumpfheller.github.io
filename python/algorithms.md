@@ -11,6 +11,12 @@ layout: default
 ### Sorting Algorithms:
 
 ### Bubble Sort
+- define a function bubble_sort that takes a list as an argument. 
+- The outer loop runs n times, where n is the length of the list. 
+- The inner loop compares adjacent elements and swaps them if they are in the wrong order. 
+- This process is repeated until the entire list is sorted. 
+- Finally, we call the bubble_sort function with an example list and print the sorted list.
+
 ```python
 def bubble_sort(lst):
     n = len(lst)
