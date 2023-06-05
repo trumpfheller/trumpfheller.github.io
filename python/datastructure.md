@@ -9,7 +9,9 @@
 - They are commonly used to represent fixed collections of related data.
 
 **Dictionaries**
-- are key-value pairs and provide a way to store and retrieve data based on a unique key. They are also known as associative arrays or hash maps. Dictionaries are useful for mapping one value to another and are highly efficient for data retrieval.
+- are key-value pairs and provide a way to store and retrieve data based on a unique key. 
+- are also known as associative arrays or hash maps.
+- are useful for mapping one value to another and are highly efficient for data retrieval.
 
 **Sets**
 - unordered collections of unique elements. 
