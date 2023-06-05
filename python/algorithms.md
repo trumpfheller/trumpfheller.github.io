@@ -8,7 +8,17 @@ layout: default
 
 ## Algorithms
 
-### Sorting Algorithms:
+
+### Write a Python function to reverse a string.
+
+```python
+def reverse_string(input_string):
+    return input_string[::-1]
+```
+
+***
+
+### Sorting Algorithms
 
 ### Bubble Sort
 - define a function bubble_sort that takes a list as an argument. 
@@ -55,14 +65,7 @@ print("Sorted list:", my_list)
 
 ***
 
-### Algorithms
 
-
-### Write a Python function to reverse a string.
-
-```python
-def reverse_string(input_string):
-    return input_string[::-1]
 ```
 
 ### Searching Algorithms
