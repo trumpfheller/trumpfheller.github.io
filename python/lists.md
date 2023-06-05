@@ -12,17 +12,17 @@ layout: default
 - **Lists** are sequences of elements of any type and are mutable. 
 - **Tuples** are sequences of elements of any type that are immutable.
 - Methods used
-    - iterating over them using for-loops, 
-    - indexing using the len function to know the length of the sequence, 
-    - using plus to concatenate two sequences and 
-    - using in to verify if the sequence contains an element. 
+    - iterating over them using **for-loops**, 
+    - indexing using the **len** function to find the length of the sequence, 
+    - using **plus** to concatenate two sequences and 
+    - using **in** to verify if the sequence contains an element. 
 
 - Sequences have similar properties, like 
-    * being able to iterate over them using for loops; 
-    * support indexing; 
-    * using the len function to find the length of the sequence; 
-    * using the plus operator + in order to concatenate; and 
-    * using the in keyword to check if the sequence contains a value.
+    * being able to iterate over them using **for** loops; 
+    * support **indexing**; 
+    * using the **len** function to find the length of the sequence; 
+    * using the **plus** operator + in order to concatenate; and 
+    * using the **in** keyword to check if the sequence contains a value.
 
 #### Common sequence operations
 * len(sequence) 
