@@ -85,9 +85,9 @@ layout: default
     #"This" in list would return True.
 ```
 
-* indexing 
+**indexing**
     
-    Syntax
+ **Syntax**
     ```
     list.index(elmnt)
     ```
@@ -103,7 +103,7 @@ layout: default
         2
     ```
 
-* slice
+**slice method**
     - use indexes to create a slice of the list. 
 ``` 
 x[1:3] 
@@ -114,7 +114,7 @@ x[:2]
 ```
 First value defaults to zero and the second value to the length of the list.
 
-* split() method 
+**split() method**
     - splits a string into a list.
 
     ```python
@@ -126,15 +126,6 @@ First value defaults to zero and the second value to the length of the list.
         #OUTPUT
         #['welcome', 'to', 'the', 'wild']
     ```
-
-
-### Modifying Lists
-Most of these methods come from the fact that lists are mutable sequences.
-* lists are mutable (we can add, remove, or modify elements in a list.) 
-* strings are not mutable. 
-* Changing the list means we keep the same box and we add, remove, or change the elements inside that box.
-
-#### List-specific methods [w3schools](https://www.w3schools.com/python/python_ref_list.asp)
 
 | method | what it does |  
 |:-------------|:------------------| 
@@ -150,8 +141,16 @@ Most of these methods come from the fact that lists are mutable sequences.
 | list.extend(other_list) | Appends all the elements of other_list at the end of list | 
 
 
-#### append() method 
+**Modifying Lists**
+Most of these methods come from the fact that lists are mutable sequences.
+* lists are mutable (we can add, remove, or modify elements in a list.) 
+* strings are not mutable. 
+* Changing the list means we keep the same box and we add, remove, or change the elements inside that box.
 
+**List-specific methods** [w3schools](https://www.w3schools.com/python/python_ref_list.asp)
+
+
+**append() method**
 - adding an element to a list (adds a new element at the end of the list.)
 - list.append("New data") would add the string "New data" to the end of the list.
 
@@ -162,7 +161,7 @@ Most of these methods come from the fact that lists are mutable sequences.
 	['apple', 'banana', 'cherry', 'orange']
 ```
 
-#### insert() method
+**insert() method**
 - If you want to add an element to a list in a specific position, instead of at the end.
 - The method takes two parameters: 
     - an index as the first parameter 
@@ -201,7 +200,7 @@ print(fruits)
 
 ```
 
-#### replace via indexing
+**replace via indexing**
 you can change an element in a list
 to overwrite the value stored at the specified index. 
 For example, you can enter 
@@ -210,12 +209,12 @@ For example, you can enter
 ```
     to overwrite the first element in a list with the new string "Old data".
 
-#### pop() method 
+**pop() method**
 * Another way we can remove elements 
 * method receives an index.
 * pop method returns the element that was removed at the index that was passed.
 * to change an item by assigning something else to that position, 
-Syntax
+**Syntax**
     ```
     list.pop(pos)
     ```
@@ -227,12 +226,12 @@ print(fruits)
 ["Orange", "Pineapple", "Banana"]
 ```
 
-#### remove() method
+**remove() method**
 - remove elements from the list using the value of the element we want to remove. 
 - removes the first occurrence of the element from the list.
 - If the element is not in the list - we get a value error ("element isn't in the list"). 
 
-- Syntax 
+**Syntax**
     ```python
         list.remove(elmnt)
     ```
@@ -246,7 +245,7 @@ print(fruits)
 ["Orange", "Pineapple", "Banana"]
 ```
 
-#### same result accomplished with pop()
+**same result accomplished with pop()**
 ```python
 	fruits = ['apple', 'banana', 'cherry']
 	fruits.pop(1)
@@ -257,13 +256,13 @@ This method differs from the remove method in that it takes an index as a parame
 This can be useful if you don't know what the value is, but you know where it’s located. 
 This can also be useful when you need to access the data and also want to remove it from the list.
 
-#### Use cases
+**Use cases**
 - If the list contains hosts on a network, you could add or remove hosts as they come online or offline. 
 - If the list contains users authorized to run a certain process, you could add or remove users when permissions are granted or removed and so on. 
 - you'll use a list whenever you need to write a program that'll handle a variable amount of elements
 - You will use whenever you need to write a programm that'll handle a sequence of a fixed amount of elements.
 
-#### reversed() method
+**reversed() method**
 -  specify the sequence in a forward direction
 ```python
     for i in reversed(range(1, 10, 2)):
@@ -276,7 +275,7 @@ This can also be useful when you need to access the data and also want to remove
 1
 ```
 
-#### extend() method.
+**extend() method**
 - adds the specified list elements (or any iterable) to the end of the current list.
 
 ```python
@@ -308,7 +307,7 @@ The first value of the tuple is the index and the second value is the element it
 -  to create a list based on a range like in this example. Or based on the contents of a list a tuple a string or any other Python sequence. 
 - The syntax tries to copy how you would express these concepts with natural language. 
 
-Syntax: 
+**Syntax** 
 ```
 newlist = [expression for item in iterable if condition == True]
 ```
@@ -329,7 +328,7 @@ print(multiples)
 ```
 
 
-#### Example #2 
+**Example #2**
 * a list of strings with the names of programming languages 
 * generate a list of the length of the strings. 
 
