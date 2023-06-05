@@ -46,8 +46,11 @@ layout: default
     - Iterates over both the indexes and the elements in the sequence at the same time
 
 ### List
-- Lists are ordered.
-    - the items have a defined order, and that order will not change.
+- are sequences of elements of any type 
+- are mutable. 
+- are ordered.
+    - the items have a defined order, 
+    - that order will not change.
 
 ### Lists Defined
 - Define lists by using square brackets and the elements stored in the list separated by commas: 
