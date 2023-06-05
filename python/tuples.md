@@ -1,17 +1,51 @@
 ---
+title: Tuples
 layout: default
 ---
 > [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
 > [Control](./control.html) || [Function](./function.html)|| [Files](./files.html) || [Exceptions](./exceptions.html) ||
-> [OOP](./oop.html) || [back](./)
+> [OOP](./oop.html) || [Algorithm](./algorithm.html) ||[Data Structure](./datastructure.html) ||[back](./)
 
 ***
-
 ### SEQUENCES
-- **Strings** are sequences of characters and **immutable**. 
-- **Lists** are sequences of elements of any type and **mutable**. 
-- **Tuples** are sequences of elements of any type that are **immutable**. (position of the element can have meaning.)
+- **Strings** 
+	- are sequences of characters 
+	- are immutable. 
+- **Lists** 
+	- are sequences of elements of any type 
+	- are mutable. 
+- **Tuples** 
+	- are sequences of elements of any type 
+	- are immutable. (position of the element can have meaning.)
 - **Tuples** and **lists** can contain elements of any data type.
+	
+- Methods used
+    - iterating over them using **for-loops**, 
+    - indexing using the **len** function to find the length of the sequence, 
+    - using **plus** to concatenate two sequences and 
+    - using **in** to verify if the sequence contains an element. 
+
+- Sequences have similar properties, like 
+    * being able to iterate over them using **for** loops; 
+    * support **indexing**; 
+    * using the **len** function to find the length of the sequence; 
+    * using the **plus** operator + in order to concatenate; and 
+    * using the **in** keyword to check if the sequence contains a value.
+
+#### Common sequence operations
+* len(sequence) 
+    - Returns the length of the sequence
+* for element in sequence 
+    - Iterates over each element in the sequence
+* if element in sequence 
+    - Checks whether the element is part of the sequence
+* sequence[i] 
+    - Accesses the element at index i of the sequence, starting at zero
+* sequence[i:j] 
+    - Accesses a slice starting at index i, ending at index j-1. If i is omitted, it's 0 by default. If j is omitted, it's len(sequence) by default.
+* for index, element in enumerate(sequence) 
+    - Iterates over both the indexes and the elements in the sequence at the same time
+
 
 ### Tuples 
 - in parentheses (not square brackets)
