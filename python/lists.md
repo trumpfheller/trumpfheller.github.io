@@ -59,6 +59,20 @@ layout: default
     - the items have a defined order, 
     - that order will not change.
     - lists with the same elements in a different order are not the same.
+
+**Ordered example**
+```python
+[1, 2, 3, 4] == [4, 1, 3, 2]
+False
+a = ['spam', 'egg', 'bacon', 'tomato']
+b = ['egg', 'bacon', 'tomato', 'spam']
+
+a == b
+False
+a is b
+False
+```
+
 - can be accessed via index
 - can be nested to arbitrary depth
 - dynamic
