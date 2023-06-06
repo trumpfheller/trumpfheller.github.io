@@ -74,6 +74,21 @@ False
 ```
 
 - can be accessed via index
+	- if we try to access an element after the end of the list We get an index error. We can't go over the end of the list.
+
+**Syntax**
+```
+list.index(elmnt)
+```
+
+```python
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.index("cherry")
+print(x)
+    #OUTOUT
+2
+```
+
 - can be nested to arbitrary depth
 - dynamic
 
