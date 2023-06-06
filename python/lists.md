@@ -48,12 +48,17 @@ layout: default
 ***
 
 ## List
-- are sequences of elements of any type 
-- may contain any number of elements (constrained by the computer’s memory, of course), of any type. The same object may occur any number of times.
+- are sequences of elements of any type (like complex objects)
+    - Functions
+    - Classes
+    - Module
+- may contain any number of elements/objects (constrained by the computer’s memory, of course), of any type. 
+- Does not to be unique: same object may occur any number of times.
 - are mutable. (we can add, remove, or modify elements in a list.) 
-- are ordered, an ordered collection of objects. The order of the elements is an innate characteristic of the list.
+- are ordered, an ordered collection of objects (an **innate** characteristic of the list).
     - the items have a defined order, 
     - that order will not change.
+    - lists with the same elements in a different order are not the same.
 - can be accessed via index
 - can be nested to arbitrary depth
 - dynamic
