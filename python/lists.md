@@ -93,9 +93,9 @@ print(x)
 - dynamic
 
 
-### Common list operations**
+### Common list operations
+
 **len(list)** 
-    * returns the number of elements in a list: would return 4. 
 
 ```python
 my_list = [1, 2, 3, 4, 5]
