@@ -7,7 +7,7 @@ layout: default
 > [OOP](./oop.html) || [Algorithm](./algorithm.html) ||[Data Structure](./datastructure.html) ||[back](./)
 
 ***
-### SEQUENCES
+## SEQUENCES
 - **Strings** 
 	- are sequences of characters 
 	- are immutable. 
@@ -31,7 +31,7 @@ layout: default
     * using the **plus** operator + in order to concatenate; and 
     * using the **in** keyword to check if the sequence contains a value.
 
-#### Common sequence operations
+### Common sequence operations
 * len(sequence) 
     - Returns the length of the sequence
 * for element in sequence 
