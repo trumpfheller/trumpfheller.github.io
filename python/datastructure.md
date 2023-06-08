@@ -1,4 +1,4 @@
-## SEQUENCES & Data Structure
+## Sequences & Data Structure
 
 **Lists**: 
 - ordered collections of items and can store heterogeneous data types. 
