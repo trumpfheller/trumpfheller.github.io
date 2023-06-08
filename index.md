@@ -23,16 +23,19 @@ layout: default
 - MyPy Basics (Compendium)
   - [Strings](./python/strings.html)
   - [Variables](./python/variables.html)
-  - [Lists](./python/lists.html)
-  - [Tuples](./python/tuples.html)
-  - [Dictionary](./python/dictionary.html)
+  - [Data Structure](./python/datastructure.html)
+    - [Lists](./python/lists.html)
+    - [List methods](./python/listmethods.html)
+    - [Tuples](./python/tuples.html)
+    - [Dictionary](./python/dictionary.html)
+    - [Dictionary methods](./python/dictionarymethods.html)
+  - [Algorithms](./python/algorithms.html)
   - [Control](./python/control.html)
   - [Functions](./python/function.html).
   - [Exceptions](./python/exceptions.html).
   - [Files](./python/files.html).
   - [OOP](./python/oop.html)
-  - [Algorithms](./python/algorithms.html)
-  - [Data Structure](./python/datastructure.html)
+  
 
 - Selenium & Python [Compendium]
   - [Basic](./selenium_python/selenium_py.html)
