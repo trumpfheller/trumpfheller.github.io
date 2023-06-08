@@ -2,18 +2,12 @@
 title: Lists
 layout: default
 ---
-> [Strings](./strings.html) || [Variables](./variables.html) || 
 
 > [Data Structure](./datastructure.html) || 
-> > [Lists](./lists.html) || [List Methods](./listmethods.html) || 
-> > [Tuples](./tuples.html) || [Tuple Methods](./tuplemethods.html) || 
+> [Lists](./lists.html) || [List Methods](./listmethods.html) || 
+> >[Tuples](./tuples.html) || [Tuple Methods](./tuplemethods.html) || 
 > > [Dictionary](./dictionary.html) ||[Dictionary Methods](./dictionarymethods.html) ||
 
-> [Algorithm](./algorithms.html) || 
-> > [Control](./control.html) || 
-
-> [Function](./function.html)|| [Files](./files.html) || [Exceptions](./exceptions.html) ||
-> [OOP](./oop.html) || [back](./)
 
 ***
 
