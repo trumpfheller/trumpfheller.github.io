@@ -469,9 +469,8 @@ to create a new list from a sequence or a range in a single line
 ```python
 	x*2 for x in range(1,11) 
 ```
-This would iterate over the range 1 to 10, and multiply each element in the range by 2. This would result in a list of the multiples of 2, from 2 to 20.
 
- to build even more complex and powerful statements: appending an if statement to the end of the comprehension. 
+Appending an if statement to the end of the comprehension. 
  ```python
 	x for x in range(1,101) if x % 10 == 0 
 ```
