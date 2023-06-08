@@ -72,4 +72,4 @@
     * for index, element in enumerate(sequence) 
     	* Iterates over both the indexes and the elements in the sequence at the same time
 
-> || [back](./) || 
+> || [back](../) || 
