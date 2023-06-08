@@ -48,6 +48,11 @@ layout: default
 ***
 
 ## List
+
+```python
+	list = ["This", "is", "a", "list"] 
+```
+
 - are sequences of elements of any type (like complex objects)
     - Functions
     - Classes
@@ -76,11 +81,6 @@ False
 - can be accessed via index
 	- if we try to access an element after the end of the list We get an index error. We can't go over the end of the list.
 
-**Syntax**
-```
-list.index(elmnt)
-```
-
 ```python
 fruits = ['apple', 'banana', 'cherry']
 x = fruits.index("cherry")
@@ -93,48 +93,128 @@ print(x)
 - dynamic
 
 
-**Syntax**
-```python
-	list = ["This", "is", "a", "list"] 
-    # its contents is a list of strings.
-```
-**Common list operations**
-- len(list) 
+### Common list operations**
+**len(list)** 
     * returns the number of elements in a list: would return 4. 
 
-- to check the type of x using the type function 
-	```python
-    type(x)
-	<class list>
-    ```
-- print function: 
-    - to show the contents of the whole list. 
+```python
+my_list = [1, 2, 3, 4, 5]
+length = len(my_list)
+
+print(length)  # Output: 5
+print(len(my_list))  # Output: 5
+```
+
+```python
+my_list = [1, 2, 3, 4, 5]
+length = len(my_list)
+print("Length of the list is:", length)  
+# Output: Length of the list is: 5
+```
+
+```python
+my_list = [1, 2, 3, 4, 5]
+if len(my_list) > 0:
+    print("The list is not empty")
+else:
+    print("The list is empty")
+```
+
+**Using a loop**
+```python
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+# Output:
+1
+2
+3
+4
+5
+```
+
+**Printing - Using a loop**
+```python
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+# Output:
+1
+2
+3
+4
+5
+```
+
+**Printing - Using list comprehension**
+```python
+my_list = [1, 2, 3, 4, 5]
+print(*my_list)
+# Output
+1 2 3 4 5
+print(my_list)
+# OUPUT
+[1, 2, 3, 4, 5]
+```
+
+**Formatting**
+- oldstyle (Python2 and 3)
+- new style (Python2.6 and up)
+- f-string (Python3.6 and up)
+
+**Checking the type**
+```python
+type(x)
+<class list>
+```
 
 - keyword “in”: 
     - to check if a list contains a certain element 
         * If the element is present, it will return a True boolean. 
         * If the element is not found in the list, it will return False.  
     - result of this check is a Boolean, which we can use as a condition for branching or looping.
-#### Example
- ```python
-	x = ["This", "is", "a", "list"]
-    "Today" in x
+    - 
+```python
+x = ["This", "is", "a", "list"]
+"Today" in x
     #OUTPUT
-    False
+False
     #"This" in list would return True.
 ```
 
 
 **slice method**
-    - use indexes to create a slice of the list. 
-``` 
-x[1:3] 
+
+**[:]** extracts the entire sequence from start to end
+
 ```
-So the range starts at index one and goes up to the second index minus one.
+letters = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'
+letters[:]
+'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'
+```
+
+**[start:]** from the start offset to the end
+```
+letters[20:]
+'U V W X Y Z'
+```
+
+**[start:end]** from the start offset to the end offset minus 1
+range starts at index 12 and goes up to the second index minus one (14).
+
+```
+letters[12:15]
+'M N O'
+```
+
+**[:end]** from the beginning to the end offset minus 1
+First value defaults to zero and the second value to the length of the list.
 ``` 
 x[:2] 
 ```
-First value defaults to zero and the second value to the length of the list.
+
+**[start:end:step]** extracts from the start offset to the end offset minus 1 skipping characters by step
+
 
 **split() method**
     - splits a string into a list.
