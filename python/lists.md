@@ -13,6 +13,19 @@ layout: default
 > [OOP](./oop.html) || [back](./)
 
 ***
+<dl>
+	<dd>[Strings](./strings.html) </<dd>
+	<dd>[Variables](./variables.html)</<dd>	
+</dl>
+<dl><dt>[Data Structure](./datastructure.html) <dt>
+	<dd>[Lists](./lists.html) </<dd>
+	<dd>[List Methods](./listmethods.html)</<dd>	
+</dl>
+<dl>
+	<dd></<dd>
+	<dd></<dd>
+</dl>
+
 
 ## List
 
