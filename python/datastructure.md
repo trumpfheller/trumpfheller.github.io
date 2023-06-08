@@ -42,7 +42,7 @@
     * using the **plus** operator + in order to concatenate; and 
     * using the **in** keyword to check if the sequence contains a value.
 
-### Common sequence operations
+- Common sequence operations
 * len(sequence) 
     - Returns the length of the sequence
 * for element in sequence 
