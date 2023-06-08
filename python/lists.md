@@ -219,16 +219,17 @@ x[:2]
 **split() method**
     - splits a string into a list.
 
-    ```python
-        # Example 1
-        txt = "welcome to the wild"
-        x = txt.split()
-        print(x)
+```python
+# Example 1
+txt = "welcome to the wild"
+x = txt.split()
+print(x)
 
         #OUTPUT
-        #['welcome', 'to', 'the', 'wild']
+['welcome', 'to', 'the', 'wild']
     ```
 
+<br>
 | method | what it does |  
 |:-------------|:------------------| 
 | list[i] = x | Replaces the element at index i with x |  
@@ -272,6 +273,7 @@ Most of these methods come from the fact that lists are mutable sequences.
 ```python
 list.insert(0, "New data") 
 ```
+
 - would add the string "New data" to the front of the list. 
 - This wouldn't overwrite the existing element at the start of the list. 
 - It would just shift all the other elements by one. 
@@ -283,12 +285,14 @@ fruits.insert(0,"Orange")
 print(fruits)
 ["Orange", "Pineapple", "Banana", "Apple", "Melon"]
 ```
+
 What happens if we use a number larger than the length of the list?
 ```python
 fruits.insert(25,"Peach")
 print(fruits)
 ["Orange", "Pineapple", "Banana", "Apple", "Melon", "Peach"]
 ```
+
 No errors. If an index higher is than the current length, the element just gets added to the end. Y
 - usually, you either 
     - add at the beginning using insert() at the zero index 
@@ -299,7 +303,6 @@ fruits = ["Orange", "Pineapple", "Banana", "Kiwi","Peach"]
 fruits[2] = "Strawberry"
 print(fruits)
 ["Orange", "Pineapple", "Strawberry", "Banana", "Kiwi","Peach"]
-
 ```
 
 **replace via indexing**
@@ -309,7 +312,8 @@ For example, you can enter
 ```python
     list[0] = "Old data" 
 ```
-    to overwrite the first element in a list with the new string "Old data".
+
+to overwrite the first element in a list with the new string "Old data".
 
 **pop() method**
 * Another way we can remove elements 
@@ -317,9 +321,10 @@ For example, you can enter
 * pop method returns the element that was removed at the index that was passed.
 * to change an item by assigning something else to that position, 
 **Syntax**
-    ```
-    list.pop(pos)
-    ```
+
+```
+list.pop(pos)
+```
 
 ```python
 fruits = ["Orange", "Pineapple", "Banana", "Apple"]
@@ -349,10 +354,10 @@ print(fruits)
 
 **same result accomplished with pop()**
 ```python
-	fruits = ['apple', 'banana', 'cherry']
-	fruits.pop(1)
-	print(fruits)
-	['apple', 'cherry']
+fruits = ['apple', 'banana', 'cherry']
+fruits.pop(1)
+print(fruits)
+['apple', 'cherry']
 ```
 This method differs from the remove method in that it takes an index as a parameter, and returns the element that was removed. 
 This can be useful if you don't know what the value is, but you know where it’s located. 
@@ -367,8 +372,8 @@ This can also be useful when you need to access the data and also want to remove
 **reversed() method**
 -  specify the sequence in a forward direction
 ```python
-    for i in reversed(range(1, 10, 2)):
-        print(i)
+for i in reversed(range(1, 10, 2)):
+    print(i)
 #OUTPUT
 9
 7
@@ -389,7 +394,7 @@ This can also be useful when you need to access the data and also want to remove
 ```
 
 
-#### Enumerate - [Iterating Over Lists](https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate)
+### Enumerate - [Iterating Over Lists](https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate)
 - When looping through a sequence, the position index and corresponding value can be retrieved at the same time.
 - to access the elements in a list, along with the index of the element in question.
 - takes a list as a parameter and returns a tuple for each element in the list. 
@@ -403,7 +408,7 @@ The first value of the tuple is the index and the second value is the element it
 2 toe
 ```
 
-#### List Comprehensions
+### List Comprehensions
 - creating lists in a shorter way. 
 - create new lists based on sequences or ranges.
 -  to create a list based on a range like in this example. Or based on the contents of a list a tuple a string or any other Python sequence. 
@@ -443,7 +448,7 @@ print(lengths)
 ```
 Or we could use a list comprehension like this
 
-#### List comprehensions and conditional clause. 
+### List comprehensions and conditional clause. 
 * all the numbers that are divisible by 3 between 0 and a 100. 
 
 ```python
@@ -451,19 +456,16 @@ z = [x for x in range(0,101) if x % 3 == 0]
 print(z)
 [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99]
 ```
-In this case we just want the element x to be a part of the list, 
-but we only want the numbers where the remainder of the division by 3 is 0. 
-So we add the conditional clause after the range. 
 
-Using list comprehensions when programming in Python is totally optional. 
-Sometimes it can make the code look nicer and more readable, at other times it can have the opposite effect, 
+Using list comprehensions can make the code look nicer and more readable, 
+at other times it can have the opposite effect, 
 especially if we try to pack too much information together. 
-In general, it's a good idea to know that list comprehensions exist, 
-especially when you're trying to understand someone else's code. 
 
+
+iterate over the range 1 to 10, and multiply each element in the range by 2. This would result in a list of the multiples of 2, from 2 to 20.
 to create a new list from a sequence or a range in a single line 
 [You can create lists from sequences using a for loop].
-For example,
+
 ```python
 	x*2 for x in range(1,11) 
 ```
