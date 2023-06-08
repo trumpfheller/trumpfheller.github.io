@@ -6,7 +6,7 @@ layout: default
 > [Data Structure](./datastructure.html) || 
 > [Lists](./lists.html) || [List Methods](./listmethods.html) || 
 > >[Tuples](./tuples.html) || [Tuple Methods](./tuplemethods.html) || 
-> > [Dictionary](./dictionary.html) ||[Dictionary Methods](./dictionarymethods.html) ||
+> >[Dictionary](./dictionary.html) ||[Dictionary Methods](./dictionarymethods.html) ||
 
 
 ***
