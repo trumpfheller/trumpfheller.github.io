@@ -217,19 +217,19 @@ x[:2]
 
 
 **split() method**
-    - splits a string into a list.
+- splits a string into a list.
 
 ```python
-# Example 1
 txt = "welcome to the wild"
 x = txt.split()
 print(x)
 
-        #OUTPUT
+#OUTPUT
 ['welcome', 'to', 'the', 'wild']
-    ```
+```
 
 <br>
+
 | method | what it does |  
 |:-------------|:------------------| 
 | list[i] = x | Replaces the element at index i with x |  
@@ -243,7 +243,7 @@ print(x)
 | list.copy() | Creates a copy of the list | 
 | list.extend(other_list) | Appends all the elements of other_list at the end of list | 
 
-
+<br>
 **Modifying Lists**
 Most of these methods come from the fact that lists are mutable sequences.
 * lists are mutable (we can add, remove, or modify elements in a list.) 
