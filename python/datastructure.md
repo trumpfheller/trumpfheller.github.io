@@ -38,9 +38,8 @@
 
 **Strings**
 - Although not a traditional data structure, strings are fundamental in programming. 
--  are sequences of characters and provide methods for manipulating and working with textual data.
+- are sequences of characters and provide methods for manipulating and working with textual data.
 - are sequences of characters 
-- are immutable. 
 
 
 ***
