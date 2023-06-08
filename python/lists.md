@@ -132,12 +132,12 @@ type(x)
 <class list>
 ```
 
-- keyword “in”: 
-    - to check if a list contains a certain element 
-        * If the element is present, it will return a True boolean. 
-        * If the element is not found in the list, it will return False.  
-    - result of this check is a Boolean, which we can use as a condition for branching or looping.
-    - 
+**keyword “in”** 
+- to check if a list contains a certain element 
+ * If the element is present, it will return a True boolean. 
+ * If the element is not found in the list, it will return False.  
+- result of this check is a Boolean, which we can use as a condition for branching or looping.
+  
 ```python
 x = ["This", "is", "a", "list"]
 "Today" in x
