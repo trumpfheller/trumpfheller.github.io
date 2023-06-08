@@ -1,10 +1,25 @@
 ## Sequences & Data Structure
 
+## Types of Data Structures: 
+    - container#1: Lists, 
+    - container#2: Tuples, 
+    - container#3: Sets, 
+    - container#4: Dictionaries
+
+[docs](https://docs.python.org/3/tutorial/datastructures.html)
+
 **Lists**: 
-- ordered collections of items and can store heterogeneous data types. 
-- Lists are mutable, meaning you can add, remove, or modify elements in-place.
-	- are sequences of elements of any type 
-	- are mutable. (we can add, remove, or modify elements in a list.) 
+- are **ordered**, an ordered collection of items/objects (an **innate** characteristic of the list).
+    - the items have a defined order, 
+    - that order will not change.
+    - lists with the same elements in a different order are not the same.
+- are sequences of elements of any type (like complex objects)
+    - Functions
+    - Classes
+    - Module
+- may contain any number of elements/objects (constrained by the computer’s memory, of course), of any type(can store heterogeneous data types). 
+- Does not to be unique: same object may occur any number of times.
+- are **mutable**, meaning you can add, remove, or modify elements in-place.
 
 **Tuples**
 - similar to lists but are immutable, meaning they cannot be modified once created. 
@@ -26,6 +41,8 @@
 -  are sequences of characters and provide methods for manipulating and working with textual data.
 - are sequences of characters 
 - are immutable. 
+
+
 ***
 
 	
@@ -55,3 +72,5 @@
     	* Accesses a slice starting at index i, ending at index j-1. If i is omitted, it's 0 by default. If j is omitted, it's len(sequence) by default.
     * for index, element in enumerate(sequence) 
     	* Iterates over both the indexes and the elements in the sequence at the same time
+
+
