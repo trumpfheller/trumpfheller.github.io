@@ -60,9 +60,9 @@ li.count('b') # number of occurrences
 
 ```python
 fruits = ["apple", "banana", "cherry"]
-	fruits.append("orange")
+fruits.append("orange")
 	print(fruits)
-	['apple', 'banana', 'cherry', 'orange']
+['apple', 'banana', 'cherry', 'orange']
 ```
 
 **insert() method**
