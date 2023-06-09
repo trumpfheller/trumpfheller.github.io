@@ -162,7 +162,13 @@ x[:2]
 
 **[start:end:step]** extracts from the start offset to the end offset minus 1 skipping characters by step
 
-
+**index() method** 
+```python 
+li = ['a', 'b', 'c', 'b']
+li.index('b') # index of first occurrence*
+# OUTPUT
+1
+```
 
 ## Zip and Enumerate
 - when dealing with loops
