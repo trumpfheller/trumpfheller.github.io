@@ -3,14 +3,6 @@ title: Lists
 layout: default
 ---
 
-> [Data Structure](./datastructure.html) || 
-> [Lists](./lists.html) || [List Methods](./listmethods.html) || 
-> [Tuples](./tuples.html) || [Tuple Methods](./tuplemethods.html) || 
-> [Dictionary](./dictionary.html) || [Dictionary Methods](./dictionarymethods.html) ||
-
-
-***
-
 ## List
 
 ```python
@@ -448,6 +440,14 @@ List comprehensions can be really powerful, but they can also be super complex, 
 [expression for variable in sequence] Creates a new list based on the given sequence. Each element is the result of the given expression.
 [expression for variable in sequence if condition] Creates a new list based on the given sequence. Each element is the result of the given expression; elements only get added if the condition is true. 
 
+
+
+***
+
+> [Data Structure](./python/datastructure.html) || 
+> [Lists](./python/lists.html) || [List Methods](./python/listmethods.html) || 
+> [Tuples](./tuples.html) || [Tuple Methods](./tuplemethods.html) || 
+> [Dictionary](./python/dictionary.html) || [Dictionary Methods](./python/dictionarymethods.html) ||
 
 
 ***
