@@ -31,14 +31,6 @@ print(fruits)
 ["Orange", "Pineapple", "Banana"]
 ```
 
-**index() method** 
-```python 
-li = ['a', 'b', 'c', 'b']
-li.index('b') # index of first occurrence*
-# OUTPUT
-1
-```
-
 **count() method** 
 ```python 
 li.count('b') # number of occurrences
