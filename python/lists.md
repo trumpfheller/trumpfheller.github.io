@@ -357,9 +357,9 @@ List comprehensions can be powerful, but also be super complex, resulting in cod
 ***
 
 > [Data Structure](./python/datastructure.html) || 
-> [Lists](./python/lists.html) || [List Methods](./python/listmethods.html) || 
+> [Lists](./lists.html) || [List Methods](./listmethods.html) || 
 > [Tuples](./tuples.html) || [Tuple Methods](./tuplemethods.html) || 
-> [Dictionary](./python/dictionary.html) || [Dictionary Methods](./python/dictionarymethods.html) ||
+> [Dictionary](./dictionary.html) || [Dictionary Methods](./dictionarymethods.html) ||
 
 
 ***
