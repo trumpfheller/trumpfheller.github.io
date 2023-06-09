@@ -130,7 +130,20 @@ False
 ```
 
 
+**Slicing**
+
 **slice method**
+- use indexes to create a slice of the list. 
+
+```python
+# the range starts at index one and goes up to the second index minus one.
+
+x[1:3]
+
+# First value defaults to zero and the second value to the length of the list.
+
+x[:2] 
+```
 
 **[:]** extracts the entire sequence from start to end
 
