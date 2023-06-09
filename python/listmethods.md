@@ -51,7 +51,7 @@ li.count('b') # number of occurrences
 | list.copy() | Creates a copy of the list | 
 | list.extend(other_list) | Appends all the elements of other_list at the end of list | 
 
-
+	
 <br>
 	
 **append() method** 
