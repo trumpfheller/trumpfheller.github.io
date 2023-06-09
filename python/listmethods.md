@@ -52,6 +52,7 @@ li.count('b') # number of occurrences
 | list.extend(other_list) | Appends all the elements of other_list at the end of list | 
 
 <br>
+	
 **append() method** 
 - adding an element to a list (adds a new element at the end of the list.)
 - list.append("New data") would add the string "New data" to the end of the list.
