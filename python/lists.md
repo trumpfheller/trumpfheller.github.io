@@ -343,14 +343,18 @@ Appending an if statement to the end of the comprehension.
 	x for x in range(1,101) if x % 10 == 0 
 ```
 
-would generate a list containing all the integers divisible by 10 from 1 to 100. The if statement we added here evaluates each value in the range from 1 to 100 to check if it’s evenly divisible by 10. If it is, it gets added to the list.
+* would generate a list containing all the integers divisible by 10 from 1 to 100. 
+* if statement evaluates each value in the range from 1 to 100 to check if it’s evenly divisible by 10. 
+* If it is, it gets added to the list.
 
 List comprehensions can be powerful, but also be super complex, resulting in code that’s hard to read. 
 
 
 
-[expression for variable in sequence] Creates a new list based on the given sequence. Each element is the result of the given expression.
-[expression for variable in sequence if condition] Creates a new list based on the given sequence. Each element is the result of the given expression; elements only get added if the condition is true. 
+[expression for variable in sequence] 
+- Creates a new list based on the given sequence. Each element is the result of the given expression.
+[expression for variable in sequence if condition] 
+- Creates a new list based on the given sequence. Each element is the result of the given expression; elements only get added if the condition is true. 
 
 
 
