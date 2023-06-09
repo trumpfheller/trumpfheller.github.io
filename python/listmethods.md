@@ -10,19 +10,14 @@ layout: default
 * strings are not mutable. 
 * Changing the list means we keep the same box and we add, remove, or change the elements inside that box.
 
-| method | returns values |  
-|:-------------|:------------------| 
-| list.pop(i) | Returns the element a index i, also removing it from the list. If i is omitted, the last element is returned and removed. | 
-| list.index(<obj>[,<start>[, <end>]]) | . | 
-| list.count(<obj>) | . | 
-| list.copy() | . | 
 
-<br>
-**pop() method** 
+**returns values - pop() method** 
+* list.pop(i)
 * remove elements 
 * method receives an index.
-* pop method returns the element that was removed at the index that was passed.
-* to change an item by assigning something else to that position, 
+* returns the element that was removed at the index that was passed.
+* to change an item by assigning something else to that position 
+* Returns the element a index i, also removing it from the list. If i is omitted, the last element is returned and removed.
 
 ```python
 fruits = ["Orange", "Pineapple", "Banana", "Apple"]
@@ -31,12 +26,18 @@ print(fruits)
 ["Orange", "Pineapple", "Banana"]
 ```
 
-**count() method** 
+**returns values - count() method** 
 ```python 
 li.count('b') # number of occurrences
 2
 ```
+**returns values - index() method** 
+* list.index(<obj>[,<start>[, <end>]]) 
+	
+**returns values - count(<obj>) method** 
+* list.count(<obj>) 
 
+<br>
 | method | what it does |  
 |:-------------|:------------------| 
 | list[i] = x | Replaces the element at index i with x |  
