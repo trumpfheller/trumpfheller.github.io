@@ -51,6 +51,7 @@ li.count('b') # number of occurrences
 | list.copy() | Creates a copy of the list | 
 | list.extend(other_list) | Appends all the elements of other_list at the end of list | 
 
+
 <br>
 	
 **append() method** 
@@ -64,7 +65,7 @@ fruits.append("orange")
 print(fruits)
 ['apple', 'banana', 'cherry', 'orange']
 ```
-
+<br>
 
 **insert() method**
 - to add an element to a list in a specific position, instead of at the end.
