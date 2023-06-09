@@ -38,6 +38,7 @@ li.count('b') # number of occurrences
 * list.count(<obj>) 
 
 <br>
+	
 | method | what it does |  
 |:-------------|:------------------| 
 | list[i] = x | Replaces the element at index i with x |  
