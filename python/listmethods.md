@@ -59,12 +59,15 @@ li.count('b') # number of occurrences
 - list.append("New data") would add the string "New data" to the end of the list.
 - mylist.append(<object>)
 
+	
 ```python
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 print(fruits)
 ['apple', 'banana', 'cherry', 'orange']
 ```
+
+	
 <br>
 
 **insert() method**
