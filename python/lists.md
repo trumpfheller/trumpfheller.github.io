@@ -35,17 +35,7 @@ a is b
 False
 ```
 
-- can be accessed via index
-	- if we try to access an element after the end of the list We get an index error. We can't go over the end of the list.
-
-```python
-fruits = ['apple', 'banana', 'cherry']
-x = fruits.index("cherry")
-print(x)
-    #OUTOUT
-2
-```
-
+> Action item
 - can be nested to arbitrary depth
 - dynamic
 
@@ -172,33 +162,76 @@ x[:2]
 
 **[start:end:step]** extracts from the start offset to the end offset minus 1 skipping characters by step
 
+## Zip and Enumerate
+- when dealing with loops
 
-**split() method**
-- splits a string into a list.
+## Zip 
+```python
+list(zip(['a', 'b', 'c'], [1, 2, 3])) 
+# Output 
+[('a', 1), ('b', 2), ('c', 3)].
+```
+## Enumerate 
+- use this when you want the index along with each element of an iterable in a loop.
+- [Iterating Over Lists](https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate)
+- position index and corresponding value can be retrieved at the same time.
+- to access the elements in a list, along with the index of the element in question.
+- takes a list as a parameter and **returns a tuple for each element in the list**. 
+    - First value of the tuple is the index 
+    - Second value is the element itself.
 
 ```python
-txt = "welcome to the wild"
-x = txt.split()
-print(x)
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
+0 tic
+1 tac
+2 toe
 
-#OUTPUT
-['welcome', 'to', 'the', 'wild']
+letters = ['a', 'b', 'c', 'd', 'e']
+for i, letter in enumerate(letters):
+    print(i, letter)
+    0 a
+1 b
+2 c
+3 d
+4 e
 ```
 
-<br>
+**Use enumerate to modify the list**
+```python
+index = 0
+for value in values:
+    print(index, value)
+    index += 1
+# OUTPUT
+0 a
+1 b 
+2 c
 
-| method | what it does |  
-|:-------------|:------------------| 
-| list[i] = x | Replaces the element at index i with x |  
-| list.append(x) | Inserts x at the end of the list |  
-| list.insert(i, x) | Inserts x at index i |  
-| list.pop(i) | Returns element a index i, also removing it from the list. If i is omitted, last element is returned and removed. | 
-| list.remove(x) | Removes the first occurrence of x in the list | 
-| list.sort() | Sorts the items in the list | 
-| list.reverse() | Reverses the order of items of the list | 
-| list.clear() | Removes all the items of the list | 
-| list.copy() | Creates a copy of the list | 
-| list.extend(other_list) | Appends all the elements of other_list at the end of list | 
+for index in range(len(values)):
+    value = values[index]
+    print(index, value)
+# OUTPUT
+0 a
+1 b
+2 c
+
+fruits = ['apple', 'banana', 'orange', 'grape']
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, Fruit: {fruit}")
+
+Index: 0, Fruit: apple
+Index: 1, Fruit: banana
+Index: 2, Fruit: orange
+Index: 3, Fruit: grape
+
+my_list = [1, 2, 3, 4, 5]
+for index, value in enumerate(my_list):
+    my_list[index] = value * 2
+
+print(my_list)
+[2, 4, 6, 8, 10]
+```
 
 <br>
 
@@ -432,9 +465,10 @@ Appending an if statement to the end of the comprehension.
  ```python
 	x for x in range(1,101) if x % 10 == 0 
 ```
+
 would generate a list containing all the integers divisible by 10 from 1 to 100. The if statement we added here evaluates each value in the range from 1 to 100 to check if it’s evenly divisible by 10. If it is, it gets added to the list.
 
-List comprehensions can be really powerful, but they can also be super complex, resulting in code that’s hard to read. Be careful when using them, since it might make it more difficult for someone else looking at your code to easily understand what the code is doing.
+List comprehensions can be powerful, but also be super complex, resulting in code that’s hard to read. 
 
 
 
