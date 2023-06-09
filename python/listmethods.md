@@ -468,7 +468,6 @@ List comprehensions can be powerful, but also be super complex, resulting in cod
 ***
 
 > [Data Structure](./datastructure.html) <br>
-> [Data Structure_](./datastructure00.html) <br>
 > [Lists](./lists.html) <br>
 > [List methods](./listmethods.html) <br>
 > [Tuples](./tuples.html) <br>
