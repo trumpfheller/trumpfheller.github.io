@@ -262,6 +262,202 @@ print(' '.join(map(str, my_list)))
 1 2 3 4 5
 ```
 
+## Zip and Enumerate
+- when dealing with loops
+
+## Zip 
+```python
+list(zip(['a', 'b', 'c'], [1, 2, 3])) 
+# Output 
+[('a', 1), ('b', 2), ('c', 3)].
+```
+
+```python
+x_coord = [23, 53, 2, -12, 95, 103, 14, -5]
+y_coord = [677, 233, 405, 433, 905, 376, 432, 445]
+z_coord = [4, 16, -6, -42, 3, -6, 23, -1]
+labels = ["F", "J", "A", "Q", "Y", "B", "W", "X"]
+
+points = []
+for point in zip(labels, x_coord, y_coord, z_coord):
+    points.append("{}: {}, {}, {}".format(*point))
+    # tuple is unpacked using * in the format method
+
+for point in points:
+    print(point)
+
+# OUTPUT
+F: 23, 677, 4
+J: 53, 233, 16
+A: 2, 405, -6
+Q: -12, 433, -42
+Y: 95, 905, 3
+B: 103, 376, -6
+W: 14, 432, 23
+X: -5, 445, -1
+```
+
+**Use zip to write a for loop**
+```python
+```
+
+**Zip Lists to a Dictionary**
+```python
+```
+
+**Unzip Tuples**
+```python
+```
+
+## Enumerate 
+- use this when you want the index along with each element of an iterable in a loop.
+- [Iterating Over Lists](https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate)
+- position index and corresponding value can be retrieved at the same time.
+- to access the elements in a list, along with the index of the element in question.
+- takes a list as a parameter and **returns a tuple for each element in the list**. 
+    - First value of the tuple is the index 
+    - Second value is the element itself.
+
+```python
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
+0 tic
+1 tac
+2 toe
+
+letters = ['a', 'b', 'c', 'd', 'e']
+for i, letter in enumerate(letters):
+    print(i, letter)
+    0 a
+1 b
+2 c
+3 d
+4 e
+```
+
+**Use enumerate to modify the list**
+```python
+index = 0
+for value in values:
+    print(index, value)
+    index += 1
+# OUTPUT
+0 a
+1 b 
+2 c
+
+for index in range(len(values)):
+    value = values[index]
+    print(index, value)
+# OUTPUT
+0 a
+1 b
+2 c
+
+fruits = ['apple', 'banana', 'orange', 'grape']
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, Fruit: {fruit}")
+
+Index: 0, Fruit: apple
+Index: 1, Fruit: banana
+Index: 2, Fruit: orange
+Index: 3, Fruit: grape
+
+my_list = [1, 2, 3, 4, 5]
+for index, value in enumerate(my_list):
+    my_list[index] = value * 2
+
+print(my_list)
+[2, 4, 6, 8, 10]
+```
+
+## List Comprehensions
+- creating lists in a shorter way. 
+- create new lists based on sequences or ranges.
+- create a list based on a range or based on the contents of a list, a tuple, a string or any other Python sequence. 
+- The syntax tries to copy how you would express these concepts with natural language. 
+
+**Syntax** 
+```
+newlist = [expression for item in iterable if condition == True]
+```
+
+**Example #1**
+to create a list with multiples of 7 from 7 to 70.
+```python
+multiples = []
+	for x in range(1,11):
+	multiples.append(x*7)
+print(multiples)
+[7, 14, 21, 28, 35, 42, 49, 56, 63, 70]
+```
+
+=> same in just one line - with list comprehension.
+
+```python
+multiples = [ x * 7 for x in range(1,11)] 
+print(multiples)
+[7, 14, 21, 28, 35, 42, 49, 56, 63, 70]
+```
+
+**Example #2**
+* a list of strings with the names of programming languages 
+* generate a list of the length of the strings. 
+
+We could iterate over the list and add them using a pen like we did before. 
+```python
+languages = ["Python", "Ruby", "Java", "Perl", "Go"]
+lengths = [len(language) for language in languages]
+print(lengths)
+[6, 4, 4, 4, 2]
+```
+Or we could use a list comprehension like this
+
+=> action item more examples
+
+#### List comprehensions and conditional clause. 
+* all the numbers that are divisible by 3 between 0 and a 100. 
+
+```python
+z = [x for x in range(0,101) if x % 3 == 0] 
+print(z)
+[0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93, 96, 99]
+```
+
+Using list comprehensions can make the code look nicer and more readable, 
+at other times it can have the opposite effect, 
+especially if we try to pack too much information together.  
+
+iterate over the range 1 to 10, and multiply each element in the range by 2. This would result in a list of the multiples of 2, from 2 to 20.
+to create a new list from a sequence or a range in a single line 
+[You can create lists from sequences using a for loop].
+
+```python
+	x*2 for x in range(1,11) 
+```
+
+
+
+appending an if statement to the end of the comprehension. 
+ ```python
+	x for x in range(1,101) if x % 10 == 0 
+```
+
+* would generate a list containing all the integers divisible by 10 from 1 to 100. 
+* if statement evaluates each value in the range from 1 to 100 to check if it’s evenly divisible by 10. 
+* If it is, it gets added to the list.
+
+List comprehensions can be powerful, but also be super complex, resulting in code that’s hard to read. 
+
+
+[expression for variable in sequence] 
+- Creates a new list based on the given sequence. Each element is the result of the given expression.
+
+[expression for variable in sequence if condition] 
+- Creates a new list based on the given sequence. Each element is the result of the given expression; elements only get added if the condition is true. 
+
+
+
 
 ## List-specific methods 
 - [w3](www.w3schools.com/python/python_ref_list.asp)
