@@ -162,6 +162,8 @@ x[:2]
 
 **[start:end:step]** extracts from the start offset to the end offset minus 1 skipping characters by step
 
+
+
 ## Zip and Enumerate
 - when dealing with loops
 
@@ -171,6 +173,33 @@ list(zip(['a', 'b', 'c'], [1, 2, 3]))
 # Output 
 [('a', 1), ('b', 2), ('c', 3)].
 ```
+
+```python
+x_coord = [23, 53, 2, -12, 95, 103, 14, -5]
+y_coord = [677, 233, 405, 433, 905, 376, 432, 445]
+z_coord = [4, 16, -6, -42, 3, -6, 23, -1]
+labels = ["F", "J", "A", "Q", "Y", "B", "W", "X"]
+
+points = []
+for point in zip(labels, x_coord, y_coord, z_coord):
+    points.append("{}: {}, {}, {}".format(*point))
+    # tuple is unpacked using * in the format method
+
+for point in points:
+    print(point)
+
+# OUTPUT
+F: 23, 677, 4
+J: 53, 233, 16
+A: 2, 405, -6
+Q: -12, 433, -42
+Y: 95, 905, 3
+B: 103, 376, -6
+W: 14, 432, 23
+X: -5, 445, -1
+```
+
+
 ## Enumerate 
 - use this when you want the index along with each element of an iterable in a loop.
 - [Iterating Over Lists](https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate)
@@ -232,158 +261,6 @@ for index, value in enumerate(my_list):
 print(my_list)
 [2, 4, 6, 8, 10]
 ```
-
-<br>
-
-**Modifying Lists**
-* Most of these methods come from the fact that lists are mutable sequences.
-* lists are mutable (we can add, remove, or modify elements in a list.) 
-* strings are not mutable. 
-* Changing the list means we keep the same box and we add, remove, or change the elements inside that box.
-
-**List-specific methods** [w3schools](https://www.w3schools.com/python/python_ref_list.asp)
-
-
-**append() method**
-- adding an element to a list (adds a new element at the end of the list.)
-- list.append("New data") would add the string "New data" to the end of the list.
-
-```python
-	fruits = ["apple", "banana", "cherry"]
-	fruits.append("orange")
-	print(fruits)
-	['apple', 'banana', 'cherry', 'orange']
-```
-
-**insert() method**
-- If you want to add an element to a list in a specific position, instead of at the end.
-- The method takes two parameters: 
-    - an index as the first parameter 
-    - element as the second parameter. 
-
-```python
-list.insert(0, "New data") 
-```
-
-- would add the string "New data" to the front of the list. 
-- This wouldn't overwrite the existing element at the start of the list. 
-- It would just shift all the other elements by one. 
-- If you specify an index that’s larger than the length of the list, the element will simply be added to the end of the list.
-
-```python
-fruits = ["Pineapple", "Banana", "Apple", "Melon"]
-fruits.insert(0,"Orange")
-print(fruits)
-["Orange", "Pineapple", "Banana", "Apple", "Melon"]
-```
-
-What happens if we use a number larger than the length of the list?
-```python
-fruits.insert(25,"Peach")
-print(fruits)
-["Orange", "Pineapple", "Banana", "Apple", "Melon", "Peach"]
-```
-
-No errors. If an index higher is than the current length, the element just gets added to the end. Y
-- usually, you either 
-    - add at the beginning using insert() at the zero index 
-    - add at the end using append(). 
-
-```python 
-fruits = ["Orange", "Pineapple", "Banana", "Kiwi","Peach"]
-fruits[2] = "Strawberry"
-print(fruits)
-["Orange", "Pineapple", "Strawberry", "Banana", "Kiwi","Peach"]
-```
-
-**replace via indexing**
-you can change an element in a list
-to overwrite the value stored at the specified index. 
-For example, you can enter 
-```python
-    list[0] = "Old data" 
-```
-
-to overwrite the first element in a list with the new string "Old data".
-
-**pop() method**
-* Another way we can remove elements 
-* method receives an index.
-* pop method returns the element that was removed at the index that was passed.
-* to change an item by assigning something else to that position, 
-**Syntax**
-
-```
-list.pop(pos)
-```
-
-```python
-fruits = ["Orange", "Pineapple", "Banana", "Apple"]
-fruits.pop(3)
-print(fruits)
-["Orange", "Pineapple", "Banana"]
-```
-
-**remove() method**
-- remove elements from the list using the value of the element we want to remove. 
-- removes the first occurrence of the element from the list.
-- If the element is not in the list - we get a value error ("element isn't in the list"). 
-
-**Syntax**
-    ```python
-        list.remove(elmnt)
-    ```
-This method takes an element as a parameter, and removes the first occurrence of the element. 
-If the element isn’t found in the list, you’ll get a ValueError error explaining that the element was not found in the list.
-
-```python
-fruits = ["Orange", "Pineapple", "Banana", "Apple"]
-fruits.remove("Apple")
-print(fruits)
-["Orange", "Pineapple", "Banana"]
-```
-
-**same result accomplished with pop()**
-```python
-fruits = ['apple', 'banana', 'cherry']
-fruits.pop(1)
-print(fruits)
-['apple', 'cherry']
-```
-This method differs from the remove method in that it takes an index as a parameter, and returns the element that was removed. 
-This can be useful if you don't know what the value is, but you know where it’s located. 
-This can also be useful when you need to access the data and also want to remove it from the list.
-
-**Use cases**
-- If the list contains hosts on a network, you could add or remove hosts as they come online or offline. 
-- If the list contains users authorized to run a certain process, you could add or remove users when permissions are granted or removed and so on. 
-- you'll use a list whenever you need to write a program that'll handle a variable amount of elements
-- You will use whenever you need to write a programm that'll handle a sequence of a fixed amount of elements.
-
-**reversed() method**
--  specify the sequence in a forward direction
-```python
-for i in reversed(range(1, 10, 2)):
-    print(i)
-#OUTPUT
-9
-7
-5
-3
-1
-```
-
-**extend() method**
-- adds the specified list elements (or any iterable) to the end of the current list.
-
-```python
-	fruits = ['apple', 'banana', 'cherry']
-	cars = ['Ford', 'BMW', 'Volvo']
-	fruits.extend(cars)
-	print(fruits)
-	['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
-```
-
 
 ### Enumerate - [Iterating Over Lists](https://docs.python.org/3/tutorial/datastructures.html?highlight=enumerate)
 - When looping through a sequence, the position index and corresponding value can be retrieved at the same time.
