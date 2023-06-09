@@ -2,13 +2,6 @@
 title: ggl python List methods
 layout: default
 ---
-> [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
-> [Control](./control.html) || [Function](./function.html)|| [Files](./files.html) || [Exceptions](./exceptions.html) ||
-> [OOP](./oop.html) || [Algorithm](./algorithms.html) ||[Data Structure](./datastructure.html) ||[Data Structure_](./datastructure00.html) ||[back](../)
-
-> [List Methods](./listmethods.html) ||
-
-***
 
 ## List methods
 
@@ -280,3 +273,17 @@ print(' '.join(map(str, my_list)))
 
 ## List-specific methods 
 - [w3](www.w3schools.com/python/python_ref_list.asp)
+	
+***
+
+> [Data Structure](./datastructure.html) <br>
+> [Data Structure_](./datastructure00.html) <br>
+> [Lists](./lists.html) <br>
+> [List methods](./listmethods.html) <br>
+> [Tuples](./tuples.html) <br>
+> [Tuples methods](./tuplemethods.html) <br>
+> [Dictionary](./dictionary.html) <br>
+> [Dictionary methods](./dictionarymethods.html) <br>
+> [back](../)
+
+***
