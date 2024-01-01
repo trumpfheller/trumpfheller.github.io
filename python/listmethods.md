@@ -10,6 +10,20 @@ layout: default
 * strings are not mutable. 
 * Changing the list means we keep the same box and we add, remove, or change the elements inside that box.
 
+| method | what it does |  
+|:-------------|:------------------| 
+| list[i] = x | Replaces the element at index i with x |  
+| list.append(x) | Inserts x at the end of the list |  
+| list.insert(i, x) | Inserts x at index i |  
+| list.remove(x) | Removes the first occurrence of x in the list | 
+| list.sort(<key=None>, <reverse=False>) | Sorts the items in the list | 
+| list.reverse() | Reverses the order of items of the list | 
+| list.clear() | Removes all the items of the list | 
+| list.copy() | Creates a copy of the list | 
+| list.extend(other_list) | Appends all the elements of other_list at the end of list | 
+
+	
+<br>
 
 **returns values - pop() method** 
 * list.pop(i)
@@ -39,20 +53,7 @@ li.count('b') # number of occurrences
 
 <br>
 	
-| method | what it does |  
-|:-------------|:------------------| 
-| list[i] = x | Replaces the element at index i with x |  
-| list.append(x) | Inserts x at the end of the list |  
-| list.insert(i, x) | Inserts x at index i |  
-| list.remove(x) | Removes the first occurrence of x in the list | 
-| list.sort(<key=None>, <reverse=False>) | Sorts the items in the list | 
-| list.reverse() | Reverses the order of items of the list | 
-| list.clear() | Removes all the items of the list | 
-| list.copy() | Creates a copy of the list | 
-| list.extend(other_list) | Appends all the elements of other_list at the end of list | 
 
-	
-<br>
 	
 **append() method** 
 - adding an element to a list (adds a new element at the end of the list.)
