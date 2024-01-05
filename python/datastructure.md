@@ -6,7 +6,6 @@ layout: default
 > [Control](./control.html) || [Function](./function.html)|| [Files](./files.html) || [Exceptions](./exceptions.html) ||
 > [OOP](./oop.html) || [Algorithm](./algorithm.html) ||[Data Structure](./datastructure.html) ||[back](./index.html)
 
-
 ***
 
 ## Types of Data Structures/Sequences 
