@@ -22,7 +22,7 @@ layout: default
 
 ---
 
-- MyPy Basics (Compendium)
+- MyPyHandbook
   - Data
     - [Strings](./python/strings.html)
     - [Variables](./python/variables.html)
