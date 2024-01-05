@@ -21,14 +21,15 @@ layout: default
   - [Milestone 9: Foster Continuous Learning and Knowledge Sharing](./another-page.html)
 
 - MyPy Basics (Compendium)
-  - [Strings](./python/strings.html)
-  - [Variables](./python/variables.html)
+  - Data
+    - [Strings](./python/strings.html)
+    - [Variables](./python/variables.html)
   - [Data Structure](./python/datastructure.html)
-  - [Lists](./python/lists.html) 
-  - [List methods](./python/listmethods.html)
-  - [Tuples](./python/tuples.html) 
-  - [Dictionary](./python/dictionary.html) 
-  - [Dictionary methods](./python/dictionarymethods.html)
+    - [Lists](./python/lists.html) 
+      - [List methods](./python/listmethods.html)
+    - [Tuples](./python/tuples.html) 
+    - [Dictionary](./python/dictionary.html) 
+      - [Dictionary methods](./python/dictionarymethods.html)
   - [Algorithms](./python/algorithms.html)
   - [Control](./python/control.html)
   - [Functions](./python/function.html).
