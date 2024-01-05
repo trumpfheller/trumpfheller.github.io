@@ -1,4 +1,5 @@
 ---
+title: Algorithms
 layout: default
 ---
 > [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
@@ -8,15 +9,6 @@ layout: default
 
 ## Algorithms
 
-
-### Write a Python function to reverse a string.
-
-```python
-def reverse_string(input_string):
-    return input_string[::-1]
-```
-
-***
 
 ### Sorting Algorithms
 
@@ -77,3 +69,12 @@ print("Sorted list:", my_list)
 - Binary Search
 ```python
 ```
+***
+
+### Write a Python function to reverse a string.
+
+```python
+def reverse_string(input_string):
+    return input_string[::-1]
+```
+
