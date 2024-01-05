@@ -2,6 +2,10 @@
 title: List Comprehension
 layout: default
 ---
+> [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
+>  [Control](./control.html) || [Function](./function.html)|| [Files](./files.html) || [OOP](./oop.html) ||
+
+***
 
 ## List with a comprehension
 - creating lists in a shorter way by incorporating the for/in iteration
