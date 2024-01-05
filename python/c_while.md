@@ -10,12 +10,23 @@ layout: default
 ***
 
 ## while loop
-- execute a set of statements as long as a condition is true
+
+- execute a set of statements in iterations as long as a condition is true 
 - to continuously execute code based on the value of a condition. 
-- code block can be executed multiple times instead of just once.
+- code block can be executed multiple times instead of just once; used for an indefinite number of iterations
 - performing an action over and over until a condition has changed.
-- code block will keep executing as long as the evaluation 
+- Boolean expression determines the execution of the codeblock: code block will keep executing as long as the evaluation 
 statement is true. Once the statement is no longer true, the loop exits and the next line of code will be executed.
+
+> a loop is a control structure for codeblock iteration.
+
+### Syntax
+
+
+```pythyon
+while boolean_exp:
+    codeblock
+```
 
 ### Use case
 - use them to keep asking for a username if the one provided isn't valid
