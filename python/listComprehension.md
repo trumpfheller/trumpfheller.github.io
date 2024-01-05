@@ -108,7 +108,7 @@ number_list = list(range (1,6))
 
 
 **Example #1**
-to create a list with multiples of 7 from 7 to 70.
+* to create a list with multiples of 7 from 7 to 70.
 ```python
 multiples = []
 	for x in range(1,11):
