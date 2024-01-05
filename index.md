@@ -20,6 +20,8 @@ layout: default
   - [Milestone 8: Realease Release - in progress](./playbook/0.html)
   - [Milestone 9: Foster Continuous Learning and Knowledge Sharing](./another-page.html)
 
+---
+
 - MyPy Basics (Compendium)
   - Data
     - [Strings](./python/strings.html)
@@ -37,6 +39,7 @@ layout: default
   - [Files](./python/files.html).
   - [OOP](./python/oop.html)
   
+---
 
 - Selenium & Python [Compendium]
   - [Basic](./selenium_python/selenium_py.html)
