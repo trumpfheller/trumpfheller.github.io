@@ -29,6 +29,7 @@ layout: default
   - [Data Structure](./python/datastructure.html)
     - [Lists](./python/lists.html) 
       - [List methods](./python/listmethods.html)
+      - [List comprehension](./python/listComprehension.html)
     - [Tuples](./python/tuples.html) 
     - [Dictionary](./python/dictionary.html) 
       - [Dictionary methods](./python/dictionarymethods.html)
