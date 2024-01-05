@@ -8,9 +8,9 @@ layout: default
 ### Modifying Lists
 * lists are mutable (we can add, remove, or modify elements in a list.) 
 * strings are not mutable. 
-* Changing the list means we keep the same box and we add, remove, or change the elements inside that box.
+* Changing the list means, keep the same box and add, remove, or change the elements inside that box.
 
-| method | what it does |  
+| [method](https://www.w3schools.com/python/python_ref_list.asp) | what it does |  
 |:-------------|:------------------| 
 | list[i] = x | Replaces the element at index i with x |  
 | list.append(x) | Inserts x at the end of the list |  
