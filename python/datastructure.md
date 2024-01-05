@@ -1,3 +1,8 @@
+> [Strings](./strings.html) || [Variables](./variables.html) || [Lists](./lists.html) || [Tuples](./tuples.html) || [Dictionary](./dictionary.html) ||
+>  [Control](./control.html) || [Function](./function.html)|| [Files](./files.html) || [OOP](./oop.html) ||
+
+***
+
 ## Types of Data Structures/Sequences 
     - container#1: Lists 
     - container#2: Tuples 
