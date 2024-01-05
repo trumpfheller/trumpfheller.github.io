@@ -14,7 +14,7 @@ layout: default
     - container#3: Sets 
     - container#4: Dictionaries
 
-[docs](https://docs.python.org/3/tutorial/datastructures.html)
+[docs by python.org](https://docs.python.org/3/tutorial/datastructures.html)
 
 
 ***
@@ -31,7 +31,7 @@ layout: default
     - Module
 - may contain any number of elements/objects (constrained by the computer’s memory, of course), of any type(can store heterogeneous data types). 
 - Does not to be unique: same object may occur any number of times.
-- are **mutable**, meaning you can add, remove, or modify elements in-place.
+- are **mutable**, meaning you can add, remove, or modify elements in place.
 
 **Common sequence operations**
 * **len(sequence)** 
