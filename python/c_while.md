@@ -6,7 +6,6 @@ layout: default
 > [Conditional](./c_conditional.html) || [for loop](./c_for.html)
 > [OOP](./oop.html) || [back](./)
 
-
 ***
 
 ## while loop
