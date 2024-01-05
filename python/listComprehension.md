@@ -4,11 +4,10 @@ layout: default
 ---
 
 ## List with a comprehension
-- creating lists in a shorter way. 
-- create new lists based on sequences or ranges.
-- create a list based on a range or based on the contents of a list, a tuple, a string or any other Python sequence. 
+- creating lists in a shorter way by incorporating the for/in iteration
 - The syntax tries to copy how you would express these concepts with natural language. 
-
+- there are no tuple comprehensions, only mutables types can comprehend
+  
 **Syntax** 
 
 ```
@@ -18,13 +17,13 @@ layout: default
 ```
 newlist = [expression for item in iterable if condition == True]
 ```
-- incorporates the for/in iteration
-- there are no tuple comprehensions, only mutables types can comprehend
+
 
 
 
 When to use a comprehension list
-the normal for loop looks like this:
+- create new lists based on sequences or ranges.
+- create a list based on a range or based on the contents of a list, a tuple, a string or any other Python sequence. 
 - to make new lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition. - [source: docs.python.org](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 
 
@@ -34,10 +33,9 @@ results =[]
 for i in numbers:
     i = i*2
     results.append(i)
-
 ```
 
-With comprehension it is shorter:
+Now with comprehension
 ```python
 numbers = [1,2,3,4,5]
 results =[i*2 for i in numbers]
@@ -45,13 +43,13 @@ results =[i*2 for i in numbers]
 
 ```python
 number_list = [number for number in range (1, 6)]
-
 > number_list
 
 ```
-
+```python
 nums = [1,2,3]
 [i*2 for i in nums]
+```
 
 ### Example with Strings
 ```python
@@ -69,6 +67,7 @@ print("printing results: ", results)
 
 
 ---
+**Balance readability and concise**
 > If you use the longer way, it is more readable.
 
 ```python
@@ -82,11 +81,11 @@ number_list.append(5)
 > number_list
 
 ```
-'''
-RESULT
 
+```text
+RESULT
 [1,2,3,4,5]
-'''
+```
 
 ```python
 number_list = []
