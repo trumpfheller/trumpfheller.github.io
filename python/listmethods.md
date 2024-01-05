@@ -242,6 +242,14 @@ print(my_list)
 # Output: [1, 2, 3, 4, 5]
 ```
 
+- depending on the Python version, there are different options to print
+  
+```python
+make = 'Mercedes'
+range = 600
+print(f"The GLC {name} has a range of {range} miles.")
+```
+
 **Using a loop**
 ```python
 my_list = [1, 2, 3, 4, 5]
