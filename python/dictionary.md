@@ -101,7 +101,12 @@ f150_2018_trucks = {
 Store the number of files corresponding to each extension.
 
 ```python
-file_counts ={"jpeg":10, "txt":14, "csv":2, "py":23}
+file_counts ={
+	"jpeg":10,
+	"txt":14,
+	"csv":2,
+	"py":23
+	}
 print(file_counts)
 {'jpeg': 10, 'txt': 14, 'csv': 2, 'py': 23}
 ```
