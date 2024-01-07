@@ -38,13 +38,6 @@ In a Python dictionary, the word would be the key and the definition would be t
 ```python
 ### Example
 f150_2018 = {
-    'XL': {
-        'cabin_size': 'Regular Cab',
-        'bed_size': '6.5ft',
-        'payload': 2000,  # in pounds
-        'drive_train': '4x2',
-        'engine_size': '3.3L V6'
-    },
     'XLT': {
         'cabin_size': 'SuperCab',
         'bed_size': '5.5ft',
@@ -72,22 +65,7 @@ f150_2018 = {
         'payload': 2100,  # in pounds
         'drive_train': '4x4',
         'engine_size': '3.5L V6 EcoBoost'
-    },
-    'Limited': {
-        'cabin_size': 'SuperCrew',
-        'bed_size': '5.5ft',
-        'payload': 2000,  # in pounds
-        'drive_train': '4x4',
-        'engine_size': '3.5L V6 EcoBoost'
-    },
-    'Raptor': {
-        'cabin_size': 'SuperCrew',
-        'bed_size': '5.5ft',
-        'payload': 1200,  # in pounds
-        'drive_train': '4x4',
-        'engine_size': '3.5L V6 High-Output EcoBoost'
     }
-    # Add more trims as needed
 }
 ```
 
