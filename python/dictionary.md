@@ -13,6 +13,7 @@ layout: default
 ### Dictionaries 
 - Data in a dictionary is organized into pairs of keys and values. 
 - use the key to access the corresponding value (indexed by keys).
+- Keys have to be unique always.
 
 Image to remember:
 In an English language dictionary the word comes with a definition.<br>
