@@ -33,10 +33,11 @@ In a Python dictionary, the word would be the key and the definition would be t
 	y = dict('bodystyle': 'truck', 'make': 'Ford', 'drivetrain': 'Rear-wheel Drive')
 	# empty spaces are ok here
 	# using the dict() constructor
+```
 
 ```python
 ### Example
-f150_2018_trucks = {
+f150_2018 = {
     'XL': {
         'cabin_size': 'Regular Cab',
         'bed_size': '6.5ft',
