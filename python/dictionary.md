@@ -34,6 +34,60 @@ In a Python dictionary, the word would be the key and the definition would be t
 	# empty spaces are ok here
 	# using the dict() constructor
 
+```python
+### Example
+f150_2018_trucks = {
+    'XL': {
+        'cabin_size': 'Regular Cab',
+        'bed_size': '6.5ft',
+        'payload': 2000,  # in pounds
+        'drive_train': '4x2',
+        'engine_size': '3.3L V6'
+    },
+    'XLT': {
+        'cabin_size': 'SuperCab',
+        'bed_size': '5.5ft',
+        'payload': 1800,  # in pounds
+        'drive_train': '4x4',
+        'engine_size': '2.7L V6'
+    },
+    'Lariat': {
+        'cabin_size': 'SuperCrew',
+        'bed_size': '6.5ft',
+        'payload': 2200,  # in pounds
+        'drive_train': '4x4',
+        'engine_size': '5.0L V8'
+    },
+    'King Ranch': {
+        'cabin_size': 'SuperCrew',
+        'bed_size': '5.5ft',
+        'payload': 1900,  # in pounds
+        'drive_train': '4x2',
+        'engine_size': '3.5L V6 EcoBoost'
+    },
+    'Platinum': {
+        'cabin_size': 'SuperCrew',
+        'bed_size': '6.5ft',
+        'payload': 2100,  # in pounds
+        'drive_train': '4x4',
+        'engine_size': '3.5L V6 EcoBoost'
+    },
+    'Limited': {
+        'cabin_size': 'SuperCrew',
+        'bed_size': '5.5ft',
+        'payload': 2000,  # in pounds
+        'drive_train': '4x4',
+        'engine_size': '3.5L V6 EcoBoost'
+    },
+    'Raptor': {
+        'cabin_size': 'SuperCrew',
+        'bed_size': '5.5ft',
+        'payload': 1200,  # in pounds
+        'drive_train': '4x4',
+        'engine_size': '3.5L V6 High-Output EcoBoost'
+    }
+    # Add more trims as needed
+}
 ```
 
 - Dictionaries are used to organize elements into collections (like lists). 
