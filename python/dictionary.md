@@ -76,7 +76,6 @@ f150_2018 = {
 - For a list the index is always a number, for a dictionary key it can be a different data type:
 	- strings, integers, floats, tuples, and more. 
 
-> to test 2 liners use [IDLE](https://realpython.com/python-idle/)
 
 *** 
 
@@ -87,19 +86,6 @@ f150_2018 = {
 ### Style Guide for Python Code
 * [python.org](http://www.python.org/dev/peps/pep-0008/)
 
-
-#### Formatting
-- single for the dict and double for formatting. 
-
-```python
->>> comedian = {'name': 'Eric Idle', 'age': 74}
->>> f"The comedian is {comedian['name']}, aged {comedian['age']}."
-The comedian is Eric Idle, aged 74.
-```
+> to test 2 liners use [IDLE](https://realpython.com/python-idle/)
 
 
-```python
-	x = {} 
-	print(type(x))
-	<class 'dict'>
-```
