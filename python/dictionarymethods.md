@@ -307,4 +307,13 @@ for value in file_counts.values(): 
 * keys to get the keys, and file_counts.keys()
 * values to get the values. file_counts.values()
 
+#### Formatting
+- single for the dict and double for formatting. 
+
+```python
+>>> comedian = {'name': 'Eric Idle', 'age': 74}
+>>> f"The comedian is {comedian['name']}, aged {comedian['age']}."
+The comedian is Eric Idle, aged 74.
+```
+
 *** 
