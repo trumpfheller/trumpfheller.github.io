@@ -22,6 +22,11 @@ In a Python dictionary, the word would be the key and the definition would be t
  ```python
 	x = {key1:value1, key2:value2} 
 	# a key value pair
+	x = {
+		key1:value1,
+		key2:value2
+		} 
+	# for readability
 ```
 
 - Dictionaries are used to organize elements into collections (like lists). 
