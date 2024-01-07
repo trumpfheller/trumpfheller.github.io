@@ -35,6 +35,12 @@ In a Python dictionary, the word would be the key and the definition would be t
 	# using the dict() constructor
 ```
 
+```python
+	x = {} 
+	print(type(x))
+	<class 'dict'>
+```
+
 ### Example
 
 ```python
