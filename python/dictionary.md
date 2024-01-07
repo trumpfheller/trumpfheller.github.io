@@ -35,8 +35,9 @@ In a Python dictionary, the word would be the key and the definition would be t
 	# using the dict() constructor
 ```
 
-```python
 ### Example
+
+```python
 f150_2018 = {
     'XLT': {
         'cabin_size': 'SuperCab',
