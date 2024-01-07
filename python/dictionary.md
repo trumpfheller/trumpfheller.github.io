@@ -19,7 +19,7 @@ In an English language dictionary the word comes with a definition.<br>
 In a Python dictionary, the word would be the key and the definition would be the value. 
 
 ### Syntax
- ```python
+```python
 	x = {key1:value1, key2:value2} 
 	# a key value pair
 	x = {
@@ -27,6 +27,13 @@ In a Python dictionary, the word would be the key and the definition would be t
 		key2:value2
 		} 
 	# for readability
+
+	x = dict(bodystyle="truck", make="Ford", drivetrain="Four-wheel Drive")
+	#no empty spaces allowed here
+	y = dict('bodystyle': 'truck', 'make': 'Ford', 'drivetrain': 'Rear-wheel Drive')
+	# empty spaces are ok here
+	# using the dict() constructor
+
 ```
 
 - Dictionaries are used to organize elements into collections (like lists). 
