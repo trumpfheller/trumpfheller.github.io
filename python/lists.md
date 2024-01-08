@@ -14,6 +14,7 @@ layout: default
 ```python
 	list = ["This", "is", "a", "list"] 
 ```
+> ["This", "is", "a", "list"] is called a list literal.
 
 - are **ordered**, an ordered collection of items/objects (an **innate** characteristic of the list).
     - the items have a defined order, 
@@ -23,8 +24,8 @@ layout: default
     - Functions
     - Classes
     - Module
-- may contain any number of elements/objects (constrained by the computer’s memory, of course), of any type(can store heterogeneous data types). 
-- Does not to be unique: same object may occur any number of times.
+- may contain any number of elements/objects (constrained by the computer’s memory, of course), of any type (can store heterogeneous data types). 
+- Does not have to be unique: same object may occur any number of times.
 - are **mutable**, meaning you can add, remove, or modify elements in-place.
 
 
