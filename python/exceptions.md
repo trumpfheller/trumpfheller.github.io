@@ -101,7 +101,7 @@ while True:
 ## for more visuality - maybe I should put it in a def and doc string?
 
 
-|| Exception | Description |
+| Exception | Description |
 | -------- | ------- |
  | ArithmeticError | Raised when an error occurs in numeric calculations
  | AssertionError | Raised when an assert statement fails
