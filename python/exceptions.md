@@ -103,23 +103,23 @@ while True:
 
 || Exception | Description |
  | ArithmeticError | Raised when an error occurs in numeric calculations
- | AssertionError	Raised when an assert statement fails
- | AttributeError	Raised when attribute reference or assignment fails
- | Exception	Base class for all exceptions
- | EOFError	Raised when the input() method hits an "end of file" condition (EOF)
- | FloatingPointError	Raised when a floating point calculation fails
- | GeneratorExit	Raised when a generator is closed (with the close() method)
- | ImportError	Raised when an imported module does not exist
- | IndentationError	Raised when indentation is not correct
- | IndexError	Raised when an index of a sequence does not exist
- | KeyError	Raised when a key does not exist in a dictionary
- | KeyboardInterrupt	Raised when the user presses Ctrl+c, Ctrl+z or Delete
- | LookupError	Raised when errors raised cant be found
- | MemoryError	Raised when a program runs out of memory
- | NameError	Raised when a variable does not exist
- | NotImplementedError	Raised when an abstract method requires an inherited class to override the method
- | OSError	Raised when a system related operation causes an error
- | OverflowError	Raised when the result of a numeric calculation is too large
+ | AssertionError | Raised when an assert statement fails
+ | AttributeError | Raised when attribute reference or assignment fails
+ | Exception | Base class for all exceptions
+ | EOFError | Raised when the input() method hits an "end of file" condition (EOF)
+ | FloatingPointError | Raised when a floating point calculation fails
+ | GeneratorExit | Raised when a generator is closed (with the close() method)
+ | ImportError | Raised when an imported module does not exist
+ | IndentationError | Raised when indentation is not correct
+ | IndexError | Raised when an index of a sequence does not exist
+ | KeyError | Raised when a key does not exist in a dictionary
+ | KeyboardInterrupt | Raised when the user presses Ctrl+c, Ctrl+z or Delete
+ | LookupError | Raised when errors raised cant be found
+ | MemoryError | Raised when a program runs out of memory
+ | NameError | Raised when a variable does not exist
+ | NotImplementedError | Raised when an abstract method requires an inherited class to override the method
+ | OSError | Raised when a system related operation causes an error
+ | OverflowError | Raised when the result of a numeric calculation is too large
  | ReferenceError	Raised when a weak reference object does not exist
  | RuntimeError	Raised when an error occurs that do not belong to any specific exceptions
  | StopIteration	Raised when the next() method of an iterator has no further values
