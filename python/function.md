@@ -20,6 +20,15 @@ def function_name(parameter):
 function_name()
 # the caller gets the function going
 ```
+Example
+```python
+def names():
+	return ['Augustus', 'Tiberius', 'Diocletian']
+names()
+# Output
+# ['Augustus', 'Tiberius', 'Diocletian']
+```
+
 docstring vs comments
 > ***docstring*** describes the function's external behavior, and the parameters it takes.
 
