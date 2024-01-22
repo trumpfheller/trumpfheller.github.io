@@ -80,4 +80,22 @@ else:
     print(Output)
 ```
 
+- this will save an IndexError exception in the variable err
+- any other exceptoion in the variable other
+  
+
+```python
+short_list = [1,2,3]
+while True:
+   value = input('Position [q to quit]?')
+   if value == 'q':
+      break
+   try:
+      position = int(value)
+      print(short_list[position])
+   except IndexError as err:
+      print('Bad Index', position)
+   except Exception as other:
+      print('Something else broke: ', other)
+```
 ## for more visuality - maybe I should put it in a def and doc string?
