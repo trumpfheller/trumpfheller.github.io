@@ -3,7 +3,7 @@ title: epistemological tree
 layout: default
 ---
 
-| **date** | **milestone** |
+| <div style="width:190px">**date**</div> | **milestone** |
 |---|:---|
 | 30,000 BCE | cave paintings (Chauvet Cave) |
 | 10.000 BCE | petroglyphs, carvings into a rock surface |
@@ -15,9 +15,6 @@ layout: default
 | 690 BCE | Library of Ashurbanipal, Mesopotamia |
 | 700 BCE | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
 | 350 BCE | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
-
-| date | milestone |
-|---|---|
 | 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)
 The thirteen books of Euclid's Elements
 BOOK I	Triangles, parallels, and area
