@@ -39,17 +39,20 @@ layout: default
 
 | <span style="width:350px">**date**</span> | **milestone** |
 |---|:---|
-| 1088 | **first** university in the Western world:<br>- University of Bologna in northern Italy<br>- theology, medicine, philosophy, and the liberal arts |
+| 1088 | **first** University in the Western world:<br>- University of Bologna in northern Italy<br>- theology, medicine, philosophy, and the liberal arts |
 | 1096 - 1291 | The Crusades |
 | 1134 | **first** University in Spain, University of Salamanca |
 | 1154 | **first** printed map<br>- technique of copperplate engraving is the "Tabula Rogeriana,"<br>- created by the Andalusian cartographer Muhammad al-Idrisi;<br>- commissioned by King Roger II of Sicily;<br>- incorporated knowledge from various sources, including Arab, Greek, and Roman geographers |
+| 1170 | **first** Highschool in France<br>- Collège des Dix-Huit |
+| 1246 | **first** Highschool in Sweden<br>- Uppsala Cathedral School |
 | 1248 | **first** University in England, University of Oxford |
 | 1257 | **first** University in France, Sarbonne |
 | 1286 | **first** German schoolbook ("Catholicon," Johannes Balbi) |
 | 1321 | Portolan Charts/map by Pietro Vesconte,<br>- Magellan used it |
 | 1339 | Portolan Charts/map by Angelino Dulcert,<br>- Magellan used it |
-| 1347-1351 | The Black Death |
-| 1386 | **first** university in Germany, University of Heidelberg |
+| 1347-1351 | The Black Death<br>- in some places, it's believed that up to 60% of the population perished due to the disease. |
+| 1386 | **first** University in Germany, University of Heidelberg |
+| 1389 | **first** Highschool in Holland<br>- Stedelijk Gymnasium Haarlem|
 | 1450 | **first** English Schoolbook (hornbook) |
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
 | 1455 | Gutenberg invents printing<br>- **first** significant step towards democratization of and access t o knowledge |
@@ -62,6 +65,8 @@ layout: default
 | 1507 | **first** map, printed or manuscript (One map on 12 sheets, made from original woodcut), to depict clearly a separate Western Hemisphere, with the Pacific as a separate ocean.<br>- by Martin Waldseemüller<br>- map represented a huge leap forward in knowledge, recognizing the newly found American landmass and forever changing the European understanding of a world divided into only three parts—Europe, Asia, and Africa<br>- data gathered during Amerigo Vespucci’s voyages of 1501–1502 to the New World. <br>- Magellan used it |
 | 1517 | Martin Luther nailes his Ninety-five Theses to the door of the Castle Church in Wittenberg, Germany |
 | 1519 | Magellan left Spain (maps used: Portolan Charts, Ptolemy's Geography, Nautical Almanacs, Cartographic Knowledge of the Day by Martin Waldseemüller, Juan de la Cosa) |
+| 1528 | **first** Highschool in Germany<br>- Fürstenschule St. Afra (St. Afra's Princely School) |
+| 1552 | **first** Highschool in England<br>- King Edward VI Grammar School |
 | 1556 | **first** Italian printed news paper established ("Notizie scritte,") |
 | 1560 | **first** wooden pencil by Italian couple Simonio and Lyndiana Bernacotti |
 | 1564 | graphite from the roman writing instrument called the stylus (Pencil by Konrad Gessner) |
@@ -74,14 +79,21 @@ layout: default
 | 1621 | **first** English printed news paper established ("Corante," ) |
 | 1631 | **first** French printed newspaper established ("La Gazette," ) |
 | 1635 | **first** French printed dictionary ("Dictionnaire de l'Académie française") by Cardinal Richelieu |
+| 1635 | **first** Highschool in the US<br>- Boston Latin School (preparatory school for students intending to enter Harvard College ) |
 | 1643 | Barometer (by Evangelista Torricelli ) |
 | 1668 | Isaac Newton small flat diagonal mirror to reflect the light to an eyepiece mounted on the side of the telescope |
+| 1669 | **first** Highschool in Ireland<br>- The King's Hospital (Dublin) |
+| 1696 | law for mandatory education in England |
 | 1698 | **first** practical steam engine by Thomas Savery |
+| 1717 | law for mandatory education in Germany by Frederick William I|
 | 1725 | **first** annual almanac ("The Astronomical Diary and Almanac." in Boston) |
 | 1732 - 1758 | Benjamin Franklin printed Poor Richard's Almanack |
 | 1734 | **first** German dictionary (Glossarium Germanicum) |
 | 1739 | **first** printed German almanac (Der Hoch-Deutsch Amerikanische Calender) |
+| 1791 | law for mandatory education in France<br>- "Gall-Pestalozzi Law."|
 | 1836 | Electrical Telegraph |
+| 1857 | law for mandatory education in Spain<br>- "Moyano Law"|
+| 1859 | law for mandatory education in Italy<br>- "Casati Law"|
 | 1861 | **first** Italian dictionary (Dizionario della Lingua Italiana) |
 | 1868 | - first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)<br>- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper |
 | 1876 | Telephone |
