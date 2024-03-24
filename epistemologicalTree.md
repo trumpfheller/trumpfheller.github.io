@@ -7,7 +7,6 @@ layout: default
 - Knowledge is based on reflected, processed information. 
 - Information is gathered data and provides meaning and relevance to data.
 - Data is raw, unprocessed facts and figures.
-- There is no way in telling which was first.
 - Now, to get from cave paintings to AI, humans had to develop a way to conserve data, information and knowledge - each step, each item through time. 
 - to conserve knowledge, information and data, for the past 32.000 years humans used: <br>- stone<br>- clay<br>- leather<br>- Papurus<br>- paper<br>- book <br>- computer
 
@@ -17,7 +16,7 @@ layout: default
 | 10.000 | Petroglyphs<br>- carvings into a rock surface |
 | ~9.500 | Göbekli Tepe |
 | 9000 | Pictograms<br>- a symbol representing a concept, object, activity, place or event by illustration |
-| 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
+| 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, consists of abstract signs representing syllables, words, or sounds) |
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
 | 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions |
