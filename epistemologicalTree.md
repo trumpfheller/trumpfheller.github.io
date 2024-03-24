@@ -74,43 +74,15 @@ BOOK V	Theory of proportions |
 | 1725 | first annual almanac ("The Astronomical Diary and Almanac." in Boston) |
 | 1732 (till 1758) | Benjamin Franklin printed Poor Richard's Almanack |
 | 1734 | first German dictionary (Glossarium Germanicum) |
+| 1739 | First printed German almanac (Der Hoch-Deutsch Amerikanische Calender) |
+| 1836 | Electrical Telegraph |
+| 1861 | first Italian dictionary (Dizionario della Lingua Italiana) |
+| 1868 | - first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)
+- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper |
+| 1876 | Telephone |
+| 1905 | first intelligence test (Binet-Simon Scale) |
+| 1917 | first IQ test used in the military (Army Alpha: personnel selection and placement during World War I) |
+| 1973 | first usable truly portable mobile telephone (Martin Cooper) |
+| 1983 | first commercially available cell phone (Motorola DynaTAC 8000X) |
+| 1992 | Text Messaging  |
 |  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-1739
-First printed German almanac (Der Hoch-Deutsch Amerikanische Calender)
-
-1836
-Electrical Telegraph
-
-1861
-first Italian dictionary (Dizionario della Lingua Italiana)
-
-1868
-- first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)
-- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper
-
-1876
-Telephone
-
-1905
-first intelligence test (Binet-Simon Scale)
-
-1917
-first IQ test used in the military (Army Alpha: personnel selection and placement during World War I)
-
-1973
-first usable truly portable mobile telephone (Martin Cooper)
-
-1983
-first commercially available cell phone (Motorola DynaTAC 8000X)
-
-1992
-Text Messaging  
