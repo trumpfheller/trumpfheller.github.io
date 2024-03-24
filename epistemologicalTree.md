@@ -9,7 +9,7 @@ layout: default
 - Data is raw, unprocessed facts and figures.
 - There is no way in telling which was first.
 - Now, to get from cave paintings to AI, humans had to develop a way to conserve data, information and knowledge - each step, each item through time. 
-
+- to conserve knowledge, information and data, for the past 32.000 years humans used: <br>- stone<br>- clay<br>- leather<br>- Papurus<br>- paper<br>- book <br>- computer
 
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
@@ -21,8 +21,8 @@ layout: default
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
 | 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions |
-| 690 | Library of Ashurbanipal, Mesopotamia |
 | 700 | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
+| 690 | Library of Ashurbanipal, Mesopotamia |
 | 350 | Aristotle's "Posterior Analytics," Aristotle's Organon<br>- introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference<br>- laying the groundwork for later developments in logic and epistemology.<br>- translated in Cordoba during the Muslim rule |
 | 300 | Euclid - The Elements (Greek: Στοιχεῖα Stoikheîa)<br>- a mathematical treatise consisting of 13 books<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions<br>- translated in Cordoba during the Muslim rule |
 | 285-246 | Library of Alexandria<br>- Ptolemy II Philadelphus<br>- mainly scrolls and books |
@@ -53,7 +53,7 @@ layout: default
 | 1386 | **first** university in Germany, University of Heidelberg |
 | 1450 | **first** English Schoolbook (hornbook) |
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
-| 1455 | Gutenberg invents printing<br>- **first** significant step towards democratization of and access to knowledge |
+| 1455 | Gutenberg invents printing<br>- **first** significant step towards democratization of and access t o knowledge |
 | 1472 | **first** book printed in Spain ("Sinodal de Aguilafuente") |
 
 | <span style="width:350px">**date**</span> | **milestone** |
