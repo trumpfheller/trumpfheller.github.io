@@ -3,7 +3,7 @@ title: epistemological tree
 layout: default
 ---
 
-|  **date**  | **milestone** |
+| <span style="width:250px">**date**</span> | **milestone** |
 |---|:---|
 | 30,000 BCE | cave paintings (Chauvet Cave) |
 | 10.000 BCE | petroglyphs, carvings into a rock surface |
