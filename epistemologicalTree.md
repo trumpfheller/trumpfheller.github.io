@@ -27,7 +27,7 @@ BOOK V	Theory of proportions |
 | 150 | Ptolemy's Geography - map, based on earlier sources, including the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers. Magellan used it.) |
 | 476 | last Roman emperor, Romulus Augustus |
 | 477 (till 524) | first Italian School book (trivium by Boethius; used in medieval schools during the Carolingian Renaissance. The "Trivium" consisted of three subjects: grammar, rhetoric, and dialectic (logic), forming the foundation of the medieval liberal arts curriculum.) |
-| 5th century to the 10th century | Dark Ages (no books of any kind in Europe) <br>
+| 5th century to the 10th century | Dark Ages (no books of any kind in Europe)
 - decline of centralized authority, <br>
 - the fragmentation of political power, <br>
 - frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings <br>
