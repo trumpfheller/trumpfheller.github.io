@@ -40,8 +40,8 @@ layout: default
 
 | <span style="width:350px">**date**</span> | **milestone** |
 |---|:---|
-| 1088 | **first** university in the Western world:<br>- University of Bologna (northern Italy<br>- theology, medicine, philosophy, and the liberal arts |
-| 1096 (till 1291) | The Crusades |
+| 1088 | **first** university in the Western world:<br>- University of Bologna in northern Italy<br>- theology, medicine, philosophy, and the liberal arts |
+| 1096 - 1291 | The Crusades |
 | 1134 | **first** University in Spain, University of Salamanca |
 | 1154 | **first** printed map<br>- technique of copperplate engraving is the "Tabula Rogeriana,"<br>- created by the Andalusian cartographer Muhammad al-Idrisi;<br>- commissioned by King Roger II of Sicily;<br>- incorporated knowledge from various sources, including Arab, Greek, and Roman geographers |
 | 1248 | **first** University in England, University of Oxford |
@@ -53,8 +53,7 @@ layout: default
 | 1386 | **first** university in Germany, University of Heidelberg |
 | 1450 | **first** English Schoolbook (hornbook) |
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
-| 1455 | Gutenberg Bible |
-| 1457 | **first** printed almanac by Gutenberg<br>- (eight years before the Bible?)) |
+| 1455 | Gutenberg invents printing<br>- **first** significant step towards democratization of and access to knowledge |
 | 1472 | **first** book printed in Spain ("Sinodal de Aguilafuente") |
 
 | <span style="width:350px">**date**</span> | **milestone** |
