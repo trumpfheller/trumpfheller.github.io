@@ -4,11 +4,12 @@ layout: default
 ---
 
 
-- Knowledge is based on reflected, processed information. And information is gathered data.
-Data can be symbols and signs.
-- There is no way in telling with whcih we started.
-- To get from cave paintings to AI, humans had to develop a way to conserve data, information and knowledge - each step, each item through time. 
-- brains and memory containers.
+- Knowledge is based on reflected, processed information. 
+- Information is gathered data and provides meaning and relevance to data.
+- Data is raw, unprocessed facts and figures.
+- There is no way in telling which was first.
+- Now, to get from cave paintings to AI, humans had to develop a way to conserve data, information and knowledge - each step, each item through time. 
+
 
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
@@ -35,7 +36,7 @@ Data can be symbols and signs.
 | 476 | last Roman emperor, Romulus Augustus |
 | 477 - 524 | first Italian School book: Trivium by Boethius<br>- used in medieval schools during the Carolingian Renaissance.<br>- The "Trivium" consisted of three subjects:<br>- grammar, rhetoric, and dialectic (logic)<br>- forming the foundation of the medieval liberal arts curriculum. |
 | 5th - 10th century | Dark Ages<br>- no library of any kind in Europe<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples (Germanic tribes, the Huns, and the Vikings),<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
-| 711 (till 1492) | Muslim rule of Spain<br>- cities with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga |
+| 711 - **1492** | Muslim rule of Spain<br>- cities with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga |
 
 | <span style="width:350px">**date**</span> | **milestone** |
 |---|:---|
@@ -55,7 +56,10 @@ Data can be symbols and signs.
 | 1455 | Gutenberg Bible |
 | 1457 | **first** printed almanac by Gutenberg<br>- (eight years before the Bible?)) |
 | 1472 | **first** book printed in Spain ("Sinodal de Aguilafuente") |
-| 1492-1504 | Christopher Columbus made his voyages across the Atlantic Ocean |
+
+| <span style="width:350px">**date**</span> | **milestone** |
+|---|:---|
+| **1492**-1504 | Christopher Columbus made his voyages across the Atlantic Ocean |
 | 1500 | Map of Juan de la Cosa; the only known cartographic work made by an eyewitness of the first voyages of Christopher Columbus.<br>- Magellan used it. |
 | 1507 | **first** map, printed or manuscript (One map on 12 sheets, made from original woodcut), to depict clearly a separate Western Hemisphere, with the Pacific as a separate ocean.<br>- by Martin Waldseemüller<br>- map represented a huge leap forward in knowledge, recognizing the newly found American landmass and forever changing the European understanding of a world divided into only three parts—Europe, Asia, and Africa<br>- data gathered during Amerigo Vespucci’s voyages of 1501–1502 to the New World. <br>- Magellan used it |
 | 1517 | Martin Luther nailes his Ninety-five Theses to the door of the Castle Church in Wittenberg, Germany |
