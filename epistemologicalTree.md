@@ -6,29 +6,29 @@ layout: default
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
 | 30,000 | cave paintings (Chauvet Cave) |
-| 10.000 | petroglyphs, carvings into a rock surface |
-| 9000 | Pictograms (a symbol representing a concept, object, activity, place or event by illustration) |
+| 10.000 | Petroglyphs<br>- carvings into a rock surface |
+| 9000 | Pictograms<br>- a symbol representing a concept, object, activity, place or event by illustration) |
 | 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
-| 2500 | - ideograms (graphical symbols that represent an idea)<br>- Royal Archives of Ebla (library) |
-| 1550 | "first" math book: Rhind Mathematical Papyrus;<br>- include arithmetic, geometry, algebraic equations, fractions, and proportions) |
+| 2500 | - Ideograms<br>- graphical symbols that represent an idea)<br>- Royal Archives of Ebla (library) |
+| 1550 | "first" math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions) |
 | 690 | Library of Ashurbanipal, Mesopotamia |
 
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
-| 700 BCE | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
-| 350 BCE | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
-| 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)<br>The thirteen books of Euclid's Elements<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions |
-| 285 BCE (till 246) | Library of Alexandria, Ptolemy II Philadelphus; scrolls and books |
-| 131 BCE | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
+| 700 | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
+| 350 | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
+| 300 | Euclid - The Elements (Greek: Στοιχεῖα Stoikheîa)<br>- a mathematical treatise consisting of 13 books<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions<br>- translated in Cordoba during the Muslim rule |
+| 285-246 | Library of Alexandria<br>- Ptolemy II Philadelphus<br>- mainly scrolls and books |
+| 131 | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
 
 | <span style="width:250px">**date**</span> | **milestone** |
 |---|:---|
-| 150 | Ptolemy's Geography - map, based on earlier sources, including the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers. Magellan used it.) |
+| 150 | Ptolemy's Geography<br>- map is based on earlier sources,<br>- includes the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers.<br>- Magellan used it. |
 | 476 | last Roman emperor, Romulus Augustus |
-| 477 (till 524) | first Italian School book (trivium by Boethius; used in medieval schools during the Carolingian Renaissance. The "Trivium" consisted of three subjects: grammar, rhetoric, and dialectic (logic), forming the foundation of the medieval liberal arts curriculum.) |
-| 5th - 10th century | Dark Ages (no books of any kind in Europe)<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
-| 711 (till 1492) | Muslim rule of Spain (centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga) |
+| 477 - 524 | first Italian School book: Trivium by Boethius<br>- used in medieval schools during the Carolingian Renaissance.<br>- The "Trivium" consisted of three subjects:<br>- grammar, rhetoric, and dialectic (logic)<br>- forming the foundation of the medieval liberal arts curriculum. |
+| 5th - 10th century | Dark Ages<br>- no library of any kind in Europe<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
+| 711 (till 1492) | Muslim rule of Spain<br>- centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga |
 
 | <span style="width:250px">**date**</span> | **milestone** |
 |---|:---|
