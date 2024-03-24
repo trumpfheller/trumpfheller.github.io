@@ -3,7 +3,7 @@ title: epistemological tree
 layout: default
 ---
 
-|   **date**   | **milestone** |
+|  **date**  | **milestone** |
 |---|:---|
 | 30,000 BCE | cave paintings (Chauvet Cave) |
 | 10.000 BCE | petroglyphs, carvings into a rock surface |
@@ -24,7 +24,7 @@ layout: default
 | 285 BCE (till 246) | Library of Alexandria, Ptolemy II Philadelphus; scrolls and books |
 | 131 BCE | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
 
-| <span style="width:190px">**date**</span> | **milestone** |
+| <span style="width:250px">**date**</span> | **milestone** |
 |---|:---|
 | 150 | Ptolemy's Geography - map, based on earlier sources, including the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers. Magellan used it.) |
 | 476 | last Roman emperor, Romulus Augustus |
@@ -32,7 +32,7 @@ layout: default
 | 5th - 10th century | Dark Ages (no books of any kind in Europe)<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
 | 711 (till 1492) | Muslim rule of Spain (centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga) |
 
-| <div style="width:190px">**date**</div> | **milestone** |
+| <span style="width:250px">**date**</span> | **milestone** |
 |---|:---|
 | 1088 | first university in the Western world: University of Bologna (northern Italy) (theology, medicine, philosophy, and the liberal arts) |
 | 1096 (till 1291) | The Crusades |
