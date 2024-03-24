@@ -13,14 +13,12 @@ layout: default
 | 2500 BCE | - ideograms (graphical symbols that represent an idea)<br>- Royal Archives of Ebla (library) |
 | 1550 BCE | "first" math book (Rhind Mathematical Papyrus; ancient Egypt; include arithmetic, geometry, algebraic equations, fractions, and proportions) |
 | 690 BCE | Library of Ashurbanipal, Mesopotamia |
+
+| <span style="width:250px">**date**</span> | **milestone** |
+|---|:---|
 | 700 BCE | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
 | 350 BCE | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
-| 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)<br>The thirteen books of Euclid's Elements
-<br>- BOOK I Triangles, parallels, and area
-<br>- BOOK II Geometric algebra
-<br>- BOOK III Circles
-<br>- BOOK IV Constructions for inscribed and circumscribed figures
-<br>- BOOK V Theory of proportions |
+| 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)<br>The thirteen books of Euclid's Elements<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions |
 | 285 BCE (till 246) | Library of Alexandria, Ptolemy II Philadelphus; scrolls and books |
 | 131 BCE | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
 
