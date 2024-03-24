@@ -59,11 +59,13 @@ layout: default
 | 1450 | **first** English Schoolbook (hornbook) |
 | 1450 | **Gutenberg** invents printing<br>- knowledge becomes available, affordable for the masses|
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
+| 1480 | **first** German printed school book<br>- "Der Ackermann aus Böhmen"(The Ploughman from Bohemia)<br>- by Albrecht Pfister  |
 | 1465 | **first** book printed in Italy<br>- "Epistolae" (Letters) by Cicero<br>- produced by the German printer Conrad Sweynheym and the Italian printer Arnold Pannartz |
-| 1472 | **first** book printed in Spain<br>- ("Sinodal de Aguilafuente") |
+| 1472 | **first** book printed in Spain<br>- ("Sinodal de Aguilafuente")<br>- topics related to religious and moral conduct|
 | 1473 | **first** book printed in France<br>- "Recueil des histoires de Troye" (Collection of the Histories of Troy), printed by the printer and publisher Guillaume Le Roy |
-| 1474 | **first** book printed in England<br>- "The Recuyell of the Historyes of Troye"" (Collection of the Histories of Troy)<br>- William Caxton. Caxton, a merchant, diplomat, and printer, produced the book in Bruges, Belgium |
+| 1474 | **first** book printed in England<br>- "The Recuyell of the Historyes of Troye"" (Collection of the Histories of Troy)<br>- William Caxton, a merchant, diplomat, and printer, produced the book in Bruges, Belgium |
 | 1476 | **first** book printed in Greece<br>- "Grammar of the Greek Language."(Γραμματική της Ελληνικής Γλώσσης)  |
+| 1480 | **first** English printed school book<br>- "The Accidence," <br>- William Caxton, Westminster |
 | 1499 | **first** printed Greek dictionary<br>- "Lexicon Graecolatinum," ("Λεξικόν Ελληνολατινικόν")  |
 
 | <span style="width:350px">**date**</span> | **milestone** |
