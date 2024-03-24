@@ -40,24 +40,26 @@ layout: default
 
 | <span style="width:350px">**date**</span> | **milestone** |
 |---|:---|
-| 1088 | **first** University in the Western world:<br>- University of Bologna in northern Italy<br>-  specialized in legal studies (development of Roman law and canon law),theology, medicine, philosophy, and the liberal arts |
+| 1040 | **first** library in Czech<br>- Strahov Monastery Library, Prague |
+| 1088 | **first** University in the Western world:<br>- University of Bologna in northern Italy<br>- specialized in legal studies (development of Roman law and canon law),theology, medicine, philosophy, and the liberal arts |
 | 1096 - 1291 | The Crusades |
-| 1134 | **first** University in Spain, University of Salamanca<br>- specialized in theology, philosophy, and law |
+| 1134 | **first** University in Spain<br>- University of Salamanca<br>- specialized in theology, philosophy, and law |
 | 1154 | **first** printed map<br>- technique of copperplate engraving is the "Tabula Rogeriana,"<br>- created by the Andalusian cartographer Muhammad al-Idrisi;<br>- commissioned by King Roger II of Sicily;<br>- incorporated knowledge from various sources, including Arab, Greek, and Roman geographers |
 | 1170 | **first** Highschool in France<br>- Collège des Dix-Huit |
 | 1246 | **first** Highschool in Sweden<br>- Uppsala Cathedral School |
-| 1248 | **first** University in England, University of Oxford<br>- specialized in theology, philosophy, and science study |
-| 1257 | **first** University in France, Sarbonne |
-| 1286 | **first** German schoolbook ("Catholicon," Johannes Balbi) |
+| 1248 | **first** University in England<br>- University of Oxford<br>- specialized in theology, philosophy, and science study |
+| 1257 | **first** University in France<br>- Sarbonne |
+| 1286 | **first** German schoolbook<br>- ("Catholicon," by Johannes Balbi) |
 | 1321 | Portolan Charts/map by Pietro Vesconte,<br>- Magellan used it |
 | 1339 | Portolan Charts/map by Angelino Dulcert,<br>- Magellan used it |
 | 1347-1351 | The Black Death<br>- in some places, it's believed that up to 60% of the population perished due to the disease. |
-| 1386 | **first** University in Germany, University of Heidelberg |
+| 1348 | **first** University in Czech<br>- Charles University (Universitas Carolina) in Prague<br>- Founded by Holy Roman Emperor Charles IV |
+| 1386 | **first** University in Germany<br>- University of Heidelberg |
 | 1389 | **first** Highschool in Holland<br>- Stedelijk Gymnasium Haarlem|
 | 1450 | **first** English Schoolbook (hornbook) |
+| 1450 | **Gutenberg** invents printing<br>- knowledge becomes available, affordable for the masses|
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
-| 1455 | Gutenberg invents printing<br>- **first** significant step towards democratization of and access t o knowledge |
-| 1472 | **first** book printed in Spain ("Sinodal de Aguilafuente") |
+| 1472 | **first** book printed in Spain<br>- ("Sinodal de Aguilafuente") |
 | 1476 | **first** book printed in Greece<br>- "Grammar of the Greek Language."(Γραμματική της Ελληνικής Γλώσσης)  |
 | 1499 | **first** printed Greek dictionary<br>- "Lexicon Graecolatinum," ("Λεξικόν Ελληνολατινικόν")  |
 
@@ -73,6 +75,7 @@ layout: default
 | 1556 | **first** Italian printed news paper established ("Notizie scritte,") |
 | 1560 | **first** wooden pencil by Italian couple Simonio and Lyndiana Bernacotti |
 | 1564 | graphite from the roman writing instrument called the stylus (Pencil by Konrad Gessner) |
+| 1572 | **first** library in Germany<br>- Ducal Library of Wolfenbüttel by the Duke of Brunswick-Lüneburg |
 | ~1590 | **first** microscope by Dutch spectacle maker Zacharias Janssen |
 | 1604 | **first** English dictionary (A Table Alphabeticall by Robert Cawdrey) |
 | 1605 | **first** on a regular basis printed newspaper (Johann Carolus, who published the "Relation aller Fürnemmen und gedenckwürdigen Historien" (Account of all Distinguished and Commemorable News) in Germany) |
