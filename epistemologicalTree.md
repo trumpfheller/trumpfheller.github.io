@@ -3,40 +3,35 @@ title: epistemological tree
 layout: default
 ---
 
-| <div style="width:190px">**date**</div> | **milestone** |
+|   **date**   | **milestone** |
 |---|:---|
 | 30,000 BCE | cave paintings (Chauvet Cave) |
 | 10.000 BCE | petroglyphs, carvings into a rock surface |
 | 9000 BCE | Pictograms (a symbol representing a concept, object, activity, place or event by illustration) |
-| 5000-3500 BCE | * earliest evidence of wheels in Mesopotania<br>* cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
+| 5000-3500 BCE | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
 | 3000 BCE | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
 | 2500 BCE | - ideograms (graphical symbols that represent an idea)<br>- Royal Archives of Ebla (library) |
 | 1550 BCE | "first" math book (Rhind Mathematical Papyrus; ancient Egypt; include arithmetic, geometry, algebraic equations, fractions, and proportions) |
 | 690 BCE | Library of Ashurbanipal, Mesopotamia |
 | 700 BCE | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
 | 350 BCE | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
-| 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)
-The thirteen books of Euclid's Elements
-BOOK I	Triangles, parallels, and area
-BOOK II	Geometric algebra
-BOOK III Circles
-BOOK IV	Constructions for inscribed and circumscribed figures
-BOOK V	Theory of proportions |
+| 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)<br>The thirteen books of Euclid's Elements
+<br>- BOOK I Triangles, parallels, and area
+<br>- BOOK II Geometric algebra
+<br>- BOOK III Circles
+<br>- BOOK IV Constructions for inscribed and circumscribed figures
+<br>- BOOK V Theory of proportions |
 | 285 BCE (till 246) | Library of Alexandria, Ptolemy II Philadelphus; scrolls and books |
 | 131 BCE | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
 
-| <div style="width:190px">**date**</div> | **milestone** |
+| <span style="width:190px">**date**</span> | **milestone** |
 |---|:---|
 | 150 | Ptolemy's Geography - map, based on earlier sources, including the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers. Magellan used it.) |
 | 476 | last Roman emperor, Romulus Augustus |
 | 477 (till 524) | first Italian School book (trivium by Boethius; used in medieval schools during the Carolingian Renaissance. The "Trivium" consisted of three subjects: grammar, rhetoric, and dialectic (logic), forming the foundation of the medieval liberal arts curriculum.) |
 | 5th century to the 10th century | Dark Ages (no books of any kind in Europe)
-- decline of centralized authority, <br>
-- the fragmentation of political power, <br>
-- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings <br>
-- collapse of long-distance trade networks, <br>
-- the decline of urban centers, <br>
-- the loss of classical learning |
+
+- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
 | 711 (till 1492) | Muslim rule of Spain (centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga) |
 
 | <div style="width:190px">**date**</div> | **milestone** |
@@ -83,8 +78,7 @@ BOOK V	Theory of proportions |
 | 1739 | First printed German almanac (Der Hoch-Deutsch Amerikanische Calender) |
 | 1836 | Electrical Telegraph |
 | 1861 | first Italian dictionary (Dizionario della Lingua Italiana) |
-| 1868 | - first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)
-- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper |
+| 1868 | - first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)<br>- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper |
 | 1876 | Telephone |
 | 1905 | first intelligence test (Binet-Simon Scale) |
 | 1917 | first IQ test used in the military (Army Alpha: personnel selection and placement during World War I) |
