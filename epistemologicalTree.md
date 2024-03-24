@@ -89,6 +89,7 @@ layout: default
 | 1876 | Telephone |
 | 1905 | **first** intelligence test (Binet-Simon Scale) |
 | 1917 | **first** IQ test used in the military (Army Alpha: personnel selection and placement during World War I) |
+| 1958 | **first** microchip by engineer Jack Kilby |
 | 1973 | **first** usable truly portable mobile telephone (Martin Cooper) |
 | 1983 | **first** commercially available cell phone (Motorola DynaTAC 8000X) |
 | 1992 | Text Messaging  |
