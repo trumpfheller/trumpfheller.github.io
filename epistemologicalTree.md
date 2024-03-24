@@ -29,9 +29,7 @@ layout: default
 | 150 | Ptolemy's Geography - map, based on earlier sources, including the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers. Magellan used it.) |
 | 476 | last Roman emperor, Romulus Augustus |
 | 477 (till 524) | first Italian School book (trivium by Boethius; used in medieval schools during the Carolingian Renaissance. The "Trivium" consisted of three subjects: grammar, rhetoric, and dialectic (logic), forming the foundation of the medieval liberal arts curriculum.) |
-| 5th century to the 10th century | Dark Ages (no books of any kind in Europe)
-
-- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
+| 5th - 10th century | Dark Ages (no books of any kind in Europe)<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples, such as the Germanic tribes, the Huns, and the Vikings<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
 | 711 (till 1492) | Muslim rule of Spain (centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga) |
 
 | <div style="width:190px">**date**</div> | **milestone** |
