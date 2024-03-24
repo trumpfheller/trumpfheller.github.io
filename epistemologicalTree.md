@@ -3,15 +3,14 @@ title: epistemological tree
 layout: default
 ---
 
-| date | milestone |
-|---|---|
+| **date** | **milestone** |
+|---|:---|
 | 30,000 BCE | cave paintings (Chauvet Cave) |
 | 10.000 BCE | petroglyphs, carvings into a rock surface |
 | 9000 BCE | Pictograms (a symbol representing a concept, object, activity, place or event by illustration) |
-| 5000-3500 BCE | - earliest evidence of wheels in Mesopotania
-- cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
-| 3000 BCE | - Papyrus <br> - Sumerians developed writing and began keeping records.  |
-| 2500 BCE | - ideograms (graphical symbols that represent an idea) <br> - Royal Archives of Ebla (library) |
+| 5000-3500 BCE | * earliest evidence of wheels in Mesopotania<br>* cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
+| 3000 BCE | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
+| 2500 BCE | - ideograms (graphical symbols that represent an idea)<br>- Royal Archives of Ebla (library) |
 | 1550 BCE | "first" math book (Rhind Mathematical Papyrus; ancient Egypt; include arithmetic, geometry, algebraic equations, fractions, and proportions) |
 | 690 BCE | Library of Ashurbanipal, Mesopotamia |
 | 700 BCE | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
