@@ -53,6 +53,27 @@ BOOK V	Theory of proportions |
 | 1472 | The first book printed in Spain ("Sinodal de Aguilafuente") |
 | 1492-1504 | Christopher Columbus made his voyages across the Atlantic Ocean |
 | 1500 | Map of Juan de la Cosa; the only known cartographic work made by an eyewitness of the first voyages of Christopher Columbus. (Magellan used it) |
+| 1507 | Martin Waldseemüller, First map, printed or manuscript (One map on 12 sheets, made from original woodcut), to depict clearly a separate Western Hemisphere, with the Pacific as a separate ocean. The map represented a huge leap forward in knowledge, recognizing the newly found American landmass and forever changing the European understanding of a world divided into only three parts—Europe, Asia, and Africa. data gathered during Amerigo Vespucci’s voyages of 1501–1502 to the New World. (Magellan used it) |
+| 1517 | Martin Luther nailes his Ninety-five Theses to the door of the Castle Church in Wittenberg, Germany |
+| 1519 | Magellan left Spain (maps used: Portolan Charts, Ptolemy's Geography, Nautical Almanacs, Cartographic Knowledge of the Day by Martin Waldseemüller, Juan de la Cosa) |
+| 1556 | first Italian printed news paper established ("Notizie scritte,") |
+| 1560 | invented the first wooden pencil (Italian couple Simonio and Lyndiana Bernacotti) |
+| 1564 | graphite from the roman writing instrument called the stylus (Pencil by Konrad Gessner) |
+| ~1590 | first microscope (Dutch spectacle maker Zacharias Janssen) |
+| 1604 | First English dictionary (A Table Alphabeticall. Robert Cawdrey) |
+| 1605 | first printed on a regular basis newspaper (Johann Carolus, who published the "Relation aller Fürnemmen und gedenckwürdigen Historien" (Account of all Distinguished and Commemorable News) in Germany) |
+|1608 | telescope invented by Hans Lippershey, Netherlands |
+| 1609 | first telescope in Spain (Juan Caramuel y Lobkowitz, a mathematician and philosopher); Galileo heard of it the same year |
+| 1618 (till 1648) | Thirty Years' War |
+| 1621 | first English printed news paper established ("Corante," ) |
+| 1631 | first French printed newspaper established ("La Gazette," ) |
+| 1635 | first French printed dictionary ("Dictionnaire de l'Académie française" by Cardinal Richelieu) |
+| 1643 | Barometer (by Evangelista Torricelli ) |
+| 1668 | Isaac Newton small flat diagonal mirror to reflect the light to an eyepiece mounted on the side of the telescope |
+| 1698 | first practical steam engine (Thomas Savery) |
+| 1725 | first annual almanac ("The Astronomical Diary and Almanac." in Boston) |
+| 1732 (till 1758) | Benjamin Franklin printed Poor Richard's Almanack |
+| 1734 | first German dictionary (Glossarium Germanicum) |
 |  |  |
 |  |  |
 |  |  |
@@ -62,74 +83,6 @@ BOOK V	Theory of proportions |
 |  |  |
 |  |  |
 |  |  |
-
-
-
-
-
-
-1507
-Martin Waldseemüller, First map, printed or manuscript (One map on 12 sheets, made from original woodcut), to depict clearly a separate Western Hemisphere, with the Pacific as a separate ocean. The map represented a huge leap forward in knowledge, recognizing the newly found American landmass and forever changing the European understanding of a world divided into only three parts—Europe, Asia, and Africa. data gathered during Amerigo Vespucci’s voyages of 1501–1502 to the New World. (Magellan used it)
-
-1517
-Martin Luther nailes his Ninety-five Theses to the door of the Castle Church in Wittenberg, Germany
-
-1519
-Magellan left Spain (maps used: Portolan Charts, Ptolemy's Geography, Nautical Almanacs, Cartographic Knowledge of the Day by Martin Waldseemüller, Juan de la Cosa)
-
-1556
-first Italian printed news paper established ("Notizie scritte,")
-
-1560
-invented the first wooden pencil (Italian couple Simonio and Lyndiana Bernacotti)
-
-1564
-graphite from the roman writing instrument called the stylus (Pencil by Konrad Gessner)
-
-~1590
-first microscope (Dutch spectacle maker Zacharias Janssen)
-
-1604
-First English dictionary (A Table Alphabeticall. Robert Cawdrey)
-
-1605
-first printed on a regular basis newspaper (Johann Carolus, who published the "Relation aller Fürnemmen und gedenckwürdigen Historien" (Account of all Distinguished and Commemorable News) in Germany)
-
-1608
-telescope invented by Hans Lippershey, Netherlands
-
-1609
- first telescope in Spain (Juan Caramuel y Lobkowitz, a mathematician and philosopher); Galileo heard of it the same year
-
-1618 (till 1648)
-Thirty Years' War
-
-1621
-first English printed news paper established ("Corante," )
-
-1631
-first French printed newspaper established ("La Gazette," )
-
-1635
-first French printed dictionary ("Dictionnaire de l'Académie française" by Cardinal Richelieu)
-
-1643
-Barometer (by Evangelista Torricelli )
-
-1668
-Isaac Newton small flat diagonal mirror to reflect the light to an eyepiece mounted on the side of the telescope
-
-1698
-first practical steam engine (Thomas Savery)
-
-1725
-first annual almanac ("The Astronomical Diary and Almanac." in Boston)
-
-1732 (till 1758)
-Benjamin Franklin printed Poor Richard's Almanack
-
-1734
-first German dictionary (Glossarium Germanicum)
 
 1739
 First printed German almanac (Der Hoch-Deutsch Amerikanische Calender)
