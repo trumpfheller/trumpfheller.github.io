@@ -3,6 +3,13 @@ title: epistemological tree
 layout: default
 ---
 
+
+- Knowledge is based on reflected, processed information. And information is gathered data.
+Data can be symbols and signs.
+- There is no way in telling with whcih we started.
+- To get from cave paintings to AI, humans had to develop a way to conserve data, information and knowledge - each step, each item through time. 
+- brains and memory containers.
+
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
 | 30,000 | cave paintings (Chauvet Cave) |
