@@ -11,16 +11,15 @@ layout: default
 | 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, particularly in its earliest forms, it primarily consists of abstract signs representing syllables, words, or sounds) |
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea)<br>- Royal Archives of Ebla (library) |
-| 1550 | "first" math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions) |
+| 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions) |
 | 690 | Library of Ashurbanipal, Mesopotamia |
-
-| <span style="width:250px">**BCE**</span> | **milestone** |
-|---|:---|
 | 700 | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
-| 350 | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
+| 350 | Aristotle's "Posterior Analytics," Aristotle's Organon<br>- introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference<br>- laying the groundwork for later developments in logic and epistemology.<br>- translated in Cordoba during the Muslim rule |
 | 300 | Euclid - The Elements (Greek: Στοιχεῖα Stoikheîa)<br>- a mathematical treatise consisting of 13 books<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions<br>- translated in Cordoba during the Muslim rule |
 | 285-246 | Library of Alexandria<br>- Ptolemy II Philadelphus<br>- mainly scrolls and books |
-| 131 | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
+| 131 | **first** newspaper ("Acta Diurna", during the time of Julius Caesar) |
+
+* image of the population within the Roman empire
 
 | <span style="width:250px">**date**</span> | **milestone** |
 |---|:---|
