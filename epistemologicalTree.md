@@ -2,6 +2,7 @@
 title: epistemological tree
 layout: default
 ---
+
 | date | milestone |
 |---|---|
 | 30,000 BCE | cave paintings (Chauvet Cave) |
@@ -15,6 +16,9 @@ layout: default
 | 690 BCE | Library of Ashurbanipal, Mesopotamia |
 | 700 BCE | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
 | 350 BCE | Aristotle's "Posterior Analytics," Aristotle's Organon, (introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference, laying the groundwork for later developments in logic and epistemology.)(translated in Cordoba during the Muslim rule) |
+
+| date | milestone |
+|---|---|
 | 300 BCE | The Elements (Greek: Στοιχεῖα Stoikheîa) is a mathematical treatise consisting of 13 books attributed to the ancient Greek mathematician Euclid (translated in Cordoba during the Muslim rule)
 The thirteen books of Euclid's Elements
 BOOK I	Triangles, parallels, and area
@@ -34,6 +38,9 @@ BOOK V	Theory of proportions |
 - collapse of long-distance trade networks, <br>
 - the decline of urban centers, <br>
 - the loss of classical learning |
+
+| date | milestone |
+|---|---|
 | 711 (till 1492) | Muslim rule of Spain (centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga) |
 | 1088 | first university in the Western world: University of Bologna (northern Italy) (theology, medicine, philosophy, and the liberal arts) |
 | 1096 (till 1291) | The Crusades |
