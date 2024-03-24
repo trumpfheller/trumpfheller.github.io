@@ -29,23 +29,24 @@ layout: default
 
 * image of the population within the Roman empire
 
-| <span style="width:350px">**date**</span> | **milestone** |
+| <span style="width:350px">**AD**</span> | **milestone** |
 |---|:---|
 | 150 | Ptolemy's Geography<br>- map is based on earlier sources,<br>- includes the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers.<br>- Magellan used it. |
+| 224 | invention of zero by Aryabhata (Bakhshali Manuscript) written on birch bark (might have come from Babylon (350BCE))<br>- Musa al-Khwarizmi (~820) Persian mathematicians<br>- Robert of Chester translates it to Latin (1144)<br>- Fibonacci popularizes the concept (The Book of Calculation, 1202) |
 | 476 | last Roman emperor, Romulus Augustus |
-| 477 - 524 | first Italian School book: Trivium by Boethius<br>- used in medieval schools during the Carolingian Renaissance.<br>- The "Trivium" consisted of three subjects:<br>- grammar, rhetoric, and dialectic (logic)<br>- forming the foundation of the medieval liberal arts curriculum. |
+| 477 - 524 | first Italian School book: Trivium by Boethius<br>- used in medieval schools as framework for education during the Carolingian Renaissance.<br>- The "Trivium" consisted of three subjects:<br>- grammar, rhetoric, and dialectic (logic)<br>- forming the foundation of the medieval liberal arts curriculum. |
 | 5th - 10th century | Dark Ages<br>- no library of any kind in Europe<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples (Germanic tribes, the Huns, and the Vikings),<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
 | 711 - **1492** | Muslim rule of Spain<br>- cities with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga |
 
 | <span style="width:350px">**date**</span> | **milestone** |
 |---|:---|
-| 1088 | **first** University in the Western world:<br>- University of Bologna in northern Italy<br>- theology, medicine, philosophy, and the liberal arts |
+| 1088 | **first** University in the Western world:<br>- University of Bologna in northern Italy<br>-  specialized in legal studies (development of Roman law and canon law),theology, medicine, philosophy, and the liberal arts |
 | 1096 - 1291 | The Crusades |
-| 1134 | **first** University in Spain, University of Salamanca |
+| 1134 | **first** University in Spain, University of Salamanca<br>- specialized in theology, philosophy, and law |
 | 1154 | **first** printed map<br>- technique of copperplate engraving is the "Tabula Rogeriana,"<br>- created by the Andalusian cartographer Muhammad al-Idrisi;<br>- commissioned by King Roger II of Sicily;<br>- incorporated knowledge from various sources, including Arab, Greek, and Roman geographers |
 | 1170 | **first** Highschool in France<br>- Collège des Dix-Huit |
 | 1246 | **first** Highschool in Sweden<br>- Uppsala Cathedral School |
-| 1248 | **first** University in England, University of Oxford |
+| 1248 | **first** University in England, University of Oxford<br>- specialized in theology, philosophy, and science study |
 | 1257 | **first** University in France, Sarbonne |
 | 1286 | **first** German schoolbook ("Catholicon," Johannes Balbi) |
 | 1321 | Portolan Charts/map by Pietro Vesconte,<br>- Magellan used it |
@@ -57,6 +58,8 @@ layout: default
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
 | 1455 | Gutenberg invents printing<br>- **first** significant step towards democratization of and access t o knowledge |
 | 1472 | **first** book printed in Spain ("Sinodal de Aguilafuente") |
+| 1476 | **first** book printed in Greece<br>- "Grammar of the Greek Language."(Γραμματική της Ελληνικής Γλώσσης)  |
+| 1499 | **first** printed Greek dictionary<br>- "Lexicon Graecolatinum," ("Λεξικόν Ελληνολατινικόν")  |
 
 | <span style="width:350px">**date**</span> | **milestone** |
 |---|:---|
@@ -91,13 +94,16 @@ layout: default
 | 1734 | **first** German dictionary (Glossarium Germanicum) |
 | 1739 | **first** printed German almanac (Der Hoch-Deutsch Amerikanische Calender) |
 | 1791 | law for mandatory education in France<br>- "Gall-Pestalozzi Law."|
+| 1821 | **first** printed newspaper in Greece<br>- "Ἐφημερίς" (Efimeris) |
 | 1836 | Electrical Telegraph |
+| 1837 | **first** University in Greece<br>- University of Athens |
 | 1857 | law for mandatory education in Spain<br>- "Moyano Law"|
 | 1859 | law for mandatory education in Italy<br>- "Casati Law"|
 | 1861 | **first** Italian dictionary (Dizionario della Lingua Italiana) |
 | 1868 | - first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)<br>- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper |
 | 1876 | Telephone |
-| 1905 | **first** intelligence test (Binet-Simon Scale) |
+| 1905 | **first** intelligence test (Binet-Simon Scale) |'
+| 1911 | law for mandatory education in Greece<br>- "Gounaris Law"|
 | 1917 | **first** IQ test used in the military (Army Alpha: personnel selection and placement during World War I) |
 | 1958 | **first** microchip by engineer Jack Kilby |
 | 1973 | **first** usable truly portable mobile telephone (Martin Cooper) |
