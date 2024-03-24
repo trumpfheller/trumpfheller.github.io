@@ -34,7 +34,7 @@ layout: default
 | 150 | Ptolemy's Geography<br>- map is based on earlier sources,<br>- includes the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers.<br>- Magellan used it. |
 | 224 | invention of zero by Aryabhata (Bakhshali Manuscript) written on birch bark (might have come from Babylon (350BCE))<br>- Musa al-Khwarizmi (~820) Persian mathematicians<br>- Robert of Chester translates it to Latin (1144)<br>- Fibonacci popularizes the concept (The Book of Calculation, 1202) |
 | 476 | last Roman emperor, Romulus Augustus |
-| 477 - 524 | first Italian School book: Trivium by Boethius<br>- used in medieval schools as framework for education during the Carolingian Renaissance.<br>- The "Trivium" consisted of three subjects:<br>- grammar, rhetoric, and dialectic (logic)<br>- forming the foundation of the medieval liberal arts curriculum. |
+| 477 - 524 | first Italian School book: Trivium by Boethius<br>- used in medieval schools as framework for education during the Carolingian Renaissance.<br>- The "Trivium" consisted of three subjects:<br>- grammar, rhetoric, and dialectic (logic) |
 | 5th - 10th century | Dark Ages<br>- no library of any kind in Europe<br>- decline of centralized authority,<br>- the fragmentation of political power,<br>- frequent invasions and migrations by various peoples (Germanic tribes, the Huns, and the Vikings),<br>- collapse of long-distance trade networks,<br>- the decline of urban centers,<br>- the loss of classical learning |
 | 711 - **1492** | Muslim rule of Spain<br>- cities with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga |
 
@@ -59,7 +59,10 @@ layout: default
 | 1450 | **first** English Schoolbook (hornbook) |
 | 1450 | **Gutenberg** invents printing<br>- knowledge becomes available, affordable for the masses|
 | 1453 | The Ottoman Empire, under the command of Sultan Mehmed II, captured Constantinople (modern-day Istanbul) from the Byzantine Empire (Eastern Roman Empire) |
+| 1465 | **first** book printed in Italy<br>- "Epistolae" (Letters) by Cicero<br>- produced by the German printer Conrad Sweynheym and the Italian printer Arnold Pannartz |
 | 1472 | **first** book printed in Spain<br>- ("Sinodal de Aguilafuente") |
+| 1473 | **first** book printed in France<br>- "Recueil des histoires de Troye" (Collection of the Histories of Troy), printed by the printer and publisher Guillaume Le Roy |
+| 1474 | **first** book printed in England<br>- "The Recuyell of the Historyes of Troye"" (Collection of the Histories of Troy)<br>- William Caxton. Caxton, a merchant, diplomat, and printer, produced the book in Bruges, Belgium |
 | 1476 | **first** book printed in Greece<br>- "Grammar of the Greek Language."(Γραμματική της Ελληνικής Γλώσσης)  |
 | 1499 | **first** printed Greek dictionary<br>- "Lexicon Graecolatinum," ("Λεξικόν Ελληνολατινικόν")  |
 
