@@ -24,6 +24,9 @@ BOOK IV	Constructions for inscribed and circumscribed figures
 BOOK V	Theory of proportions |
 | 285 BCE (till 246) | Library of Alexandria, Ptolemy II Philadelphus; scrolls and books |
 | 131 BCE | first newspaper ("Acta Diurna", during the time of Julius Caesar) |
+
+| <div style="width:190px">**date**</div> | **milestone** |
+|---|:---|
 | 150 | Ptolemy's Geography - map, based on earlier sources, including the writings of ancient Greek and Roman geographers, as well as firsthand accounts from travelers and explorers. Magellan used it.) |
 | 476 | last Roman emperor, Romulus Augustus |
 | 477 (till 524) | first Italian School book (trivium by Boethius; used in medieval schools during the Carolingian Renaissance. The "Trivium" consisted of three subjects: grammar, rhetoric, and dialectic (logic), forming the foundation of the medieval liberal arts curriculum.) |
@@ -34,10 +37,10 @@ BOOK V	Theory of proportions |
 - collapse of long-distance trade networks, <br>
 - the decline of urban centers, <br>
 - the loss of classical learning |
-
-| date | milestone |
-|---|---|
 | 711 (till 1492) | Muslim rule of Spain (centers with libraries: Cordoba, Toledo, Granada, Seville, Almeria, Malaga) |
+
+| <div style="width:190px">**date**</div> | **milestone** |
+|---|:---|
 | 1088 | first university in the Western world: University of Bologna (northern Italy) (theology, medicine, philosophy, and the liberal arts) |
 | 1096 (till 1291) | The Crusades |
 | 1134 | first University in Spain, University of Salamanca |
