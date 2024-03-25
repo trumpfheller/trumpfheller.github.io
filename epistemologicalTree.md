@@ -82,6 +82,7 @@ layout: default
 | 1564 | graphite from the roman writing instrument called the stylus (Pencil by Konrad Gessner) |
 | 1572 | **first** library in Germany<br>- Ducal Library of Wolfenbüttel by the Duke of Brunswick-Lüneburg |
 | ~1590 | **first** microscope by Dutch spectacle maker Zacharias Janssen |
+| 1597 | Sir Francis Bacon:<br>- "knowledge itself is power"<br>- "Reading maketh a full man; conference a ready man; and writing an exact man." |
 | 1604 | **first** English dictionary (A Table Alphabeticall by Robert Cawdrey) |
 | 1605 | **first** on a regular basis printed newspaper (Johann Carolus, who published the "Relation aller Fürnemmen und gedenckwürdigen Historien" (Account of all Distinguished and Commemorable News) in Germany) |
 |1608 | telescope invented by Hans Lippershey, Netherlands |
@@ -95,12 +96,13 @@ layout: default
 | 1668 | Isaac Newton small flat diagonal mirror to reflect the light to an eyepiece mounted on the side of the telescope |
 | 1669 | **first** Highschool in Ireland<br>- The King's Hospital (Dublin) |
 | 1696 | law for mandatory education in England |
-| 1698 | **first** practical steam engine by Thomas Savery |
+| 1698 | **first** practical steam engine by Thomas Slavery |
 | 1717 | law for mandatory education in Germany by Frederick William I|
 | 1725 | **first** annual almanac ("The Astronomical Diary and Almanac." in Boston) |
 | 1732 - 1758 | Benjamin Franklin printed Poor Richard's Almanack |
 | 1734 | **first** German dictionary (Glossarium Germanicum) |
 | 1739 | **first** printed German almanac (Der Hoch-Deutsch Amerikanische Calender) |
+| 1779 | Samuel Crompton invents the spinning mule<br>- protoypye of the Factory System|
 | 1791 | law for mandatory education in France<br>- "Gall-Pestalozzi Law."|
 | 1821 | **first** printed newspaper in Greece<br>- "Ἐφημερίς" (Efimeris) |
 | 1836 | Electrical Telegraph |
@@ -110,11 +112,16 @@ layout: default
 | 1861 | **first** Italian dictionary (Dizionario della Lingua Italiana) |
 | 1868 | - first typewriter (by Americans Christopher Latham Sholes, Frank Haven Hall, Carlos Glidden and Samuel W. Soule)<br>- The World Almanac and Encyclopedia" and "The World Almanac and Book of Facts". by the New York World newspaper |
 | 1876 | Telephone |
-| 1905 | **first** intelligence test (Binet-Simon Scale) |'
+| 1905 | **first** intelligence test (Binet-Simon Scale) |
 | 1911 | law for mandatory education in Greece<br>- "Gounaris Law"|
-| 1917 | **first** IQ test used in the military (Army Alpha: personnel selection and placement during World War I) |
+| 1917 | **first** IQ test used in the military<br>- Army Alpha: personnel selection and placement during World War I |
 | 1958 | **first** microchip by engineer Jack Kilby |
 | 1973 | **first** usable truly portable mobile telephone (Martin Cooper) |
 | 1983 | **first** commercially available cell phone (Motorola DynaTAC 8000X) |
 | 1992 | Text Messaging  |
 |  |  |
+
+### Comment/observation
+
+- when examining this data, the trajectory of AI's future development appears less speculative.
+- 
