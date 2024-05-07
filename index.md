@@ -60,3 +60,4 @@ layout: default
 
 - [Workexperience](https://sciustechnologia.github.io/)
 - [epistemological tree](epistemologicalTree.html)
+- statistical comparison of battery and range in EVs (Germany and US) [in progress]
