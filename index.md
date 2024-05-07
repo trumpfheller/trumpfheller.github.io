@@ -4,7 +4,7 @@ layout: default
 
 ## Content restructure & development, re-think & re-create.
 
-* * *
+---
 
 ### My QA Playbook
   - [Introduction](./playbook/qa_playbook.html)
