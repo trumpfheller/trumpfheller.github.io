@@ -2,11 +2,11 @@
 layout: default
 ---
 
-- content restructure & development, re-think & re-create.
+## Content restructure & development, re-think & re-create.
 
 * * *
 
-- My QA Playbook
+### My QA Playbook
   - [Introduction](./playbook/qa_playbook.html)
   - [Milestone 1 Initiation](./playbook/01.html)
   - [Milestone 2: Set the stage and plan Agile](./playbook/02.html)
@@ -20,7 +20,7 @@ layout: default
 
 ---
 
-- MyPyHandbook
+### MyPyHandbook
   - Data
     - [Strings](./python/strings.html)
     - [Variables](./python/variables.html)
@@ -40,11 +40,11 @@ layout: default
   
 ---
 
-- MyJava Basics (Compendium)
+### MyJava Basics (Compendium)
   - [Link - work in progress](./another-page.html).
 
 ---
-- Selenium & Python [Compendium]
+### Selenium & Python [Compendium]
   - [Basic](./selenium_python/selenium_py.html)
   - [Job search with Google](./selenium_python/googlesearch.html)
   - [Job search with ? in progress](./another-page.html).
@@ -52,7 +52,7 @@ layout: default
   - [Cucumber](./selenium_python/cucumber.html)
   - [pytest](./selenium_python/pytest.html)
 
-- Selenium & Java [Compendium]
+### Selenium & Java [Compendium]
   - [Basic](./selenium_java/selenium_java_basics.html).
   - [LinkedinSearch](./selenium_java/linkedinSearch.html)
 
