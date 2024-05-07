@@ -6,8 +6,6 @@ layout: default
 
 * * *
 
-## Content structure
-
 - My QA Playbook
   - [Introduction](./playbook/qa_playbook.html)
   - [Milestone 1 Initiation](./playbook/01.html)
@@ -42,6 +40,10 @@ layout: default
   
 ---
 
+- MyJava Basics (Compendium)
+  - [Link - work in progress](./another-page.html).
+
+---
 - Selenium & Python [Compendium]
   - [Basic](./selenium_python/selenium_py.html)
   - [Job search with Google](./selenium_python/googlesearch.html)
@@ -49,13 +51,12 @@ layout: default
   - [framework](./selenium_python/framework.html)
   - [Cucumber](./selenium_python/cucumber.html)
   - [pytest](./selenium_python/pytest.html)
-  
-- MyJava Basics (Compendium)
-  - [Link - work in progress](./another-page.html).
 
 - Selenium & Java [Compendium]
   - [Basic](./selenium_java/selenium_java_basics.html).
   - [LinkedinSearch](./selenium_java/linkedinSearch.html)
+
+---
 
 - [Workexperience](https://sciustechnologia.github.io/)
 - [epistemological tree](epistemologicalTree.html)
