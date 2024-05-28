@@ -12,13 +12,14 @@ layout: default
 
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
-| 30,000 | cave paintings (Chauvet Cave) |
+| 30,000 | cave paintings (Chauvet Cave in France) |
 | 10.000 | Petroglyphs<br>- carvings into a rock surface |
 | ~9.500 | Göbekli Tepe |
 | 9000 | Pictograms<br>- a symbol representing a concept, object, activity, place or event by illustration |
 | 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, consists of abstract signs representing syllables, words, or sounds) |
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
+| 2100 | Epic of Gilgamesh |
 | 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions |
 | 700 | Earliest Greek inscriptions using modified alphabet data adopted from the Phoenician alphabet |
 | 690 | Library of Ashurbanipal, Mesopotamia |
