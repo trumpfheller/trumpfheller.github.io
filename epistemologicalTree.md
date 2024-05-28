@@ -21,7 +21,7 @@ layout: default
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
 | 2600 | - oldest attested evidence for the existence of units of weight, and weighing scales date to the Fourth Dynasty of Egypt, with Deben (unit) balance weights, excavated from the reign of Sneferu |
 | 2100 | - Epic of Gilgamesh<br>- The concept of area is first recognized in Babylonian clay tablets, and 3-dimensional volume is discussed in an Egyptian papyrus. This begins the study of geometry. |
-| 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions |
+| 1550 | **1st** math book (Rhind Mathematical Papyrus) includes:<br>- arithmetic, geometry, algebraic equations, fractions, and proportions |
 | 700 | Earliest Greek inscriptions using modified alphabet data adopted from the Phoenician alphabet |
 | 690 | Library of Ashurbanipal, Mesopotamia |
 | 586 | Process of canonization of the Bible likely began during the Babylonian exile (6th century BCE) |
