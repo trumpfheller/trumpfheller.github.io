@@ -28,6 +28,7 @@ layout: default
 | 350 | Aristotle's "Posterior Analytics," Aristotle's Organon<br>- introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference<br>- laying the groundwork for later developments in logic and epistemology.<br>- later translated in Cordoba during the Muslim rule |
 | 300 | Euclid - The Elements (Greek: Στοιχεῖα Stoikheîa)<br>- a mathematical treatise consisting of 13 books<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions<br>- translated in Cordoba during the Muslim rule |
 | 285-246 | Library of Alexandria<br>- Ptolemy II Philadelphus<br>- mainly scrolls and books |
+| 260 | Aristarchus of Samos proposes a basic heliocentric model of the universe |
 | 131 | **first** newspaper ("Acta Diurna", during the time of Julius Caesar) |
 
 * image of the population within the Roman Empire
