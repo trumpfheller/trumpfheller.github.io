@@ -19,6 +19,7 @@ layout: default
 | 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, consists of abstract signs representing syllables, words, or sounds) |
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records. <br>- first deciphered numeral system is that of the Egyptian numerals, a sign-value system (as opposed to a place-value system) |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
+| 2600 | - oldest attested evidence for the existence of units of weight, and weighing scales date to the Fourth Dynasty of Egypt, with Deben (unit) balance weights, excavated from the reign of Sneferu |
 | 2100 | Epic of Gilgamesh |
 | 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions |
 | 700 | Earliest Greek inscriptions using modified alphabet data adopted from the Phoenician alphabet |
