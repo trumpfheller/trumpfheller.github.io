@@ -20,14 +20,15 @@ layout: default
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records.  |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
 | 1550 | **1st** math book: Rhind Mathematical Papyrus;<br>- includes arithmetic, geometry, algebraic equations, fractions, and proportions |
-| 700 | earliest Greek inscriptions using modified alphabet data adopted from the Poenician alphabet |
+| 700 | Earliest Greek inscriptions using modified alphabet data adopted from the Phoenician alphabet |
 | 690 | Library of Ashurbanipal, Mesopotamia |
-| 350 | Aristotle's "Posterior Analytics," Aristotle's Organon<br>- introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference<br>- laying the groundwork for later developments in logic and epistemology.<br>- translated in Cordoba during the Muslim rule |
+| 586 | Process of canonization of the Bible likely began during the Babylonian exile (6th century BCE) |
+| 350 | Aristotle's "Posterior Analytics," Aristotle's Organon<br>- introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference<br>- laying the groundwork for later developments in logic and epistemology.<br>- later translated in Cordoba during the Muslim rule |
 | 300 | Euclid - The Elements (Greek: Στοιχεῖα Stoikheîa)<br>- a mathematical treatise consisting of 13 books<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions<br>- translated in Cordoba during the Muslim rule |
 | 285-246 | Library of Alexandria<br>- Ptolemy II Philadelphus<br>- mainly scrolls and books |
 | 131 | **first** newspaper ("Acta Diurna", during the time of Julius Caesar) |
 
-* image of the population within the Roman empire
+* image of the population within the Roman Empire
 
 | <span style="width:350px">**AD**</span> | **milestone** |
 |---|:---|
