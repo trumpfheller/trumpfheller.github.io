@@ -30,22 +30,19 @@ layout: default
 
 ## Quick Python run down
 
-00 [Sequences](./pythonic/02_string_listTuple/06_sequences.html)
+**00** [Sequences](./pythonic/02_string_listTuple/06_sequences.html)
 
 **01** [Sequence String:](./pythonic/02_string_listTuple/02_01_strings.html)
-
 - [01_strings_slicing](./pythonic/02_string_listTuple/02_02_strings_slicing.html)
 - [02_string Function & Operators](./pythonic/02_string_listTuple/03_stringOperators_functions.html)
 - [03_string_methods](./pythonic/02_string_listTuple/04_string_methods.html)
 - [04_string_formatting](./pythonic/02_string_listTuple/05_string_formatting.html)
 
 **02** [Sequence List:](./pythonic/02_string_listTuple/07_lists.html)
-
 - [05_lists_methods](./pythonic/02_string_listTuple/08_lists_methods.html)
 - [06_tuples](./pythonic/02_string_listTuple/09_tuples.html)
 
-### [3 Iteration:](./pythonic/03_iteration/03.html)
-
+**03** [Iteration:](./pythonic/03_iteration/03.html)
 - [01_whileLoops](./pythonic/03_iteration/01_while_loops.html)
 - [02_forLoops](./pythonic/03_iteration/02_forLoops.html)
 - [03_range](./pythonic/03_iteration/03_range.html)
