@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-### My QA Playbook
+## My QA Playbook
   - [Introduction](./playbook/qa_playbook.html)
   - [Milestone 1 Initiation](./playbook/01.html)
   - [Milestone 2: Set the stage and plan Agile](./playbook/02.html)
@@ -30,9 +30,9 @@ layout: default
 
 ## Quick Python run down
 
-### [0 Sequences](./pythonic/02_string_listTuple/06_sequences.html)
+00 [Sequences](./pythonic/02_string_listTuple/06_sequences.html)
 
-### [1 Sequence String:](./pythonic/02_string_listTuple/02_01_strings.html)
+**01** [1 Sequence String:](./pythonic/02_string_listTuple/02_01_strings.html)
 
 - [01_strings_slicing](./pythonic/02_string_listTuple/02_02_strings_slicing.html)
 - [02_string Function & Operators](./pythonic/02_string_listTuple/03_stringOperators_functions.html)
