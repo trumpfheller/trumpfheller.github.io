@@ -22,7 +22,7 @@ layout: default
 
 - [Workexperience](https://sciustechnologia.github.io/)
 - [epistemological tree](epistemologicalTree.html)
-- statistical comparison of battery and range in EVs (Germany and US) using py, numpy, pandas, matlabLib [in progress]
+- linear regression [battery and range in EVs (Germany and US) using py, numpy, pandas, matlabLib [in progress]]
 
 
 ---
