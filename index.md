@@ -24,3 +24,8 @@ layout: default
 - [coding]()
 - [epistemological tree](epistemologicalTree.html)
 - statistical comparison of battery and range in EVs (Germany and US) using py, numpy, pandas, matlabLib [in progress]
+
+
+---
+
+### Quick Python run down
