@@ -30,7 +30,7 @@ layout: default
 
 ## Quick Python run down
 
-**00** [Sequences](./pythonic/02_string_listTuple/06_sequences.html)
+**00** [Sequences:](./pythonic/02_string_listTuple/06_sequences.html)
 
 **01** [Sequence String:](./pythonic/02_string_listTuple/02_01_strings.html)
 - [01_strings_slicing](./pythonic/02_string_listTuple/02_02_strings_slicing.html)
@@ -51,7 +51,7 @@ layout: default
 - [06_comprehension](./pythonic/03_iteration/06_comprehension.html)
 - [07_Iterator](./pythonic/06_functions/0307_iterator.html)
 
-### [4 set & dict:](./pythonic/04_set_dict/04.html)
+**04** [set & dict:](./pythonic/04_set_dict/04.html)
 
 - [01_set](./pythonic/04_set_dict/01_set.html)
 - [02_dict](./pythonic/04_set_dict/02_dict.html)
@@ -60,7 +60,7 @@ layout: default
 - [05_defaultDictionaries](./pythonic/04_set_dict/05_defaultDictionaries.html)
 - [06_nestedContainers](./pythonic/04_set_dict/06_nestedContainers.html)
 
-### [5 File Handling:](./pythonic/05_file/0500_files.html)
+**05** [File Handling:](./pythonic/05_file/0500_files.html)
 
 - [01_file_operations](./pythonic/05_file/0501_file_operations.html)
 - [02_readingTextFiles](./pythonic/05_file/0502_readingTextFiles.html)
@@ -69,7 +69,7 @@ layout: default
 - [05_json](./pythonic/05_file/0505_json.html)
 - [06_exceptions](./pythonic/05_file/0506_exceptions.html)
 
-### [6: Functions](./pythonic/06_functions/06.html)
+**06**  [Functions:](./pythonic/06_functions/06.html)
 
 - [01_Functions_Parameter](./pythonic/06_functions/0601_Parameter.html)
 - [02_Function_Arguments](./pythonic/06_functions/0602_Arguments.html)
@@ -84,7 +84,7 @@ layout: default
 - [11_Functions as Objects](./pythonic/06_functions/0612_functions_asObjects.html)
 - [12_Programming Paradigms](./pythonic/06_functions/0613_ProgrammingParadigms.html)
 
-### [7: OOP](./pythonic/07_oop/07.html)
+**07** [OOP:](./pythonic/07_oop/07.html)
 
 - [01_creatingObjects](./pythonic/07_oop/0701_CreatingObjects.html)
 - [02_definingClasses](./pythonic/07_oop/0702_DefiningClasses.html)
@@ -94,7 +94,7 @@ layout: default
 - [0501_SetterGetter](./pythonic/07_oop/070501_setterGetter.html)
 - [06_polymorphism](./pythonic/07_oop/0706_polymorphism.html)
 
-### [8: Modules, Packages and APIs](./pythonic/08_modulesPackageAPIs/08.html)
+**08** [Modules, Packages and APIs:](./pythonic/08_modulesPackageAPIs/08.html)
 
 - [01_Modules](./pythonic/08_modulesPackageAPIs/08_01.html)
 - [02_Import](./pythonic/08_modulesPackageAPIs/08_02.html)
@@ -103,7 +103,7 @@ layout: default
 - [05_Requests](./pythonic/08_modulesPackageAPIs/08_05.html)
 - [06_APIs](./pythonic/08_modulesPackageAPIs/08_06.html)
 
-### [9: regular expression](./pythonic/09_regularExpressions/09.html)
+**09** [regular expression](./pythonic/09_regularExpressions/09.html)
 
 - [01_Compiling](./pythonic/09_regularExpressions/0901.html)
 - [02_Pattern Matching](./pythonic/09_regularExpressions/0902.html)
