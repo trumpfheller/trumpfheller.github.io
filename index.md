@@ -2,7 +2,7 @@
 layout: default
 ---
 
-> Content restructure & development, re-think & re-create.
+> Content restructuring & development, re-think & re-imagine.
 
 ---
 
