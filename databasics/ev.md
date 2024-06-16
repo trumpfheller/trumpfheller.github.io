@@ -65,7 +65,7 @@ Example: the car with the biggest range is the 2023  Fisker Automotive | Ocean E
 
 - The data that I put in determines the quality of the output. If my data does not include the prize of a car, it is hard to say what decision would be the reasonable one. Due to the scope of the analysis and the lack of data in regard to the US, there are some drawbacks in regard to validity.
 
-### 8. Analysis
+### 9. Analysis
 
 - For 2024 there are 15 Manufacturers and for the year 2023 16.
 
