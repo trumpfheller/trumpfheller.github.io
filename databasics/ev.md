@@ -73,12 +73,11 @@ Example: the car with the biggest range is the 2023  Fisker Automotive | Ocean E
 
 ![grouped by Year](tier11.png "grouped by Year")
 
-The average range would leave me stranded on the highway, 35 miles missing till home. But the maximum range would work. Now let’s look how big the battery would need to be.
+1. The average range would leave me stranded on the highway, 35 miles missing till home. But the maximum range would work. 
+2. the biggest available batteries in 2023 got bigger in 2024, 
+3. the smallest available batteries got even smaller from 2023 to 2024. 
 
-These numbers are showing:
-Batteries
-- the biggest available batteries in 2023 got bigger in 2024, 
-- the smallest available batteries got even smaller from 2023 to 2024. 
+On emore time the same results from a different perspective:
 
 ![batteries](tier20.png "batteries")
 
