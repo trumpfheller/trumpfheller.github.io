@@ -94,7 +94,9 @@ Range
 ![range](tier21.png "range")
 
 
-### In general, is it better to buy a bigger battery because the more range I get out of it?
+### Now, the follow up question here is: 
+
+- is it better to buy a bigger battery because the more range I get out of it?
 
 ![regression](tier3.png "regression")
 
