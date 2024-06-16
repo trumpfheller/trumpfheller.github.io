@@ -46,6 +46,7 @@ For the purpose of this analysis I reduced the number of columns/variables to 7
 - NumPy (Numerical Analysis)
 - Matplotlib (Data Visualization)
 - Seaborn (Data Visualization)
+- tabulate (Data Visualization)
 
 ### Limitations and shortcomings
 
@@ -148,4 +149,82 @@ FROM EVSUV_20242023
 ORDER BY Range;
 ```
 
+* Manufacturers by year
+  
+```python
+import pandas as pd
+from tabulate import tabulate
 
+# pull in pandas DataFrame
+df = pd.read_csv('EVSUV_20242023.csv')
+
+# Filter DataFrame for years 2023 and 2024
+df_filtered = df[df['Year'].isin([2023, 2024])]
+
+
+# manufacturer_counts = df.groupby(['Year'])['Manufacturer'].nunique().reset_index()
+
+# Group by Year and Manufacturer, then count the number of unique manufacturers
+manufacturer_counts = df_filtered.groupby(['Year'])['Manufacturer'].nunique().reset_index()
+
+# Rename column (readability)
+manufacturer_counts.rename(columns={'Manufacturer': 'Number of Manufacturers'}, inplace=True)
+
+
+print("Number of Manufacturers grouped by Year:")
+print(tabulate(manufacturer_counts, headers='keys', tablefmt='psql'))
+```
+
+* min, max, avg of Range 
+```python
+import sqlite3
+import pandas as pd
+import numpy as np
+from tabulate import tabulate
+
+''' NumPy can do
+* sum, product
+* minimum, maximum
+* Median, average, mean and standard deviaation
+* Histogram
+'''
+
+
+df = pd.read_csv('EVSUV_20242023.csv')
+conn = sqlite3.connect('EVSUV_20242023.db')
+df.to_sql('EVSUV_20242023', conn, index=False, if_exists='replace')
+# Commit changes (meaning save it)
+conn.commit()
+
+# min, max, avg of Range 
+query = """
+        SELECT 
+            MIN(Range) AS Min_Range,
+            MAX(Range) AS Max_Range,
+            AVG(Range) AS Avg_Range
+        FROM 
+            EVSUV_20242023
+        """
+results = pd.read_sql_query(query, conn)
+
+# Converting 'Range' column to NumPy array
+range_array = np.array(df['Range'])
+
+# minimum, maximum, average using NumPy
+min_range = np.min(range_array)
+max_range = np.max(range_array)
+avg_range = np.mean(range_array)
+
+# DataFrame for results
+results_np = pd.DataFrame({
+    'Min_Range': [min_range],
+    'Max_Range': [max_range],
+    'Avg_Range': [avg_range]
+})
+
+print("Minimum, Maximum, Average of Range variable:")
+print(tabulate(results_np, headers='keys', tablefmt='psql'))
+
+# Close the connection
+conn.close()
+```
