@@ -100,3 +100,52 @@ Range
 
 ![regression](tier3.png "regression")
 
+
+---
+
+### Appendix
+
+- cleaning data [* NULL means unknown or missing data.]
+
+```python
+import pandas as pd
+
+df = pd.read_csv('EVSUV_20242023.csv')
+
+# Replace 'NULL' with NaN
+df.replace('NULL', pd.NA, inplace=True)
+
+# Get distinct values of Year, Battery, and Range
+distinct_years = df['Year'].unique().tolist()
+distinct_batteries = df['Battery'].unique().tolist()
+distinct_ranges = df['Range'].unique().tolist()
+
+distinct_years.sort()
+distinct_batteries.sort()
+distinct_ranges.sort()
+
+print("Distinct Years:")
+print(distinct_years)
+
+print("\nDistinct Batteries:")
+print(distinct_batteries)
+
+print("\nDistinct Ranges:")
+print(distinct_ranges)
+```
+
+```sql
+SELECT DISTINCT Year
+FROM EVSUV_20242023
+ORDER BY Year;
+
+SELECT DISTINCT Battery
+FROM EVSUV_20242023
+ORDER BY Battery;
+
+SELECT DISTINCT Range
+FROM EVSUV_20242023
+ORDER BY Range;
+```
+
+
