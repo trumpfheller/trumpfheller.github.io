@@ -1,11 +1,11 @@
-### Introduction
+### 1. Introduction
 
 In my previous course (project management) I was working on an idea to convert ICE trucks to EV trucks. I noticed that the conversion idea itself took off but often with a polite hint of skepsis. The Skepsis as I found out later, was based on the fear of being stranded on the highway with a dead battery due to insufficient network of recharging stations. According to a Pew Research Center study, 53% of Americans have low levels of confidence that the US will build necessary EV infrastructure (survey conducted 05/30-06/04, 2023). 
 
 So the question that I was trying to clarify for myself was: why would someone fear the lack of recharging opportunities when the range is comparable to an ICE?
 Hence, the idea is to look if the capability to range actually suffices. To make it even more self evident I add the worse case scenario by looking at EVs that are bigger, heavier and therefore more vulnerable to being stranded on side of the road with an empty battery - SUV-EVs.
 
-### Source of my selected dataset
+### 2. Source of my selected dataset
 The US department of Energy has a website which allows all sorts of selections in regard to EVs. My selection [link] included non commercial non fleet all electric SUV-EVs 
 with the models from 2022 till 2024.
 [link].
@@ -19,7 +19,7 @@ Since the 2022 observations didn’t list data on the batteries variable, I had 
 
 The remaining 7 variables and 70 observations (rows), a third of the data had not one specific number of miles as range but a range of miles in the ‘Range’ column. In each case I replaced the range of miles with its average.
 
-### Level of measurement
+### 3. Level of measurement
 
 For the purpose of this analysis I reduced the number of columns/variables to 7 
 
@@ -33,7 +33,7 @@ For the purpose of this analysis I reduced the number of columns/variables to 7
 - Battery
 - Engine Size (e-motor)
 
-### Libraries which I used in this analysis
+### 4. Libraries which I used in this analysis
 
 - Python (For Coding)
 - Pandas (Data Wrangling)
@@ -42,7 +42,7 @@ For the purpose of this analysis I reduced the number of columns/variables to 7
 - Seaborn (Data Visualization)
 - tabulate (Data Visualization)
 
-### Limitations and shortcomings
+### 5. Limitations and shortcomings
 
 The main focus of this report is not the use of software like SPSS and go into depth of the relationships and strength of the relationship between variables. The focus here is the application of python in the context of statistics. 
 In a statistical report I would research more about for instance the baseline. Considering that the electricity grid in the US is already maxedout, where should all the additional electricity for EVs come from? Then I would ask what the maximum electricity capacity of California is in an attempt to determine how much electricity could be provided per car can and derive from that its range. This would give me a variable that could not be changed.
@@ -54,18 +54,18 @@ From my own experience, the longest commute I’ve ever had in the Bay Area was 
 
 The variable “Price” (the amount of money I would have to come up to get the car and the battery wall) is not or was not available. So even if the EV-SUV would be able to get me either 300 for three days or the 500 miles per week before recharging, the logical follow up question would be if I could even afford the upfront cost.
 
-### Reliability 
+### 6. Reliability 
+
 1. The measure works for all cars in every country and should be consistent.
-
 2. In general what we have to keep in mind that the size of the tires can have a huge impact on the range. Some models offer wheels from 20", 21", to 22”. But we will ignore this difference for now. There are so many variables (Drivetrain, height of the vehicle, ) that influence the range, we have to start with the basics.
-
 3. Another point to make: companies change their prizes depending on the market.
 Example: the car with the biggest range is the 2023  Fisker Automotive | Ocean Extreme, One. Fisker was lowering the MSRP of the 2023 Ocean Extreme trim by $24,000, to $37,499 from $61,499 MSRP. Fisker Announces Discounts in U.S. on Many 2023 Model Year Vehicles. [source] 
 
-### Validity => Getting what it Is suppose to measure. 
+### 7. Validity => Getting what it Is suppose to measure. 
+
 - The data that I put in determines the quality of the output. If my data does not include the prize of a car, it is hard to say what decision would be the reasonable one. Due to the scope of the analysis and the lack of data in regard to the US, there are some drawbacks in regard to validity.
 
-### Analysis
+### 8. Analysis
 
 - For 2024 there are 15 Manufacturers and for the year 2023 16.
 
