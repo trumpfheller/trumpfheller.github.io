@@ -84,13 +84,18 @@ On emore time the same results from a different perspective:
 ![batteries](tier20.png "batteries")
 
 Range
-- the maximum range came down from 2023 to 2024
-- the minimal range went up from 2023 to 2024.
+1. the maximum range came down from 2023 to 2024
+2. the minimal range went up from 2023 to 2024.
+3. For interpretation I would need to dig deeper here. As in
+  a) range came down because of what the battery has to deliver to support the car itself?
+  b) all cars or are there specifcities that need to be considered.
+  c) same for minimum range    
+Since this is analysis is not intended to be explorative in nature, I just keep it in mind worth investigating to another point in time.
 
 ![range](tier21.png "range")
 
 
-### Now, the follow up question here is: 
+### Now, the big elephant / question remains: 
 
 - is it better to buy a bigger battery because the more range I get out of it?
 
