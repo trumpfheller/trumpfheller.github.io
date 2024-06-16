@@ -47,6 +47,29 @@ For the purpose of this analysis I reduced the number of columns/variables to 7
 - Matplotlib (Data Visualization)
 - Seaborn (Data Visualization)
 
+### Limitations and shortcomings
+
+The main focus of this report is not the use of software like SPSS and go into depth of the relationships and strength of the relationship between variables. The focus here is the application of python in the context of statistics. 
+In a statistical report I would research more about for instance the baseline. Considering that the electricity grid in the US is already maxedout, where should all the additional electricity for EVs come from? Then I would ask what the maximum electricity capacity of California is in an attempt to determine how much electricity could be provided per car can and derive from that its range. This would give me a variable that could not be changed.
+For the cultural significance, keep in mind that the American way of life included the freedom of movement. 
+To find the current maximum capacity in California I would have to reach out to the California Energy Commission (CEC), the U.S. Energy Information Administration (EIA), and individual utility companies to get the numbers. Which is outside of the scope of this report and therefore there is no ceiling, no max.
+Since there is no ceiling to which we can max out, yet - I will refer to my own little word.
+
+From my own experience, the longest commute I’ve ever had in the Bay Area was 100 miles daily commute roundtrip and I had to refill every third day. Stop and go was the main reason for not lasting the entire week without a refill. So my expectation, my measurement therefore would be 300 miles range before the first refill/recharge.
+
+The variable “Price” (the amount of money I would have to come up to get the car and the battery wall) is not or was not available. So even if the EV-SUV would be able to get me either 300 for three days or the 500 miles per week before recharging, the logical follow up question would be if I could even afford the upfront cost.
+
+### Reliability 
+1. The measure works for all cars in every country and should be consistent.
+
+2. In general what we have to keep in mind that the size of the tires can have a huge impact on the range. Some models offer wheels from 20", 21", to 22”. But we will ignore this difference for now. There are so many variables (Drivetrain, height of the vehicle, ) that influence the range, we have to start with the basics.
+
+3. Another point to make: companies change their prizes depending on the market.
+Example: the car with the biggest range is the 2023  Fisker Automotive | Ocean Extreme, One. Fisker was lowering the MSRP of the 2023 Ocean Extreme trim by $24,000, to $37,499 from $61,499 MSRP. Fisker Announces Discounts in U.S. on Many 2023 Model Year Vehicles. [source] 
+
+### Validity => Getting what it Is suppose to measure. 
+- The data that I put in determines the quality of the output. If my data does not include the prize of a car, it is hard to say what decision would be the reasonable one. Due to the scope of the analysis and the lack of data in regard to the US, there are some drawbacks in regard to validity.
+
 
 ### Analysis
 
