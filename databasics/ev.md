@@ -175,7 +175,8 @@ print("Number of Manufacturers grouped by Year:")
 print(tabulate(manufacturer_counts, headers='keys', tablefmt='psql'))
 ```
 
-* min, max, avg of Range 
+* min, max, avg of Range
+  
 ```python
 import sqlite3
 import pandas as pd
