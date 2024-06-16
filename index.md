@@ -22,7 +22,7 @@ layout: default
 
 - [Workexperience](https://sciustechnologia.github.io/)
 - [epistemological tree](epistemologicalTree.html)
-- linear regression [battery and range in EVs (Germany and US) using py, numpy, pandas, matlabLib [in progress]]
+- [statitical analysis](./databasic/ev.html) using python, numpy, pandas, matlabLib and others
 
 
 ---
