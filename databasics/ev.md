@@ -48,7 +48,7 @@ The main focus of this report is not the use of software like SPSS and go into d
 In a statistical report I would research more about for instance the baseline. Considering that the electricity grid in the US is already maxedout, where should all the additional electricity for EVs come from? Then I would ask what the maximum electricity capacity of California is in an attempt to determine how much electricity could be provided per car can and derive from that its range. This would give me a variable that could not be changed.
 For the cultural significance, keep in mind that the American way of life included the freedom of movement. 
 To find the current maximum capacity in California I would have to reach out to the California Energy Commission (CEC), the U.S. Energy Information Administration (EIA), and individual utility companies to get the numbers. Which is outside of the scope of this report and therefore there is no ceiling, no max.
-Since there is no ceiling to which we can max out, yet - I will refer to my own little word.
+Since there is no ceiling to which we can max out, yet - I will refer to my own experience in the Bay Area.
 
 From my own experience, the longest commute I’ve ever had in the Bay Area was 100 miles daily commute roundtrip and I had to refill every third day. Stop and go was the main reason for not lasting the entire week without a refill. So my expectation, my measurement therefore would be 300 miles range before the first refill/recharge.
 
