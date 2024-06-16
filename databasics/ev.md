@@ -12,3 +12,14 @@ So the question that I was trying to clarify for myself was: why would someone f
 Hence, the idea is to look if the capability to range actually suffices. To make it even more self evident I add the worse case scenario by looking at EVs that are bigger, heavier and therefore more vulnerable to being stranded on side of the road with an empty battery - SUV-EVs.
 
 ### Source of my selected dataset
+
+
+### Analysis
+
+For 2024 there are 15 Manufacturers and for the year 2023 16.
+
+![Manufacturers](tier10.png "Manufacturers")
+
+Minimum, Maximum, Average, and Mode of Range Variable grouped by Year
+
+![grouped by Year](tier11.png "grouped by Year")
