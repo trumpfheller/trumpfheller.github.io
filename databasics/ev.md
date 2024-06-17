@@ -6,6 +6,7 @@ So the question that I was trying to clarify for myself was: why would someone f
 Hence, the idea is to look if the capability to range actually suffices. To make it even more self evident I add the worse case scenario by looking at EVs that are bigger, heavier and therefore more vulnerable to being stranded on side of the road with an empty battery - SUV-EVs.
 
 ### 2. Source of my selected dataset
+
 The US department of Energy has a website which allows all sorts of selections in regard to EVs. My selection [link] included non commercial non fleet all electric SUV-EVs 
 with the models from 2022 till 2024.
 [link].
@@ -68,18 +69,17 @@ Example: the car with the biggest range is the 2023  Fisker Automotive | Ocean E
 ### 9. Analysis
 
 - For 2024 there are 15 Manufacturers and for the year 2023 16.
-
 - Minimum, Maximum, Average, and Mode of Range Variable grouped by Year
 
 ![grouped by Year](tier11.png "grouped by Year")
 
 1. The average range would leave me stranded on the highway, 35 miles missing till home. But the maximum range would work. Of course you could argue that your car would be able to recharge while I am in the office.
-  - certain days, when everyone is showing up to work, all the recharge spots would be occupied.
-  - the idea is to compare the EV with an ICE which means the base line for comparison is recharge once a week.   
+  * certain days, when everyone is showing up to work, all the recharge spots would be occupied.
+  * the idea is to compare the EV with an ICE which means the base line for comparison is recharge once a week.   
 2. the biggest available batteries in 2023 got bigger in 2024, 
 3. the smallest available batteries got even smaller from 2023 to 2024. 
 
-On emore time the same results from a different perspective:
+Now the same results from a different perspective:
 
 ![batteries](tier20.png "batteries")
 
