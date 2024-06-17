@@ -95,7 +95,7 @@ Since this is analysis is not intended to be explorative in nature, I just keep 
 ![range](tier21.png "range")
 
 
-### Now, the big elephant / question remains: 
+### And, the big elephant / question remains: 
 
 - is it better to buy a bigger battery because the more range I get out of it?
 
