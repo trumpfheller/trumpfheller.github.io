@@ -21,8 +21,11 @@ layout: default
 ---
 
 - [Workexperience](https://sciustechnologia.github.io/)
-- [epistemological tree](epistemologicalTree.html)
 
 ---
 
 - [statitical analysis](./databasics/ev.html) using python, numpy, pandas, matlabLib and others
+
+---
+
+- [epistemological tree](epistemologicalTree.html)
