@@ -26,6 +26,7 @@ layout: default
 
 ## Testings
 - [Bluetooth testing](./testing/bt.html)
+- [Bluetooth testing tools](./testing/btt.html)
 - [Power testing](./testing/pwr.html)
 
 ---
