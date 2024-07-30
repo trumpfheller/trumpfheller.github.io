@@ -24,6 +24,12 @@ layout: default
 
 ---
 
+## Testings
+- [Bluetooth testing](./testing/bt.html)
+- [Power testing](./testing/pwr.html)
+
+---
+
 - [statitical analysis](./databasics/ev.html) using python, numpy, pandas, matlabLib and others
 
 ---
