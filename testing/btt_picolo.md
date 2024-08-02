@@ -7,12 +7,12 @@
 
 ### Key Features of Piccolo
 
-Bluetooth Protocol Analysis:
+1. Bluetooth Protocol Analysis:
 
 * Support for Bluetooth Versions: Piccolo typically supports both **Classic Bluetooth** and **Bluetooth Low Energy (BLE)** protocols. This allows it to capture and decode various types of Bluetooth communication.
 * Packet Capture and Analysis: It captures Bluetooth packets in real-time and provides detailed analysis of the communication, including **packet headers**, **payloads**, and **error conditions**.
 
-Advanced Debugging Tools:
+2. Advanced Debugging Tools:
 
 Protocol Decoding: 
 * Piccolo offers in-depth protocol decoding, helping developers and engineers understand the low-level details of Bluetooth communication.
