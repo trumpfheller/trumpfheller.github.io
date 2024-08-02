@@ -66,7 +66,11 @@ Usage: Important for assessing the power efficiency of Bluetooth devices, especi
 Description: Detailed trace logs that provide a chronological view of Bluetooth operations, often including timestamps and sequence information.
 Usage: Useful for in-depth analysis of the Bluetooth communication sequence and timing.
 
-### 11. Bluetooth HCI (Host Controller Interface) Snoop Log
+---
+
+## in more detail
+
+### Bluetooth HCI (Host Controller Interface) Snoop Log
 
 > for in-depth analysis of Bluetooth communication, providing insights into the inner workings of Bluetooth interactions and helping to resolve complex issues related to Bluetooth technology
 
