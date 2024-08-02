@@ -57,7 +57,7 @@ Guide to get started:
   * Adjust Settings: 
     * Modify capture settings, filters, or channels if necessary to focus on different aspects of Bluetooth communication.
   * Retest: 
-    * Repeat the testing process to verify that issues have been resolved or to investigate further.
+    * Repeat the testing process to verify that issues have been resolved or to investigate further. In Agile we test in iterations. So, don't worry about the result, it is a process: each step delivers better results compared to before.
 
 ### 7. Additional Tips
   * Understand Bluetooth Protocols: 
