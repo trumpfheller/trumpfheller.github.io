@@ -68,7 +68,7 @@
 
 ---
 
-### Bluetooth HCI Snoop Log
+### Bluetooth HCI (Host Controller Interface) Snoop Log
 
 * for in-depth analysis of Bluetooth communication, providing insights into the inner workings of Bluetooth interactions and helping to resolve complex issues related to Bluetooth technology
 
