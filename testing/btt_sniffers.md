@@ -59,8 +59,8 @@
     * Repeat the testing process to verify that issues have been resolved or to investigate further. In Agile we test in iterations. So, don't worry about the result, it is a process: each step delivers better results compared to before.
 
 ### 7. Additional Tips
-  * Understand Bluetooth Protocols: 
-    * Familiarize yourself with Bluetooth protocols (Classic Bluetooth, BLE) and their respective communication patterns.
+  * Check Bluetooth Protocols: 
+    * Familiarize yourself with Bluetooth protocols and updates (Classic Bluetooth, BLE) and their respective communication patterns.
   * Test in Different Environments: 
     * Perform testing in various environments to account for potential **interference**.
   * Stay Updated: 
