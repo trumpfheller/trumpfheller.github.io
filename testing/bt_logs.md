@@ -20,8 +20,8 @@ adb logcat -d > /path/to/local/directory/logcat.txt
 ```
 
 At Google they have a software that unzips the bugreport and allows you to 
-* surf throught he logs
-* search for a specific log
+* surf through the logs
+* search for a specific log and open it for further investigation
 * search in all logs for a specific error message (it even shows you how often a specific error occured).
 
 ---
