@@ -67,4 +67,4 @@ Use the Piccolo software to review and analyze the captured Bluetooth packets. L
 
 Generate Reports:
 Document your findings and generate reports as needed for debugging, compliance, or development purposes.
-Again, even if you don't have all the evidence for this one issue which only you seem to encounter: keep a record. One day you will see the entire issue and then you can provide a history of the bug!
+Again, even if you don't have all the evidence for this one issue which only you seem to encounter: keep a record. One day you will see the entire issue and then you can provide a history of the bug! The more complex a (test)system is, the more likely it is that issue are not self evident. You need more evidence. Plus, some issues are hidden or start deeper and therefore harder to find. A history helps to clarify what is what.
