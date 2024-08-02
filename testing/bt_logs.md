@@ -60,11 +60,11 @@ At Google they have a software that unzips the bugreport and enables you to
 
 ### 9. Power Consumption Logs
 * Description: Logs related to the power usage of Bluetooth devices, often measured during different Bluetooth operations (e.g., idle, scanning, transmitting).
-Usage: Important for assessing the power efficiency of Bluetooth devices, especially in battery-operated devices.
+* Usage: Important for assessing the power efficiency of Bluetooth devices, especially in battery-operated devices.
 
 ### 10. Trace Logs
-Description: Detailed trace logs that provide a chronological view of Bluetooth operations, often including timestamps and sequence information.
-Usage: Useful for in-depth analysis of the Bluetooth communication sequence and timing.
+* Description: Detailed trace logs that provide a chronological view of Bluetooth operations, often including timestamps and sequence information.
+* Usage: Useful for in-depth analysis of the Bluetooth communication sequence and timing.
 
 ---
 
