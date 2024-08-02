@@ -9,13 +9,8 @@ in a car’s infotainment system for instance include:
 * inconsistent behavior of Bluetooth features. 
 
 > it's either about **performance** or **reliability**
-> 
-> In other devices you will/might encounter on top device specific protocol errors.
-Debugging these errors therefore involves several steps to identify and resolve the issue. 
 
----
-
-Guide on what to look for and how to troubleshoot Bluetooth protocol errors:
+### Guide on what to look for and how to troubleshoot Bluetooth protocol errors:
 
 ### 1.Pairing Issues:
 
@@ -36,6 +31,9 @@ Guide on what to look for and how to troubleshoot Bluetooth protocol errors:
 
 * Voice Commands: Failure to recognize or correctly execute voice commands.
 * Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth.
+
+> For some devices you will/might encounter on top additional device specific errors.
+Debugging these errors therefore involves several steps to identify and resolve the issue. 
 
 ---
 
