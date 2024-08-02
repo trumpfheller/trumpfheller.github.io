@@ -78,6 +78,6 @@
 
 * 3.Debugging and Analysis: By analyzing HCI Snoop Logs, developers and testers can troubleshoot Bluetooth issues, verify correct protocol implementation, and ensure that the Bluetooth stack is operating as expected. It helps in diagnosing problems like failed connections, data transfer issues, or protocol errors.
 
-* 4.Log Formats: HCI Snoop Logs are typically saved in a binary or text-based format and can be analyzed using various tools, such as Wireshark. In Wireshark, for example, you can view the decoded Bluetooth packets, inspect individual fields, and trace the sequence of Bluetooth operations.
+* 4.Log Formats: HCI Snoop Logs are typically saved in a binary or text-based format and can be analyzed using various tools, such as Wireshark. In Wireshark, for example, you can view the decoded Bluetooth packets, inspect individual fields, and trace the sequence of Bluetooth operations. Companies like Google, Amazon and Meta have their proprietary tools to cover that.
 
 * 5.Usage in Development: During the development and testing phase, engineers use HCI Snoop Logs to validate that the Bluetooth hardware and software are functioning correctly. It helps in ensuring that the Bluetooth stack is compliant with the Bluetooth specification and that all commands and responses are correctly handled.
