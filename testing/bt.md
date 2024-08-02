@@ -1,6 +1,6 @@
 ## Bluetooth testing
 
-* focus is on **performance and reliability**
+* focus is on **performance and reliability** (BT has one channel for energy an done for data and low energy)
 
 ### Common Symptoms of Bluetooth Protocol Errors 
 
