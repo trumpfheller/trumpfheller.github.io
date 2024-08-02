@@ -19,10 +19,9 @@ Protocol Decoding:
 Traffic Filtering:
 * It allows users to set up filters to focus on specific devices, channels, or types of packets, making it easier to isolate and troubleshoot issues.
 
-User-Friendly Interface:
-
-Graphical User Interface (GUI): 
+User-Friendly Interface(GUI): 
 * Provides an intuitive GUI for viewing captured data, navigating through packet information, and analyzing communication patterns.
+
 Visualization Tools:
 * Often includes visualization tools to represent the data graphically, which can simplify understanding complex interactions.
 
@@ -30,8 +29,9 @@ Compatibility and Integration:
 
 Hardware Compatibility: 
 * Works with specific Bluetooth dongles or hardware that supports sniffing capabilities.
-Integration with Other Tools:
 * Can often be integrated with other development and testing tools to enhance the overall workflow.
+
+---
 
 ### Use Cases for Piccolo
 
@@ -48,6 +48,8 @@ Troubleshooting:
 
 Debugging Communication Issues: Identifies and helps resolve issues related to connection failures, data corruption, and protocol errors.
 Compliance Testing: Ensures that devices meet Bluetooth standards and specifications.
+
+---
 
 ### How to Use Piccolo
 
