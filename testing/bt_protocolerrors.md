@@ -1,4 +1,4 @@
-## Bluetooth protocol bugs
+## Bluetooth protocol bugs - what to look for and how to troubleshoot Bluetooth protocol errors:
 
 ### Common Symptoms of Bluetooth Protocol Errors 
 
@@ -10,7 +10,7 @@ in a car’s infotainment system for instance include:
 
 > it's either about **performance** or **reliability**
 
-### Guide on what to look for and how to troubleshoot Bluetooth protocol errors:
+
 
 ### 1.Pairing Issues:
 
