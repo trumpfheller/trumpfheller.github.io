@@ -1,4 +1,5 @@
-## Bluetooth profiles and * Purposes
+## Bluetooth profiles 
+> and * Purposes
 
 ### 1. Classic Bluetooth (BR/EDR)
 * Explanation: The original Bluetooth technology - Basic Rate (BR) or Enhanced Data Rate (EDR).
