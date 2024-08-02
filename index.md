@@ -39,7 +39,7 @@ layout: default
 
 ---
 
-- [statitical analysis](./databasics/ev.html) using python, numpy, pandas, matlabLib and others
+- [statistical analysis](./databasics/ev.html) using python, numpy, pandas, matlabLib and others
 
 ---
 
