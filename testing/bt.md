@@ -50,7 +50,7 @@ Here’s a detailed guide on what to look for and how to troubleshoot Bluetooth 
 * Analyze Packets: Look for anomalies such as failed handshake messages, incorrect packet formats, or protocol errors.
 
 Review Bluetooth Logs:
-* Access Logs: Some infotainment systems and Bluetooth devices maintain logs of Bluetooth interactions. Check these logs for error messages or abnormal events.
+* Access Logs: Some infotainment systems and Bluetooth devices maintain logs of Bluetooth interactions. Check these logs for error messages or abnormal events (pull the bugreport and ejoy).
 * Consult Documentation: Refer to the infotainment system’s documentation for specific error codes or messages that can help in diagnosing the problem.
 
 Check Bluetooth Profiles:
