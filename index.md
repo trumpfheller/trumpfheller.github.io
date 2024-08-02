@@ -30,6 +30,7 @@ layout: default
 - [Bluetooth testing tools Sniffer](./testing/btt_sniffers.html)
 - [Bluetooth testing tools Picolo](./testing/btt_picolo.html)
 - [Bluetooth bugs](./testing/bt_protocolerrors.html)
+- [Bluetooth logs](./testing/bt_logs.html)
 
   in the works:
 - [Power testing](./testing/pwr.html)
