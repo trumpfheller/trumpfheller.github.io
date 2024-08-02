@@ -2,13 +2,14 @@
 
 ### Common Symptoms of Bluetooth Protocol Errors 
 
-Common symptoms of Bluetooth protocol errors [**performance and reliability**] in a car’s infotainment system include: 
+in a car’s infotainment system for instance include: 
 * connectivity problems, 
 * audio dropouts, 
 * failed pairing, or 
 * inconsistent behavior of Bluetooth features. 
 
-In other devices you will/might encounter on top device specific protocol errors.
+=> it's either about **performance** or **reliability**
+=> In other devices you will/might encounter on top device specific protocol errors.
 Debugging these errors therefore involves several steps to identify and resolve the issue. 
 
 ---
