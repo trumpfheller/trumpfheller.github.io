@@ -26,7 +26,7 @@
 
 * Voice Commands: Failure to recognize or correctly execute voice commands.
 * Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth. => big topic, but takes more than one paragraph
-* Examples: 
+* Examples: Google Assitant, Amazon, Fitbit, Infotainment system: ask in a foreign language for a song.
 
 ---
 
