@@ -68,7 +68,8 @@ Check Bluetooth Profiles:
 
 ### 6.Consult Support:
   * Manufacturer Support: If the problem persists, contact the support teams of the infotainment system or Bluetooth device manufacturers. Provide them with details of the issue, any error codes, and logs if available.
-  * Example: Analyzing Bluetooth Protocol Errors
+
+### 7.Example: Analyzing Bluetooth Protocol Errors
 Suppose you capture packets with a Bluetooth sniffer and observe errors in the connection handshake phase. Common errors might include:
     * Invalid Authentication Responses: Indicates issues with pairing security.
     * Malformed Packets: Suggests that the packets being sent are not formatted correctly, potentially due to firmware bugs.
