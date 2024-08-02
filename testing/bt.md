@@ -76,8 +76,7 @@ Suppose you capture packets with a Bluetooth sniffer and observe errors in the c
 In such cases, you would need to:
 
 * Examine the Authentication Process: Ensure that the correct authentication methods are being used and that there are no mismatches in security parameters.
-Review Packet Formats: Check for protocol violations or incorrect packet structures that may be causing the errors.
+* Review Packet Formats: Check for protocol violations or incorrect packet structures that may be causing the errors.
 * Check Timing: Analyze the timing of packet exchanges to identify any delays or synchronization issues.
 
-you can effectively debug Bluetooth protocol errors and improve the **performance and reliability** of your car’s infotainment system.
 
