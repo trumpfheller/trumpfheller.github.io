@@ -47,11 +47,6 @@
 * Features: Packet capture, protocol decoding, and analysis tools.
 * Website: Silicon Labs
 
-8. Tektronix Bluetooth Protocol Analyzer
-* Description: suitable for both Bluetooth Classic and BLE, offering in-depth protocol analysis and troubleshooting tools.
-* Features: Detailed protocol decoding, real-time capture, and advanced analysis capabilities.
-* Website: Tektronix
-
 ---
 
 ### logic Analyzers 
