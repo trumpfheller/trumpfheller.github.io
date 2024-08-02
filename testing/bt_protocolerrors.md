@@ -1,4 +1,5 @@
-## Bluetooth protocol bugs - what to look for and how to troubleshoot Bluetooth protocol errors:
+## Bluetooth protocol bugs 
+> what to look for and how to troubleshoot Bluetooth protocol errors:
 
 ### Common Symptoms of Bluetooth Protocol Errors 
 
