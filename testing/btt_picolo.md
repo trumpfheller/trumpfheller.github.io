@@ -26,8 +26,6 @@ Visualization Tools:
 * Often includes visualization tools to represent the data graphically, which can simplify understanding complex interactions.
 
 Compatibility and Integration:
-
-Hardware Compatibility: 
 * Works with specific Bluetooth dongles or hardware that supports sniffing capabilities.
 * Can often be integrated with other development and testing tools to enhance the overall workflow.
 
