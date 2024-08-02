@@ -45,7 +45,7 @@ Here’s a detailed guide on what to look for and how to troubleshoot Bluetooth 
 * Software Updates: Check if there are any firmware or software updates available for the infotainment system and apply them if necessary.
 * Reset to Factory Settings: Perform a factory reset of the infotainment system if persistent issues occur, but be sure to back up important settings first.
 
-Use a Bluetooth Sniffer:
+### 3.Use a Bluetooth Sniffer:
 * Capture Bluetooth Traffic: Use a Bluetooth sniffer (hardware or software) to capture and analyze Bluetooth packets between the infotainment system and the paired device.
 * Analyze Packets: Look for anomalies such as failed handshake messages, incorrect packet formats, or protocol errors.
 
@@ -57,7 +57,7 @@ Check Bluetooth Profiles:
 * Verify Profiles: Ensure that both devices support the necessary Bluetooth profiles (e.g., A2DP for audio streaming, HFP for hands-free calls) and that they are correctly implemented.
 * Profile Compatibility: Confirm that there are no compatibility issues between the profiles supported by the infotainment system and the paired device.
 
-Examine Interference:
+### 4.Examine Interference:
 
 * Reduce Interference: Bluetooth operates on the 2.4 GHz band, which is shared with many other devices (Wi-Fi, microwave ovens). Ensure there’s minimal interference in the environment.
 * Test in Different Locations: Move to a different location to see if the problem persists, which can help identify if interference is an issue.
