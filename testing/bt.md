@@ -1,6 +1,6 @@
 ## Bluetooth protocol bugs
 
-Bluetooth protocol errors in a car’s infotainment system can manifest in various ways, depending on the nature of the issue. Common symptoms include 
+Bluetooth protocol errors in a car’s infotainment system can manifest in various ways: Common symptoms include 
 * connectivity problems, 
 * audio dropouts, 
 * failed pairing, or 
