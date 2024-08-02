@@ -1,9 +1,9 @@
-## Tools - protocol analyzers
+## Tools for Bluetooth protocol analysis:- protocol analyzers
 
-- gather information of wifi and network, decoding 1 an zeros to human readable protocols [transmission control protocol ]
+- gather information of wifi and network, decoding 1 an zeros to human readable protocols [transmission control protocol - TCP]
 - provides additional features => analystics
 
-###  tools for Bluetooth protocol analysis:
+---
 
 1. Ellisys Bluetooth Analyzer
 * Description: Ellisys offers a range of Bluetooth protocol analyzers, including the Ellisys Bluetooth Tracker and Ellisys Bluetooth Explorer. These tools provide comprehensive support for Bluetooth Classic, Bluetooth Low Energy (BLE), and Bluetooth 5.x protocols.
