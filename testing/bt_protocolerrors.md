@@ -8,8 +8,9 @@ in a car’s infotainment system for instance include:
 * failed pairing, or 
 * inconsistent behavior of Bluetooth features. 
 
-=> it's either about **performance** or **reliability**
-=> In other devices you will/might encounter on top device specific protocol errors.
+> it's either about **performance** or **reliability**
+> 
+> In other devices you will/might encounter on top device specific protocol errors.
 Debugging these errors therefore involves several steps to identify and resolve the issue. 
 
 ---
