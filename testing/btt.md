@@ -27,16 +27,15 @@
 
 5. Wireshark with Bluetooth Plugins
 * Description: Wireshark is a popular network protocol analyzer that can be extended with Bluetooth plugins to capture and analyze Bluetooth traffic. It supports Bluetooth Classic and BLE with the appropriate plugins.
-
-- packet analyzer
-- panel 1: shows each frame as it goes through the ethernet/network,
+* Features: Packet capture, protocol decoding, extensive filtering options, and support for various Bluetooth profiles.
+* has a packet analyzer
+* panel 1: shows each frame as it goes through the ethernet/network,
   - click on one HTTP protocol that is ok
-- panel 2: details about the frame I clicked in the previous panel
+* panel 2: details about the frame I clicked in the previous panel
   - source IP and destination IP
   - Port numbers used in the TCP (Transmission Control Protcol)
-- panel 3: shows the hexi decimal and ascii representation of what is inside the ethernet frame.
+* panel 3: shows the hexi decimal and ascii representation of what is inside the ethernet frame.
 
-* Features: Packet capture, protocol decoding, extensive filtering options, and support for various Bluetooth profiles.
 * Website: Wireshark
 
 6. Beetle Bluetooth Protocol Analyzer
