@@ -19,7 +19,7 @@ adb pull /sdcard/logcat.log /path/to/local/directory/
 adb logcat -d > /path/to/local/directory/logcat.txt
 ```
 
-At Google they have a software that unzips the bugreport and allows you to 
+At Google they have a software that unzips the bugreport and enables you to 
 * surf through the logs
 * search for a specific log and open it for further investigation
 * search in all logs for a specific error message (it even shows you how often a specific error occured).
