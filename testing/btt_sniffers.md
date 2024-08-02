@@ -4,9 +4,8 @@
 * capturing Bluetooth signals 
 * verify **compliance**, or ensure the correct operation of Bluetooth devices. 
 
-Guide to get started:
-
 ### hardware versus software Bluetooth Sniffer
+
   * Hardware Sniffers: Dedicated devices designed for **capturing Bluetooth signals**. 
     * Examples include the Ellisys Bluetooth Tracker, Frontline Sodera, and the Bluefruit LE Sniffer by Adafruit.
   * Software Sniffers: Software tools that can work with compatible Bluetooth hardware or virtual sniffers for specific use cases. 
