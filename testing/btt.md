@@ -35,7 +35,6 @@
   - source IP and destination IP
   - Port numbers used in the TCP (Transmission Control Protcol)
 * panel 3: shows the hexi decimal and ascii representation of what is inside the ethernet frame.
-
 * Website: Wireshark
 
 6. Beetle Bluetooth Protocol Analyzer
