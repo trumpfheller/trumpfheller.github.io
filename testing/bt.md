@@ -34,7 +34,9 @@
 
 * BLE,
 * Bluetooth5,
-* Bluetooth Mesh 
+* Bluetooth Mesh
+
+Please check the page.
 
 ---
 
