@@ -1,7 +1,7 @@
 
 ### Piccolo 
 
-* is a Bluetooth protocol analyzer and sniffer designed for monitoring and analyzing Bluetooth communications. It is particularly used in Bluetooth development, testing, and debugging. 
+* is a Bluetooth protocol analyzer and sniffer designed for monitoring and analyzing Bluetooth communications. It is particularly used in Bluetooth development, testing, and debugging. Personally, I usesd it only once: infotainment system protoype which was Linux based and rather complex but bsed on a different chip (chip determines compute)
 
 ### Key Features of Piccolo
 
