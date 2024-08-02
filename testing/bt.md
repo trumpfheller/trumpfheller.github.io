@@ -1,6 +1,6 @@
 ## Bluetooth testing
 
-* **performance and reliability**
+* focus is on **performance and reliability**
 
 ### Common Symptoms of Bluetooth Protocol Errors 
 
@@ -22,5 +22,5 @@
 ### 4.Command Recognition Problems:
 
 * Voice Commands: Failure to recognize or correctly execute voice commands.
-* Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth.
+* Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth. => big topic, but takes more than one paragraph
 
