@@ -37,7 +37,7 @@ Guide to get started:
   * Generate Traffic: Perform actions with the Bluetooth devices you are testing, such as connecting, transmitting data, or performing specific operations.
   * Monitor the Traffic: Observe the captured data for any anomalies or issues.
 
-### 3. Analyze the Captured Data
+### 4. Analyze the Captured Data
   * Review Packet Details: 
     * Examine the details of the captured Bluetooth packets, such as headers, payloads, and timing information.
   * Identify Issues: 
@@ -45,7 +45,7 @@ Guide to get started:
   * Use Decoding Tools: 
     * Many sniffers come with built-in decoding tools to help interpret the captured data. For example, **Wireshark can decode and display Bluetooth packets in a readable format**.
 
-### 6. Report Findings
+### 5. Report Findings
   * Document Issues: 
     * Record any issues or anomalies found during the testing.
   * Provide Recommendations: 
@@ -53,22 +53,19 @@ Guide to get started:
   * Generate Reports: 
     * Use the sniffer software to generate detailed reports on the Bluetooth communication.
 
-### 7. Fine-Tune and Retest
+### 6. Fine-Tune and Retest
   * Adjust Settings: 
     * Modify capture settings, filters, or channels if necessary to focus on different aspects of Bluetooth communication.
   * Retest: 
     * Repeat the testing process to verify that issues have been resolved or to investigate further.
 
-### Additional Tips
+### 7. Additional Tips
   * Understand Bluetooth Protocols: 
     * Familiarize yourself with Bluetooth protocols (Classic Bluetooth, BLE) and their respective communication patterns.
   * Test in Different Environments: 
     * Perform testing in various environments to account for potential **interference**.
   * Stay Updated: 
     * Keep your sniffer software and firmware up to date to ensure compatibility and access to the latest features.
-
-
-If you have specific scenarios or devices in mind, let me know! I can provide more targeted advice based on your needs.
 
 ---
 
