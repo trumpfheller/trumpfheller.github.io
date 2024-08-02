@@ -30,6 +30,14 @@
 
 ---
 
+### what does what?
+
+* BLE,
+* Bluetooth5,
+* Bluetooth Mesh 
+
+---
+
 When creating TCs, keep in mind that the complexity of your test scenarios has to grow over time.
 1. You start with TCs that relate to the install, the OAU (over the air update), and the OOB.
 2. Make sure your TCs cover have all the little steps first (foundation, you can include them later in bigger scenarios).
