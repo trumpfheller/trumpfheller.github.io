@@ -26,6 +26,7 @@ layout: default
 
 ## Testings
 - [Bluetooth testing](./testing/bt.html)
+- [Bluetooth testing profiles](./testing/bt_profiles.html)
 - [Bluetooth testing tools](./testing/btt.html)
 - [Bluetooth testing tools Sniffer](./testing/btt_sniffers.html)
 - [Bluetooth testing tools Picolo](./testing/btt_picolo.html)
