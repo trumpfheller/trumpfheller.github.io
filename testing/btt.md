@@ -3,29 +3,6 @@
 - gather information of wifi and network, decoding 1 an zeros to human readable protocols [transmission control protocol ]
 - provides additional features => analystics
 
-### 1. wireshark [protocol analyzers]
-- packet analyzer
-- panel 1: shows each frame as it goes through the ethernet/network,
-  - click on one HTTP protocol that is ok
-- panel 2: details about the frame I clicked in the previous panel
-  - source IP and destination IP
-  - Port numbers used in the TCP (Transmission Control Protcol)
-- panel 3: shows the hexi decimal and ascii representation of what is inside the ethernet frame.
-
-### 2. multimeters 
-- to measure multiple parameters of an electric circuit like voltage, current, and resistance (voltmeter, ohmmeter, and ammeter).
-- additional properties such as temperature and capacitance.
-- 
-
-### 3. logic Analyzers 
-- 16 input channels
-- always connect the ground (black cable)
-- samples data
-  - analog (continous changing values) are waves and digital wave forms are based on voltages (not waves)
-  - transitor technology that has been used (TTL, CMOS, PECL, BICMOS, DTL)
-
----
-
 ###  tools for Bluetooth protocol analysis:
 
 1. Ellisys Bluetooth Analyzer
@@ -50,6 +27,15 @@
 
 5. Wireshark with Bluetooth Plugins
 * Description: Wireshark is a popular network protocol analyzer that can be extended with Bluetooth plugins to capture and analyze Bluetooth traffic. It supports Bluetooth Classic and BLE with the appropriate plugins.
+
+- packet analyzer
+- panel 1: shows each frame as it goes through the ethernet/network,
+  - click on one HTTP protocol that is ok
+- panel 2: details about the frame I clicked in the previous panel
+  - source IP and destination IP
+  - Port numbers used in the TCP (Transmission Control Protcol)
+- panel 3: shows the hexi decimal and ascii representation of what is inside the ethernet frame.
+
 * Features: Packet capture, protocol decoding, extensive filtering options, and support for various Bluetooth profiles.
 * Website: Wireshark
 
@@ -67,3 +53,20 @@
 * Description: Tektronix provides Bluetooth protocol analyzers that are suitable for both Bluetooth Classic and BLE, offering in-depth protocol analysis and troubleshooting tools.
 * Features: Detailed protocol decoding, real-time capture, and advanced analysis capabilities.
 * Website: Tektronix
+
+---
+
+### logic Analyzers 
+- 16 input channels
+- always connect the ground (black cable)
+- samples data
+  - analog (continous changing values) are waves and digital wave forms are based on voltages (not waves)
+  - transitor technology that has been used (TTL, CMOS, PECL, BICMOS, DTL)
+
+### Multimeters 
+- to measure multiple parameters of an electric circuit like voltage, current, and resistance (voltmeter, ohmmeter, and ammeter).
+- additional properties such as temperature and capacitance.
+- 
+
+
+---
