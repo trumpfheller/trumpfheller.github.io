@@ -52,18 +52,18 @@ Troubleshooting:
 
 ### How to Use Piccolo
 
-Set Up the Hardware:
+* Set Up the Hardware:
 Connect the Piccolo hardware to your computer according to the manufacturer's instructions. This typically involves a USB connection.
 
-Install and Configure Software:
+* Install and Configure Software:
 Install the Piccolo software on your computer. Configure it to work with the connected hardware.
 
-Start Capturing:
+* Start Capturing:
 Begin capturing Bluetooth traffic by starting the sniffer. Set up any necessary filters or capture settings.
 
-Analyze Data:
+* Analyze Data:
 Use the Piccolo software to review and analyze the captured Bluetooth packets. Look for any issues or anomalies in the communication.
 
-Generate Reports:
+* Generate Reports:
 Document your findings and generate reports as needed for debugging, compliance, or development purposes.
 Again, even if you don't have all the evidence for this one issue which only you seem to encounter: keep a record. One day you will see the entire issue and then you can provide a history of the bug! The more complex a (test)system is, the more likely it is that issue are not self evident. You need more evidence. Plus, some issues are hidden or start deeper and therefore harder to find. A history helps to clarify what is what.
