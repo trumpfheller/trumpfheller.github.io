@@ -27,6 +27,8 @@ layout: default
 ## Testings
 - [Bluetooth testing](./testing/bt.html)
 - [Bluetooth testing tools](./testing/btt.html)
+- [Bluetooth testing tools Sniffer](./testing/bttSniffer.html)
+- [Bluetooth testing tools Picolo](./testing/bttPicolo.html)
 - [Bluetooth bugs](./testing/bt_protocolerrors.html)
 - [Power testing](./testing/pwr.html)
 - [Audio testing](./testing/audio.html)
