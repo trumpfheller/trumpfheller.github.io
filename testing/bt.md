@@ -65,7 +65,8 @@ Check Bluetooth Profiles:
 ### 5.Update Device Drivers:
 
   * Check for Updates: Ensure that the Bluetooth drivers and software on both the infotainment system and the paired device are up to date.
-* Consult Support:
+
+### 6.Consult Support:
   * Manufacturer Support: If the problem persists, contact the support teams of the infotainment system or Bluetooth device manufacturers. Provide them with details of the issue, any error codes, and logs if available.
   * Example: Analyzing Bluetooth Protocol Errors
 Suppose you capture packets with a Bluetooth sniffer and observe errors in the connection handshake phase. Common errors might include:
