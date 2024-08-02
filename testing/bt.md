@@ -61,7 +61,9 @@ Check Bluetooth Profiles:
 
 * Reduce Interference: Bluetooth operates on the 2.4 GHz band, which is shared with many other devices (Wi-Fi, microwave ovens). Ensure there’s minimal interference in the environment.
 * Test in Different Locations: Move to a different location to see if the problem persists, which can help identify if interference is an issue.
-* Update Device Drivers:
+
+### 5.Update Device Drivers:
+
   * Check for Updates: Ensure that the Bluetooth drivers and software on both the infotainment system and the paired device are up to date.
 * Consult Support:
   * Manufacturer Support: If the problem persists, contact the support teams of the infotainment system or Bluetooth device manufacturers. Provide them with details of the issue, any error codes, and logs if available.
