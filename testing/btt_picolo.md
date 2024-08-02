@@ -12,19 +12,26 @@ Bluetooth Protocol Analysis:
 
 Advanced Debugging Tools:
 
-Protocol Decoding: Piccolo offers in-depth protocol decoding, helping developers and engineers understand the low-level details of Bluetooth communication.
-Traffic Filtering: It allows users to set up filters to focus on specific devices, channels, or types of packets, making it easier to isolate and troubleshoot issues.
+Protocol Decoding: 
+* Piccolo offers in-depth protocol decoding, helping developers and engineers understand the low-level details of Bluetooth communication.
+Traffic Filtering:
+* It allows users to set up filters to focus on specific devices, channels, or types of packets, making it easier to isolate and troubleshoot issues.
 
 User-Friendly Interface:
 
-Graphical User Interface (GUI): Provides an intuitive GUI for viewing captured data, navigating through packet information, and analyzing communication patterns.
-Visualization Tools: Often includes visualization tools to represent the data graphically, which can simplify understanding complex interactions.
+Graphical User Interface (GUI): 
+* Provides an intuitive GUI for viewing captured data, navigating through packet information, and analyzing communication patterns.
+Visualization Tools:
+* Often includes visualization tools to represent the data graphically, which can simplify understanding complex interactions.
 
 Compatibility and Integration:
 
-Hardware Compatibility: Works with specific Bluetooth dongles or hardware that supports sniffing capabilities.
-Integration with Other Tools: Can often be integrated with other development and testing tools to enhance the overall workflow.
-Use Cases for Piccolo
+Hardware Compatibility: 
+* Works with specific Bluetooth dongles or hardware that supports sniffing capabilities.
+Integration with Other Tools:
+* Can often be integrated with other development and testing tools to enhance the overall workflow.
+
+### Use Cases for Piccolo
 
 Bluetooth Development:
 
