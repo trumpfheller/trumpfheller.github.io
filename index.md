@@ -29,6 +29,7 @@ layout: default
 - [Bluetooth testing tools](./testing/btt.html)
 - [Bluetooth bugs](./testing/bt_protocolerrors.html)
 - [Power testing](./testing/pwr.html)
+- [Audio testing](./testing/audio.html)
 
 ---
 
