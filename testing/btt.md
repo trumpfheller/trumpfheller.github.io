@@ -1,4 +1,6 @@
-## Tools for Bluetooth protocol analysis:- protocol analyzers
+## Tools for Bluetooth protocol analysis 
+
+> protocol analyzers
 
 - gather information of wifi and network, decoding 1 an zeros to human readable protocols [transmission control protocol - TCP]
 - provides additional features => analystics
