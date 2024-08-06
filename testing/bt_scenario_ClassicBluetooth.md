@@ -70,6 +70,6 @@ Track Latency: Measure the latency of data packets (time taken for a packet to t
 * Document the test results, including throughput, latency, any data loss or corruption, and the impact of environmental factors.
 * Include screenshots or logs from monitoring tools if applicable.
 
-### In some Agile teams you will have a debriefing in which you can contribute
+### In some Agile teams you will have a debriefing/retro in which you can contribute
 
 * Provide recommendations based on test findings, such as improvements needed for better performance or stability.
