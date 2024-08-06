@@ -31,24 +31,26 @@ To ensure that a Classic Bluetooth (BR/EDR) connection can handle continuous dat
 
 ### 4.Metrics Collection:
 
-Measure Throughput: Record the data transfer rate (throughput) during the streaming process.
+* Measure Throughput: Record the data transfer rate (throughput) during the streaming process.
 Track Latency: Measure the latency of data packets (time taken for a packet to travel from the sender to the receiver).
-Monitor Errors: Check for any data errors, lost packets, or retransmissions.
+* Monitor Errors: Check for any data errors, lost packets, or retransmissions.
 
 ### 5.Stress Testing:
 
-Increase Data Rate: Gradually increase the data transfer rate to test the limits of the Bluetooth connection.
-Vary Environment: Test in different environments to observe how factors like distance and obstacles affect data streaming.
+* Increase Data Rate: Gradually increase the data transfer rate to test the limits of the Bluetooth connection.
+* Vary Environment: Test in different environments to observe how factors like distance and obstacles affect data streaming.
 
 ### 6.Interruption Testing:
 
-Simulate Interference: Introduce potential sources of interference (e.g., other Bluetooth devices, Wi-Fi networks) and observe the impact on data streaming.
-Disconnection and Reconnection: Temporarily disconnect one device and reconnect to ensure that the streaming resumes correctly.
+* Simulate Interference: Introduce potential sources of interference (e.g., other Bluetooth devices, Wi-Fi networks) and observe the impact on data streaming.
+* Disconnection and Reconnection: Temporarily disconnect one device and reconnect to ensure that the streaming resumes correctly.
 
 ### 7.Data Integrity Check:
 
-Verify Data: After the streaming is complete, verify that the received data matches the sent data without corruption or loss.
-Check File Integrity: If using a file-based approach, compare the original file with the received file for consistency.
+* Verify Data: After the streaming is complete, verify that the received data matches the sent data without corruption or loss.
+* Check File Integrity: If using a file-based approach, compare the original file with the received file for consistency.
+
+---
 
 ### Cleanup:
 
