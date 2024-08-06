@@ -12,17 +12,19 @@
 * Explanation: A subset of Bluetooth designed for low power consumption and lower data rates.
 * Purpose: Ideal for applications requiring periodic data exchanges or long-term battery life, such as fitness trackers, medical devices, IoT, and smart home sensors.
 
----
-
-### 1. Bluetooth LE Audio
+### 2a. Bluetooth LE Audio
 * Explanation: A new standard that builds on BLE and introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
 * Purpose: Enhances audio quality and supports multiple audio streams, improving the experience for wireless headphones and hearing aids.
 
-### 2. Bluetooth Mesh Profiles (Lighting, Building Automation)
+---
+
+### Bluetooth Mesh Profiles (Lighting, Building Automation)
 * Explanation: Specific profiles within the Bluetooth Mesh framework for different applications.
   * A networking protocol that allows Bluetooth devices to form large-scale mesh networks.
 * Purpose: Tailored for specific use cases like smart lighting or building automation, providing standardized ways to control and monitor devices within a mesh network.
   * Suitable for applications requiring extensive device communication across large areas, such as smart lighting systems and industrial automation. It extends BLE’s reach by allowing devices to relay messages to other devices in the network.
+
+[Test scenario]()
 
 ---
 
