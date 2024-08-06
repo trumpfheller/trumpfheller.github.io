@@ -68,6 +68,8 @@ Track Latency: Measure the latency of data packets (time taken for a packet to t
 ### Reporting:
 
 * Document the test results, including throughput, latency, any data loss or corruption, and the impact of environmental factors.
-Include screenshots or logs from monitoring tools if applicable.
-Provide recommendations based on test findings, such as improvements needed for better performance or stability.
-This example covers various aspects of testing continuous data streaming over Classic Bluetooth (BR/EDR), including setup, execution, and evaluation.
+* Include screenshots or logs from monitoring tools if applicable.
+
+### In some Agile teams you will have a debriefing in which you can contribute
+
+* Provide recommendations based on test findings, such as improvements needed for better performance or stability.
