@@ -12,7 +12,7 @@ To ensure that a Classic Bluetooth (BR/EDR) connection can handle continuous dat
 * Software: Bluetooth communication application or test tool that supports continuous data transfer.
 * Configuration: Ensure both devices are paired and connected using Classic Bluetooth (BR/EDR).
 
-### Test Steps
+## Test Steps
 
 ### 1.Setup and Initialization:
 
