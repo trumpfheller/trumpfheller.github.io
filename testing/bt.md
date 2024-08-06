@@ -1,6 +1,6 @@
 ## Bluetooth testing
 
-* focus is on **performance and reliability** (BT has one channel for energy and one for data (includes low energy I guess, but I got to double check)
+> focus is on **performance and reliability** (BT has one channel for energy and one for data (oversimplified)
 
 ### Common Symptoms of Bluetooth Protocol Errors 
 
@@ -32,11 +32,11 @@
 
 ### what does what?
 
-* BLE,
-* Bluetooth5,
+* Bluetooth Classioc and BLE,
+* Bluetooth4,5,
 * Bluetooth Mesh
 
-Please check the page.
+Please check the Bluetooth profile [page](https://trumpfheller.github.io/testing/bt_profiles.html).
 
 ---
 
