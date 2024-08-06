@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Test scenario for BLE Connection and Data Exchange
 > built a sustainable matrix
 
