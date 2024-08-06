@@ -27,9 +27,9 @@ layout: default
 ## Testings
 - [Bluetooth testing](./testing/bt.html)
 - [Bluetooth testing profiles](./testing/bt_profiles.html)
-- [Senario: ](./testing/bt_profiles.html)
-- [Senario: ](./testing/bt_profiles.html)
-- [Senario: Classic Bluetooth (BR/EDR) continuous data streaming](./testing/bt_profiles.html)
+- [Senario: ClassicBluetooth - continuous data streaming](./testing/bt_scenario_ClassicBluetooth.html)
+- [Senario: BLE](./testing/bt_scenario_BLE.html)
+- [Senario: BL Mesh](./testing/bt_scenario_.html)
 - [Bluetooth testing tools](./testing/btt.html)
 - [Bluetooth testing tools Sniffer](./testing/btt_sniffers.html)
 - [Bluetooth testing tools Picolo](./testing/btt_picolo.html)
