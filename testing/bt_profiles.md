@@ -53,6 +53,7 @@
 * Purpose: Improved performance for multiple simultaneous connections, low latency, and support for new use cases like audio sharing and better audio quality.
 
 [Test Scenario](https://trumpfheller.github.io/testing/bt_scenario_Bluetooth4.html)
+
 ---
 
 ### Bluetooth Audio (A2DP, HFP, HSP, etc.)
