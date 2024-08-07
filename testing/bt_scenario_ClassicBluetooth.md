@@ -47,7 +47,7 @@ Track Latency: Measure the latency of data packets (time taken for a packet to t
 ### 6.Interruption Testing:
 
 * Simulate Interference: Introduce potential sources of interference (e.g., other Bluetooth devices, Wi-Fi networks) and observe the impact on data streaming.
-* Disconnection and Reconnection: Temporarily disconnect one device and reconnect to ensure that the streaming resumes correctly.
+* Disconnection and Reconnection: Temporarily disconnect one device and reconnect to ensure that the streaming resumes correctly. Example of a [Root Cause Analysis](https://trumpfheller.github.io/testing/bt_rootCause_BTClassic.html)
 
 ### 7.Data Integrity Check:
 
