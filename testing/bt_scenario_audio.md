@@ -7,7 +7,7 @@ layout: default
 * Test Case: Bluetooth Audio Profiles (A2DP, HFP, HSP) Functionality
 * Objective:
 To verify the functionality and performance of Bluetooth audio profiles (A2DP, HFP, and HSP) in transmitting and receiving audio between Bluetooth devices.
-
+  
 ---
 
 ### Test Environment:
@@ -19,6 +19,12 @@ To verify the functionality and performance of Bluetooth audio profiles (A2DP, H
   * Audio playback and recording applications
   * Bluetooth management tools or apps for profile testing
 
+### Common Testing Considerations
+
+* Battery Life: For devices with batteries (e.g., headsets), test battery life under typical usage conditions.
+* Interference Testing: Check performance in the presence of other wireless devices or sources of interference.
+* Compatibility: Ensure compatibility with different versions of Bluetooth and different manufacturers' devices.
+  
 ---
 
 ## 1. A2DP (Advanced Audio Distribution Profile) Testing
@@ -107,11 +113,7 @@ Objective:
 * Audio Quality: Measure voice clarity and volume using subjective and objective metrics.
 * Connection Stability: Monitor for any disconnections or stability issues during communication.
 
-## 4. Common Testing Considerations
-
-* Battery Life: For devices with batteries (e.g., headsets), test battery life under typical usage conditions.
-* Interference Testing: Check performance in the presence of other wireless devices or sources of interference.
-* Compatibility: Ensure compatibility with different versions of Bluetooth and different manufacturers' devices.
+---
 
 ### Reporting:
 * Document the results for each profile, including audio quality, functionality, connection stability, and any issues encountered.
