@@ -1,3 +1,5 @@
+# status: still living document
+
 ## Tools for Bluetooth protocol analysis 
 
 > protocol analyzers
