@@ -56,12 +56,6 @@ Track Latency: Measure the latency of data packets (time taken for a packet to t
 
 ---
 
-### Cleanup:
-
-* Often you don't need to do these two steps every time but keep in mind that this is the best case scenario: 
-  * Disconnect Devices: Disconnect the devices once testing is complete.
-  * Clear Logs: Ensure that any logging or monitoring data is properly cleared or archived.
-
 ### Expected Results:
 
 * Consistent Throughput: The data transfer rate should be consistent with the expected rate and should not fall below a specified threshold.
