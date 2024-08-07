@@ -24,6 +24,8 @@ At Google they have a software that unzips the bugreport and enables you to
 * search for a specific log and open it for further investigation
 * search in all logs for a specific error message (it even shows you how often a specific error occured).
 
+Alternatively you can pull the bugreport into wireshark, different name same game.
+
 ---
 
 ### 1. Bluetooth Stack Logs
@@ -65,6 +67,10 @@ At Google they have a software that unzips the bugreport and enables you to
 ### 10. Trace Logs
 * Description: Detailed trace logs that provide a chronological view of Bluetooth operations, often including timestamps and sequence information.
 * Usage: Useful for in-depth analysis of the Bluetooth communication sequence and timing.
+
+---
+
+
 
 ---
 
