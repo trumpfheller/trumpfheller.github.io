@@ -13,7 +13,7 @@
 * Purpose: Ideal for applications requiring periodic data exchanges or long-term battery life, such as fitness trackers, medical devices, IoT, and smart home sensors.
 
 ### 2a. Bluetooth LE Audio
-* A new standard that builds on BLE and introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
+* A new standard, introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
 * Purpose: Enhances audio quality and supports multiple audio streams, improving the experience for wireless headphones and hearing aids.
 
 [Test Scenario](https://trumpfheller.github.io/testing/bt_scenario_ClassicBluetooth.html)
