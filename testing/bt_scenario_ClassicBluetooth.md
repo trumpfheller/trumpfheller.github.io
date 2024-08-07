@@ -31,7 +31,7 @@ To ensure that a Classic Bluetooth (BR/EDR) connection can handle continuous dat
 ### 3.Continuous Data Streaming:
 
 * Start Data Transmission: Begin streaming data from the source device to the target device.
-* Monitor Data Transfer: Use monitoring tools or software to observe data transmission rates and ensure the data is being sent continuously.
+* Monitor Data Transfer: Use monitoring tools or software to observe data transmission rates and ensure the data is being sent continuously. Example of a [Root Cause Analysis](https://trumpfheller.github.io/testing/bt_rootCause_BTClassic.html)
 
 ### 4.Metrics Collection:
 
