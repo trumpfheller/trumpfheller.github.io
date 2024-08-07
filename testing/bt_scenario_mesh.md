@@ -76,5 +76,5 @@ Provide recommendations based on the findings, such as any improvements needed f
 ---
 
 None of the companies I worked for ever used this scenario. How many of us are using 10 devices at the same time?
-Humor aside, of course it is about the a different situation: 10 people occupying the same space
-and then - for some reason they decide to communicate. Event like scenario.
+Humor aside, of course it is about the a different situation: user story I have not found yet. Event like scenario.
+Subscriptions per se are something you don't see often but it is realistic tho.
