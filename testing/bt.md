@@ -30,7 +30,7 @@
 
 ---
 
-### what does what?
+### Which functionality is behind which protocol?
 
 * Bluetooth Classioc and BLE,
 * Bluetooth4,5,
