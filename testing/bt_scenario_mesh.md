@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Test scenario to assess Bluetooth Mesh’s capabilities 
 > to support many-to-many communications and robust message delivery
 > ensuring that the network performs effectively under various conditions.
