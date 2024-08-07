@@ -52,11 +52,6 @@ Discover Characteristics: Locate the characteristics associated with the discove
 
 ---
 
-### Cleanup:
-
-* Disconnect Devices: Properly disconnect both devices once testing is complete.
-* Clear Logs: Ensure that any logging or monitoring data is archived or cleared.
-
 ### Expected Results:
 
 * Successful Discovery: The BLE peripheral should be discoverable by the central device.
