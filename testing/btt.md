@@ -68,14 +68,19 @@
 
 * Performance Analysis: It allows for the examination of signal quality and performance metrics, helping to assess the efficiency and reliability of Bluetooth connections.
 
-- **always connect the ground (black cable)**
-  
----
+* **always connect the ground (black cable)**
 
-### Multimeters 
-- to measure multiple parameters of an electric circuit like voltage, current, and resistance (voltmeter, ohmmeter, and ammeter).
-- additional properties such as temperature and capacitance.
-- 
+1. Bluetooth Classic (BR/EDR):
 
+* Logic analyzers can capture and analyze the digital signals related to Bluetooth Classic communication. You can use them to monitor communication between devices or to troubleshoot issues with the signaling and timing of Bluetooth Classic connections.
+Limitations: Bluetooth Classic operates at a higher frequency (2.4 GHz) than what most traditional logic analyzers can directly measure. Therefore, a logic analyzer might be used in conjunction with other tools, such as RF analyzers, to capture and analyze the actual radio signals.
 
----
+2. Bluetooth Low Energy (BLE):
+
+* For BLE (operates in the same 2.4 GHz band) logic analyzers can be useful for monitoring lower-level digital communication signals. They can be used to check the timing and integrity of BLE packets and interactions between BLE devices.
+Limitations: As with Bluetooth Classic, BLE operates at a high frequency, so logic analyzers are generally used to capture digital signals related to communication protocol layers rather than the RF signals directly.
+
+3. Bluetooth Protocol Analyzers for comprehensive Bluetooth testing:
+
+* Tools like the Ellisys Bluetooth Tracker, Teledyne LeCroy’s Bluetooth analyzers, and various software-based solutions that use specific Bluetooth dongles can be used for in-depth Bluetooth analysis.
+* These tools are designed to capture and analyze Bluetooth communication at both the protocol and RF levels. They can decode Bluetooth packets, interpret protocols, and provide detailed insights into the Bluetooth communication process.
