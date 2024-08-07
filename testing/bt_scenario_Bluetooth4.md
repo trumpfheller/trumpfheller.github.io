@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Test Scenario for Bluetooth 4.x
 > Evaluation of Standard Data Abilities for Bluetooth 4.0, 4.1, and 4.2
 
