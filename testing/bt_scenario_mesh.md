@@ -57,21 +57,16 @@ To verify that a Bluetooth Mesh network can handle many-to-many communications e
 
 ---
 
-### Cleanup:
-
-Disconnect Devices: Properly disconnect and remove devices from the Bluetooth Mesh network after testing.
-Clear Logs: Ensure that any logging or monitoring data is archived or cleared.
-
 ### Expected Results:
-Successful Communication: All subscribed nodes should receive the broadcast messages from the publisher nodes.
-Reliable Delivery: Messages should be delivered reliably, even in the presence of interference or high traffic conditions.
-Data Integrity: The content of the received messages should match the sent messages without corruption.
-Resilience: The network should handle node failures gracefully and recover effectively, maintaining overall communication reliability.
+* Successful Communication: All subscribed nodes should receive the broadcast messages from the publisher nodes.
+* Reliable Delivery: Messages should be delivered reliably, even in the presence of interference or high traffic conditions.
+* Data Integrity: The content of the received messages should match the sent messages without corruption.
+* Resilience: The network should handle node failures gracefully and recover effectively, maintaining overall communication reliability.
 
 ### Reporting:
-Document the results of the many-to-many communication tests, including message delivery success rates, performance metrics, and any issues encountered.
-Include observations on network behavior under different conditions, such as interference or high traffic.
-Provide recommendations based on the findings, such as any improvements needed for better performance or reliability in the mesh network.
+* Document the results of the many-to-many communication tests, including message delivery success rates, performance metrics, and any issues encountered.
+* Include observations on network behavior under different conditions, such as interference or high traffic.
+* Provide recommendations based on the findings, such as any improvements needed for better performance or reliability in the mesh network.
 
 ---
 
