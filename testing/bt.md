@@ -30,7 +30,8 @@
 
 ---
 
-### Which functionality is connected with which protocol?
+### what is what?
+> Pairing, Audio, Data transfer Voice command - Which functionality is connected with which protocol?
 
 * Bluetooth Classioc and BLE,
 * Bluetooth4,5,
