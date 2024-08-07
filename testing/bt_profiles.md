@@ -5,21 +5,21 @@
 > difference between Bluetooth Classic and Bluetooth Low Energy (BLE).
 
 ### 1. Classic Bluetooth (BR/EDR)
-* Explanation: The original Bluetooth technology - Basic Rate (BR) or Enhanced Data Rate (EDR).
+* The original Bluetooth technology - Basic Rate (BR) or Enhanced Data Rate (EDR).
 * Purpose: Used for continuous data streaming (e.g., audio on Bluetooth headsets) and file transfer. It supports higher data rates and more power consumption compared to BLE.
 
 ### 2. Bluetooth Low Energy (BLE)
-* Explanation: A subset of Bluetooth designed for low power consumption and lower data rates.
+* A subset of Bluetooth designed for low power consumption and lower data rates.
 * Purpose: Ideal for applications requiring periodic data exchanges or long-term battery life, such as fitness trackers, medical devices, IoT, and smart home sensors.
 
 ### 2a. Bluetooth LE Audio
-* Explanation: A new standard that builds on BLE and introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
+* A new standard that builds on BLE and introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
 * Purpose: Enhances audio quality and supports multiple audio streams, improving the experience for wireless headphones and hearing aids.
 
 ---
 
 ### Bluetooth Mesh Profiles (Lighting, Building Automation)
-* Explanation: Specific profiles within the Bluetooth Mesh framework for different applications.
+* Specific profiles within the Bluetooth Mesh framework for different applications.
   * A networking protocol that allows Bluetooth devices to form large-scale mesh networks.
 * Purpose: Tailored for specific use cases like smart lighting or building automation, providing standardized ways to control and monitor devices within a mesh network.
   * Suitable for applications requiring extensive device communication across large areas, such as smart lighting systems and industrial automation. It extends BLE’s reach by allowing devices to relay messages to other devices in the network.
@@ -54,12 +54,8 @@
 
 ---
 
-Action item: I could add more content about
-1. how are the different Bluetooth profiles used for different types of communication (e.g., A2DP, HFP, GATT).
-2. 
-
 ### Bluetooth Audio (A2DP, HFP, HSP, etc.)
-* Explanation: Profiles specifically for audio communication.
+* Profile's specifically for audio communication.
 * Purpose:
   * A2DP (Advanced Audio Distribution Profile): High-quality audio streaming (e.g., music).
   * HFP (Hands-Free Profile): Voice communication for hands-free calling.
