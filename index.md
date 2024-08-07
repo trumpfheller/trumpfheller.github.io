@@ -30,6 +30,7 @@ layout: default
 - [BT test senario: ClassicBluetooth - continuous data streaming](./testing/bt_scenario_ClassicBluetooth.html)
 - [BT test senario: BLE - Data exchange](./testing/bt_scenario_BLE.html)
 - [BT test senario: BL Mesh - for nodes and messaging](./testing/bt_scenario_mesh.html)
+- [BT test senario: BL 4.x](./testing/bt_scenario_Bluetooth4.html)
 - [Bluetooth testing tools](./testing/btt.html)
 - [Bluetooth testing tools Sniffer](./testing/btt_sniffers.html)
 - [Bluetooth testing tools Picolo](./testing/btt_picolo.html)
