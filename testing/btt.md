@@ -68,7 +68,9 @@
 
 * Performance Analysis: It allows for the examination of signal quality and performance metrics, helping to assess the efficiency and reliability of Bluetooth connections.
 
-* **always connect the ground (black cable)**
+* Sitenote: **always connect the ground (black cable)**
+
+---
 
 1. Bluetooth Classic (BR/EDR):
 
