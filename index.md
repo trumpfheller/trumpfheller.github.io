@@ -45,7 +45,9 @@ layout: default
 ---
 
 ## statistical analysis
-- [Price and range of EVs in US and Germany](./databasics/ev.html) using python, numpy, pandas, prettytable and Matplotlib.
+> using python, numpy, pandas, prettytable and Matplotlib.
+
+- [Price and range of EVs in US and Germany](./databasics/ev.html) 
 
 ---
 
