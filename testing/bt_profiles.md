@@ -16,16 +16,6 @@
 
 ---
 
-### Bluetooth Mesh Profiles (Lighting, Building Automation)
-* Specific profiles within the Bluetooth Mesh framework for different applications.
-  * A networking protocol that allows Bluetooth devices to form large-scale mesh networks.
-* Purpose: Tailored for specific use cases like smart lighting or building automation, providing standardized ways to control and monitor devices within a mesh network.
-  * Suitable for applications requiring extensive device communication across large areas, such as smart lighting systems and industrial automation. It extends BLE’s reach by allowing devices to relay messages to other devices in the network.
-
-Note: I never tested this but I am mentioning this to display the existing range.
-
----
-
 ### Bluetooth Audio (A2DP, HFP, HSP, etc.)
 * Profile's specifically for audio communication.
 * Purpose:
@@ -42,6 +32,16 @@ Note: I never tested this but I am mentioning this to display the existing range
 * features and functions:
   * Audio Quality: LC3 delivers high audio quality even at lower bitrates, which means you get clear sound without consuming excessive data. This makes it particularly useful for streaming audio over Bluetooth, where bandwidth and quality are critical.
   * Efficiency: It is designed to be more efficient in terms of power consumption, which helps extend battery life in Bluetooth devices like headphones, earbuds, and smartphones.
+
+---
+
+### Bluetooth Mesh Profiles (Lighting, Building Automation)
+* Specific profiles within the Bluetooth Mesh framework for different applications.
+  * A networking protocol that allows Bluetooth devices to form large-scale mesh networks.
+* Purpose: Tailored for specific use cases like smart lighting or building automation, providing standardized ways to control and monitor devices within a mesh network.
+  * Suitable for applications requiring extensive device communication across large areas, such as smart lighting systems and industrial automation. It extends BLE’s reach by allowing devices to relay messages to other devices in the network.
+
+Note: I never tested this but I am mentioning this to display the existing range.
 
 ---
 
