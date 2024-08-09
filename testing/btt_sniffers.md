@@ -66,8 +66,8 @@
 ### 7. Additional Tips
   * Check Bluetooth Protocols: 
     * Familiarize yourself with Bluetooth protocols and updates (Classic Bluetooth, BLE) and their respective communication patterns. Usually the Engineers have some documention handy and appreciate the extra effort.
-  * Test in Different Environments: 
-    * Perform testing in various environments to account for potential **interference**.
+  * Account for potential **interference** - testing: 
+    * Perform testing in various environments.
   * Stay Updated: 
     * Keep your sniffer software and firmware up to date to ensure compatibility and access to the latest features.
 
