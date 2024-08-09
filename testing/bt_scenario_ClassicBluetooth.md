@@ -18,7 +18,7 @@ layout: default
 
 * Devices:
   * Two Bluetooth-enabled devices with BR/EDR support (e.g., smartphones, tablets, or specialized Bluetooth test devices).
-  * This scenario does not apply for OOB OTA.
+  * This scenario does not apply to OOB OTA.
 * Software:
   * Bluetooth communication application or test tool that supports continuous data transfer.
 * Configuration:
