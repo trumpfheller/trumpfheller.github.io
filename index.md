@@ -44,11 +44,14 @@ layout: default
 
 ---
 
-## statistical analysis
+## Statistical Analysis
 > using python, numpy, pandas, prettytable and Matplotlib.
 
 - [Price and range of EVs in US and Germany](./databasics/ev.html) 
 
 ---
+
+## private research
+> Leading question: what do we know about knowledge?
 
 - [epistemological tree](epistemologicalTree.html)
