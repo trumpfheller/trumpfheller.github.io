@@ -22,7 +22,7 @@
 * Purpose: Tailored for specific use cases like smart lighting or building automation, providing standardized ways to control and monitor devices within a mesh network.
   * Suitable for applications requiring extensive device communication across large areas, such as smart lighting systems and industrial automation. It extends BLE’s reach by allowing devices to relay messages to other devices in the network.
 
-[Test scenario](https://trumpfheller.github.io/testing/bt_scenario_ClassicBluetooth.html)
+Note: I never tested this but I am mentioning this to display the existing range.
 
 ---
 
