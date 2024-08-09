@@ -14,15 +14,14 @@
 
 ### 1. Set Up the Sniffer
   * For Hardware Sniffers:
-    * Connect the sniffer to your computer via USB or another interface.
-    * Install the necessary drivers and software provided by the sniffer manufacturer.
-    * Follow the manufacturer’s instructions for calibration and setup.
+    * Connect the sniffer to your computer via USB.
+    * Install drivers and software (provided by the sniffer manufacturer).
   * For Software Sniffers:
-    * Ensure your computer has the necessary Bluetooth adapter.
+    * Ensure your computer has the Bluetooth adapter.
     * Install the sniffer software (e.g., Wireshark with Bluetooth plugin).
     * Configure the software to interface with your Bluetooth hardware.
 
-### 2. Configure the Sniffer Software
+### 2. Configure the Sniffer Software (there shoudl be a better word than config)
   * Select the Interface: 
     * Choose the Bluetooth adapter or sniffer hardware you are using.
   * Set the Channel or Frequency: 
