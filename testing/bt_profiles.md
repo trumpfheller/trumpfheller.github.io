@@ -12,10 +12,6 @@
 * A subset of Bluetooth designed for low power consumption and lower data rates.
 * Purpose: Ideal for applications requiring periodic data exchanges or long-term battery life, such as fitness trackers, medical devices, IoT, and smart home sensors.
 
-### 2a. Bluetooth LE Audio
-* A new standard, introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
-* Purpose: Enhances audio quality and supports multiple audio streams, improving the experience for wireless headphones and hearing aids.
-
 [Test Scenario](https://trumpfheller.github.io/testing/bt_scenario_ClassicBluetooth.html)
 
 ---
@@ -66,4 +62,12 @@
   * HSP (Headset Profile): Basic audio communication for headsets.
 
 [Test Scenario](https://trumpfheller.github.io/testing/bt_scenario_audio.html)
+
+### 2a. Bluetooth LE Audio
+* A new standard, introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
+* LC3 is designed to be a more efficient and flexible audio codec compared to its predecessors, providing better audio quality and improved energy efficiency.
+* Purpose: Enhances audio quality and supports multiple audio streams, improving the experience for wireless headphones and hearing aids.
+* features and functions:
+  * Audio Quality: LC3 delivers high audio quality even at lower bitrates, which means you get clear sound without consuming excessive data. This makes it particularly useful for streaming audio over Bluetooth, where bandwidth and quality are critical.
+  * Efficiency: It is designed to be more efficient in terms of power consumption, which helps extend battery life in Bluetooth devices like headphones, earbuds, and smartphones.
 
