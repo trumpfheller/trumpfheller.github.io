@@ -55,6 +55,7 @@
     * Suggest solutions or improvements based on your findings.
   * Generate Reports: 
     * Use the sniffer software to generate detailed reports on the Bluetooth communication.
+  * In most projects I participated this is all included in filing the bug. 
 
 ### 6. Fine-Tune and Retest
   * Adjust Settings: 
