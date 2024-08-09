@@ -24,14 +24,17 @@
 
 ### 3.Data Transfer Issues:
 
-* Failed File Transfers: Problems with transferring media files or contacts between devices.
-* Incorrect Metadata: Mismatches in song titles, artists, or album artwork.
-* Examples: 
+* Failed File Transfers:
+  * Problems with transferring media files or contacts between devices.
+* Incorrect Metadata:
+  * Mismatches in song titles, artists, or album artwork.
 
 ### 4.Command Recognition Problems:
 
-* Voice Commands: Failure to recognize or correctly execute voice commands.
-* Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth. => big topic, but takes more than one paragraph
+* Voice Commands:
+  * Failure to recognize or correctly execute voice commands.
+* Control Functions:
+  * Issues with controlling music, navigation, or other functions via Bluetooth. => big topic, but takes more than one paragraph
 * Examples: Google Assitant, Amazon, Fitbit, Infotainment system: ask in a foreign language for a song.
 
 ---
