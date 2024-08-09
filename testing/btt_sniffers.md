@@ -30,9 +30,12 @@
     * Apply filters to focus on specific types of packets or devices.
 
 ### 3. Perform the Bluetooth Testing
-  * Start Capturing: Begin the capture process on your sniffer software or hardware.
-  * Generate Traffic: Perform actions with the Bluetooth devices you are testing, such as connecting, transmitting data, or performing specific operations.
-  * Monitor the Traffic: Observe the captured data for any anomalies or issues.
+  * Start capture process on your sniffer.
+  * Generate Traffic: Perform actions with the Bluetooth devices you are testing, such as
+    * connecting,
+    * transmitting data, or
+    * performing specific operations.
+  * Monitor the Traffic and the captured data for any anomalies or issues.
 
 ### 4. Analyze the Captured Data
   * Review Packet Details: 
