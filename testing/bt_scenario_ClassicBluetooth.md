@@ -6,7 +6,7 @@ layout: default
 > Test Case: 
 * Continuous Data Streaming over Classic Bluetooth (BR/EDR)
 
-Objective:
+> Objective:
 * To ensure that a Classic Bluetooth (BR/EDR) connection can handle continuous data streaming effectively without data loss or significant performance degradation.
 
 ### Test Environment:
