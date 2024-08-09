@@ -35,18 +35,19 @@
 
 [Test Scenario](https://trumpfheller.github.io/testing/bt_scenario_audio.html)
 
-### 2a. Bluetooth LE Audio
+### Bluetooth LE Audio
 * A new standard, introduces features like Low Complexity Communication Codec (LC3) and Multi-Stream Audio.
 * LC3 is designed to be a more efficient and flexible audio codec compared to its predecessors, providing better audio quality and improved energy efficiency.
 * Purpose: Enhances audio quality and supports multiple audio streams, improving the experience for wireless headphones and hearing aids.
 * features and functions:
   * Audio Quality: LC3 delivers high audio quality even at lower bitrates, which means you get clear sound without consuming excessive data. This makes it particularly useful for streaming audio over Bluetooth, where bandwidth and quality are critical.
   * Efficiency: It is designed to be more efficient in terms of power consumption, which helps extend battery life in Bluetooth devices like headphones, earbuds, and smartphones.
+
+---
+
 ### Bluetooth 4.0
 * Explanation: Introduced BLE as part of the Bluetooth 4.0 specification.
 * Purpose: Enhanced data rates for Classic Bluetooth and low power communication for BLE. Bluetooth 4.0 is backward compatible with earlier versions.
-
----
 
 ### Bluetooth 4.1
 * Explanation: Improved upon Bluetooth 4.0 with better coexistence with LTE and enhanced BLE features.
