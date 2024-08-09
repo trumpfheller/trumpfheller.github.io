@@ -42,12 +42,14 @@ layout: default
 
 ## Testing Power
 >  in the works:
+
 - [Power testing](./testing/pwr.html)
 
 ---
 
 ## Testing Audio
 >  in the works:
+
 - [Audio testing](./testing/audio.html)
 
 ---
