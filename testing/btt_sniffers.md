@@ -7,8 +7,8 @@
 
   * Hardware Sniffers: Dedicated devices designed for **capturing Bluetooth signals**. 
     * Examples include the Ellisys Bluetooth Tracker, Frontline Sodera, and the Bluefruit LE Sniffer by Adafruit.
-  * Software Sniffers: Software tools that can work with compatible Bluetooth hardware or virtual sniffers for specific use cases. 
-    * Examples include the Bluetooth HCI Snoop Log (more details check logs page) on Android devices or Wireshark with Bluetooth support.
+  * Software Sniffers: Software tools that can work with compatible Bluetooth hardware or virtual sniffers for **specific use cases**. 
+    * Example: Bluetooth HCI Snoop Log (more details check [logs](https://trumpfheller.github.io/testing/bt_logs.html) page) on Android devices or Wireshark with Bluetooth support.
 
 ---
 
