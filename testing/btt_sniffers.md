@@ -59,9 +59,9 @@
 
 ### 6. Fine-Tune and Retest
   * Adjust Settings: 
-    * Modify capture settings, filters, or channels if necessary to focus on different aspects of Bluetooth communication.
+    * To check if there are additional anomalies in the proximity, modify capture settings, filters, or channels if necessary to focus on different/close aspects.
   * Retest: 
-    * Repeat the testing process to verify that issues have been resolved or to investigate further. In Agile we test in iterations. So, don't worry about the result, it is a process: each step delivers better results compared to before.
+    * Once the issue was resolved by the developer, repeat the testing process to verify that issues have been resolved. In Agile we test in iterations. So, don't worry about the result, it is a process: each step delivers better results compared to before.
 
 ### 7. Additional Tips
   * Check Bluetooth Protocols: 
