@@ -2,7 +2,7 @@
 
 > focus is on getting **confidence in performance and reliability** 
 
-### Common Symptoms of BT Protocol Errors 
+### Indications of BT Protocol Errors 
 
 ### 1.Pairing Issues:
 
