@@ -17,9 +17,10 @@
   
 ### 2.Audio Problems:
 
-* Audio Dropouts: Intermittent loss of audio or poor audio quality during streaming or calls.
-* Static or Noise: Unwanted noise or static in audio transmitted over Bluetooth.
-* Examples: Audio testing for Google Assistant cmds. Compare what was said, with what was heared, with what is expected audio.file.
+* Audio Dropouts:
+  * Intermittent loss of audio or poor audio quality during streaming or calls.
+* White [Noise](https://www.youtube.com/watch?v=iR0FzWA93n0):
+  * Unwanted noise or static in audio transmitted over Bluetooth.
 
 ### 3.Data Transfer Issues:
 
