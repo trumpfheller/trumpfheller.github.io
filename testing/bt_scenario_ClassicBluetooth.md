@@ -2,7 +2,8 @@
 layout: default
 ---
 
-## Test scenario for Classic Bluetooth (BR/EDR) continuous data streaming 
+## Test scenario for Classic Bluetooth (BR/EDR) 
+> continuous data streaming 
 
 * verify data can be transmitted consistently and reliably over a Bluetooth connection. 
 
