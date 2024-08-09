@@ -6,9 +6,14 @@
 
 ### 1.Pairing Issues:
 
-* Failure to Connect: The device fails to pair with the infotainment system or drops connection frequently.
-* Inconsistent Pairing: The system intermittently recognizes or fails to recognize paired devices.
-* Examples: Release testing for Oculus3, testing daily RCs for Google Assistant, pairing wearables with the phone.
+* Failure to Connect:
+  * The device fails to pair during OOB or drops connection frequently.
+* Inconsistent Pairing:
+  * The system fails to recognize paired devices.
+* Examples:
+  * Release testing for Oculus3 - OOB OTA,
+  * testing daily RCs for Google Assistant,
+  * pairing wearables with the phone.
   
 ### 2.Audio Problems:
 
