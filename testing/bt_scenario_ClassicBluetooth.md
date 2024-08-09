@@ -4,7 +4,8 @@ layout: default
 
 ## Test scenario for Classic Bluetooth (BR/EDR) 
 
-> Test Case: 
+> Test Case:
+
 * Continuous Data Streaming over Classic Bluetooth (BR/EDR)
 
 
