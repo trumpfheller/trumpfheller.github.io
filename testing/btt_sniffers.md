@@ -1,7 +1,7 @@
 ### Using sniffers in Bluetooth testing 
 
 * monitoring and analyzing Bluetooth communication to troubleshoot issues,
-* verify **compliance**, or ensure the correct operation of Bluetooth devices. 
+* verify **compliance**, or ensure the correct **operations** of Bluetooth devices. 
 
 ### hardware versus software Bluetooth Sniffer
 
