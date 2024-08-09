@@ -30,7 +30,6 @@
     * Apply filters to focus on specific types of packets or devices.
 
 ### 3. Perform the Bluetooth Testing
-  * Start capture process on your sniffer.
   * Generate Traffic: Perform actions with the Bluetooth devices you are testing, such as
     * connecting,
     * transmitting data, or
@@ -39,9 +38,13 @@
 
 ### 4. Analyze the Captured Data
   * Review Packet Details: 
-    * Examine the details of the captured Bluetooth packets, such as headers, payloads, and timing information.
+    * Examine the details of the captured Bluetooth packets, such as
+      * headers,
+      * payloads, and
+      * timing information.
   * Identify Issues: 
     * Look for any unexpected behavior, errors, or protocol violations.
+    * to optimize I created a list of keywords which are specific of bad behavior.
   * Use Decoding Tools: 
     * Many sniffers come with built-in decoding tools to help interpret the captured data. For example, **Wireshark can decode and display Bluetooth packets in a readable format**.
 
