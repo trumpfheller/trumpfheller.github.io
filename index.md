@@ -24,7 +24,7 @@ layout: default
 
 ---
 
-## Testings
+## Testing Bluetooth
 - [Bluetooth testing](./testing/bt.html)
 - [Bluetooth testing profiles](./testing/bt_profiles.html)
 - [BT test senario: Classic Bluetooth - continuous data streaming](./testing/bt_scenario_ClassicBluetooth.html)
@@ -38,8 +38,16 @@ layout: default
 - [Bluetooth bugs](./testing/bt_protocolerrors.html)
 - [Bluetooth logs](./testing/bt_logs.html)
 
-  in the works:
+---
+
+## Testing Power
+>  in the works:
 - [Power testing](./testing/pwr.html)
+
+---
+
+## Testing Audio
+>  in the works:
 - [Audio testing](./testing/audio.html)
 
 ---
@@ -51,7 +59,7 @@ layout: default
 
 ---
 
-## private research
+## Private Research
 > Leading question: what do we know about knowledge?
 
 - [epistemological tree](epistemologicalTree.html)
