@@ -44,7 +44,8 @@ layout: default
 
 ---
 
-- [statistical analysis](./databasics/ev.html) using python, numpy, pandas, matlabLib and others
+## statistical analysis
+- [Price and range of EVs in US and Germany](./databasics/ev.html) using python, numpy, pandas, matlabLib and others
 
 ---
 
