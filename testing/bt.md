@@ -36,15 +36,3 @@
 * Control Functions:
   * Issues with controlling music, navigation, or other functions via Bluetooth. => big topic, but takes more than one paragraph
 * Examples: Google Assitant, Amazon, Fitbit, Infotainment system: ask in a foreign language for a song.
-
----
-
-### what is what?
-> Pairing, Audio, Data transfer Voice command - Which functionality is connected with which protocol?
-
-* Bluetooth Classioc and BLE,
-* Bluetooth4,5,
-* Bluetooth Mesh
-
-Please check the Bluetooth profile [page](https://trumpfheller.github.io/testing/bt_profiles.html).
-
