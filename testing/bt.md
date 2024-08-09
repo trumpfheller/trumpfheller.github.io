@@ -7,9 +7,9 @@
 ### 1.Pairing Issues:
 
 * Failure to Connect:
-  * The device fails to pair during OOB or drops connection frequently.
+  * Device fails to pair during OOB or drops connection frequently.
 * Inconsistent Pairing:
-  * The system fails to recognize paired devices.
+  * System fails to recognize paired devices.
 * Examples:
   * Release testing for Oculus3 - OOB OTA,
   * testing daily RCs for Google Assistant,
