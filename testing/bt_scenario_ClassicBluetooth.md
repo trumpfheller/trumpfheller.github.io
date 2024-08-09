@@ -16,9 +16,13 @@ layout: default
 
 ### Test Environment:
 
-* Devices: Two Bluetooth-enabled devices with BR/EDR support (e.g., smartphones, tablets, or specialized Bluetooth test devices).
-* Software: Bluetooth communication application or test tool that supports continuous data transfer.
-* Configuration: Ensure both devices are paired and connected using Classic Bluetooth (BR/EDR).
+* Devices:
+  * Two Bluetooth-enabled devices with BR/EDR support (e.g., smartphones, tablets, or specialized Bluetooth test devices).
+  * This scenario does not apply for OOB OTA.
+* Software:
+  * Bluetooth communication application or test tool that supports continuous data transfer.
+* Configuration:
+  * Ensure both devices are paired and connected using Classic Bluetooth (BR/EDR).
 
 ## Test Steps
 
