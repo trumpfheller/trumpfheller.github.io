@@ -39,22 +39,32 @@ layout: default
 
 ### 3.Establish Connection:
 
-* Initiate Connection: On the BLE central device, initiate a connection to the BLE peripheral.
-* Verify Connection: Confirm that the connection is established successfully. The central device should show a connected status, and the peripheral should acknowledge the connection.
+* Initiate Connection:
+  * On the BLE central device, initiate a connection to the BLE peripheral.
+* Verify Connection:
+  * Confirm that the connection is established successfully. The central device should show a connected status, and the peripheral should acknowledge the connection.
 
 ### 4.Data Exchange:
 
-* Discover Services: On the central device, discover the services offered by the peripheral.
-Discover Characteristics: Locate the characteristics associated with the discovered services.
-* Read Characteristic: Perform a read operation on a characteristic (e.g., read the value of a temperature characteristic from the peripheral).
-* Write Characteristic: Write a value to a characteristic (e.g., send a configuration value to the peripheral).
-* Subscribe to Notifications/Indications: Subscribe to notifications or indications for a characteristic (e.g., subscribe to heart rate measurements).
-* Verify Data Reception: Ensure that the central device receives notifications or indications as expected and that the data matches the expected format.
+* Discover Services:
+  * On the central device, discover the services offered by the peripheral.
+* Discover Characteristics:
+  * Locate the characteristics associated with the discovered services.
+* Read Characteristic:
+  * Perform a read operation on a characteristic (e.g., read the value of a temperature characteristic from the peripheral).
+* Write Characteristic:
+  * Write a value to a characteristic (e.g., send a configuration value to the peripheral).
+* Subscribe to Notifications/Indications:
+  * Subscribe to notifications or indications for a characteristic (e.g., subscribe to heart rate measurements).
+* Verify Data Reception:
+  * Ensure that the central device receives notifications or indications as expected and that the data matches the expected format.
 
 ### 5.Connection Stability:
 
-* Maintain Connection: Verify that the connection remains stable during data exchange, with no unexpected disconnections or errors.
-* Test Connection Parameters: Optionally, test different connection parameters (e.g., connection interval, slave latency) to observe their impact on performance and stability.
+* Maintain Connection:
+  * Verify that the connection remains stable during data exchange, with no unexpected disconnections or errors.
+* Test Connection Parameters:
+  * Optionally, test different connection parameters (e.g., connection interval, slave latency) to observe their impact on performance and stability.
 
 ### Interruption and Recovery:
 
