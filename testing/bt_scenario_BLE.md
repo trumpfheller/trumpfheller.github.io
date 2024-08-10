@@ -5,9 +5,11 @@ layout: default
 ## Test scenario for BLE Connection and Data Exchange
 > built a sustainable matrix
 
-* Test Case: BLE Connection and Data Exchange
-* Objective:
-To verify that a BLE peripheral and BLE central device can connect successfully, exchange data reliably, and handle disconnections properly.
+> Test Case
+* BLE Connection and Data Exchange
+
+> Objective
+* To verify that a BLE peripheral and BLE central device can connect successfully, exchange data reliably, and handle disconnections properly.
 
 ### Test Environment:
 * Devices: One BLE peripheral (e.g., a BLE sensor or development board) and one BLE central (e.g., a smartphone or BLE development board).
