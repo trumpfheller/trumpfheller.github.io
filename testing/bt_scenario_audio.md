@@ -2,8 +2,7 @@
 layout: default
 ---
 
-## Test scenario for Bluetooth 
-> Audio Profiles
+## Test scenario for Bluetooth Audio Profiles
 
 > Test Case:
 * Bluetooth Audio Profiles (A2DP, HFP, HSP) Functionality
