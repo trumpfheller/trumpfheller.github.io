@@ -68,18 +68,25 @@ layout: default
 
 ### Interruption and Recovery:
 
-* Simulate Interference: Introduce potential sources of interference (e.g., other BLE devices) and observe the impact on connection stability and data exchange.
-* Disconnect and Reconnect: Disconnect the BLE central from the peripheral and then reconnect to ensure the connection can be reestablished correctly.
+* Simulate Interference:
+  * Introduce potential sources of interference (e.g., other BLE devices) and observe the impact on connection stability and data exchange.
+* Disconnect and Reconnect:
+  * Disconnect the BLE central from the peripheral and then reconnect to ensure the connection can be reestablished (correctly).
 
 ---
 
 ### Expected Results:
 
-* Successful Discovery: The BLE peripheral should be discoverable by the central device.
-* Connection Established: The connection between the peripheral and central should be established without issues.
-* Reliable Data Exchange: Data read and write operations should be performed successfully, and notifications/indications should be received as expected.
-* Stable Connection: The connection should remain stable throughout the test, with minimal interference or disruptions.
-* Correct Data Handling: The data exchanged should be accurate and consistent with expected values.
+* Successful Discovery:
+  * The BLE peripheral should be discoverable by the central device.
+* Connection Established:
+  * The connection between the peripheral and central should be established without issues.
+* Reliable Data Exchange:
+  * Data read and write operations should be performed successfully, and notifications/indications should be received as expected.
+* Stable Connection:
+  * The connection should remain stable throughout the test, with minimal interference or disruptions.
+* Correct Data Handling:
+  * The data exchanged should be accurate and consistent with expected values.
 
 ### Reporting:
 
