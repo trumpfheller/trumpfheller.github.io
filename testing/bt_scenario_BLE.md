@@ -4,10 +4,10 @@ layout: default
 
 ## Test scenario for BLE Connection and Data Exchange
 
-> Test Case
+> **Test Case**
 * BLE Connection and Data Exchange
 
-> Objective
+> **Objective**
 * To verify that a BLE peripheral and BLE central device can connect successfully, exchange data reliably, and handle disconnections properly.
 
 ### Test Environment:
