@@ -12,15 +12,21 @@ layout: default
 * To verify that a BLE peripheral and BLE central device can connect successfully, exchange data reliably, and handle disconnections properly.
 
 ### Test Environment:
-* Devices: One BLE peripheral (e.g., a BLE sensor or development board) and one BLE central (e.g., a smartphone or BLE development board).
-* Software: BLE communication application or test tool for interaction with BLE services and characteristics.
+* Devices:
+  * One BLE peripheral (e.g., a BLE sensor or development board) and one BLE central (e.g., a smartphone or BLE development board).
+* Software:
+  * BLE communication application or test tool for interaction with BLE services and characteristics.
+
+---
 
 ## Test Steps:
 
 ### 1.Setup and Initialization:
 
-* Prepare Devices: Ensure both BLE peripheral and BLE central devices are powered on and in a state where they can perform BLE operations.
-* BLE Services and Characteristics: Configure the BLE peripheral with specific services and characteristics for testing (e.g., a heart rate service with a heart rate measurement characteristic).
+* Prepare Devices:
+  * Ensure both BLE peripheral and BLE central devices are powered on and in a state where they can perform BLE operations.
+* BLE Services and Characteristics:
+  * Configure the BLE peripheral with specific services and characteristics for testing (e.g., a heart rate service with a heart rate measurement characteristic).
 
 ### 2.Device Discovery:
 
