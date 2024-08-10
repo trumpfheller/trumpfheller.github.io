@@ -3,7 +3,6 @@ layout: default
 ---
 
 ## Test scenario for BLE Connection and Data Exchange
-> built a sustainable matrix
 
 > Test Case
 * BLE Connection and Data Exchange
@@ -73,3 +72,7 @@ Discover Characteristics: Locate the characteristics associated with the discove
 * Document the results of the device discovery, connection status, data exchange operations, and connection stability.
 * Include any issues encountered, such as failed connections or data discrepancies.
 * For Agile - retro provide recommendations based on the findings, such as improvements needed for better performance or reliability.
+
+---
+
+> built a sustainable matrix
