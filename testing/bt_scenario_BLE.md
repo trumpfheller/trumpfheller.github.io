@@ -34,7 +34,8 @@ layout: default
 * Verify Discovery:
   * Confirm that the BLE peripheral is detected by the central device. The peripheral should be listed in the scan results with its advertised name or UUID.
     
-> NOTE: these steps vary by device a lot. Example: Oculus has OTA, while Google Assitant and some wearables not necessarily utilize OTA.
+> NOTE: these steps vary by device a lot.
+> Example: Oculus has OTA, while Google Assitant and some wearables not necessarily utilize OTA.
 
 ### 3.Establish Connection:
 
