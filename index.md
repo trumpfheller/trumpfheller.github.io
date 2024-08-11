@@ -57,7 +57,8 @@ layout: default
 ## Statistical Analysis
 > using python, numpy, pandas, prettytable and Matplotlib.
 
-- [Price and range of EVs in US and Germany](./databasics/ev.html) 
+- [Price and range of EVs in US and Germany](./databasics/ev.html)
+- [Happiness of the world - Cleaning data](./databasics/happy.html)
 
 ---
 
