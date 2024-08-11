@@ -45,7 +45,7 @@ df.fillna(method='ffill', inplace=True)
 
 ### 4.  Data Type Conversion
 
-#### Columns that need conversion
+* Columns that need conversion
 
 ```python
 # 'date' to datetime
