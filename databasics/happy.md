@@ -45,12 +45,13 @@ df.fillna(method='ffill', inplace=True)
 
 ### 4.  Data Type Conversion
 
-#### Check for columns that need conversion (e.g., 'date' to datetime, 'price' to numeric)
+#### Columns that need conversion
 
 ```python
+# 'date' to datetime
 df['date'] = pd.to_datetime(df['date'])
 
-# Handle non-numeric values
+# Price to non-numeric values
 df['price'] = pd.to_numeric(df['price'], errors='coerce')  
 ```
 
