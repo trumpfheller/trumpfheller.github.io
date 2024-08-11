@@ -49,15 +49,17 @@ df.fillna(method='ffill', inplace=True)
 
 ```python
 df['date'] = pd.to_datetime(df['date'])
-df['price'] = pd.to_numeric(df['price'], errors='coerce')  # Handle non-numeric values
+
+# Handle non-numeric values
+df['price'] = pd.to_numeric(df['price'], errors='coerce')  
 ```
 
 ### 5.  Duplicate Removal
 
-* Identify duplicate rows 
+* Identify/Count duplicate rows
 
 ```python
-print(df.duplicated().sum())  # Count duplicate rows
+print(df.duplicated().sum())  
 ```
 
 * Remove duplicates
