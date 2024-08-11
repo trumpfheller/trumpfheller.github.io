@@ -1,12 +1,12 @@
 
-## 1. Load the data
+### 1. Load the data
 
 ```python
 import pandas as pd
 df = pd.read_csv("data/2015.csv")
 ```
 
-## 2. Initial Exploration
+### 2. Initial Exploration
 
 ```python
 print(df.head())  # View the first few rows
@@ -15,7 +15,7 @@ print(df.info())  # Summary of data types and missing values
 print(df.describe())  # Summary statistics
 ```
 
-## 3.  Handle Missing Values
+### 3.  Handle Missing Values
 
 * Identify missing values
 
@@ -23,7 +23,7 @@ print(df.describe())  # Summary statistics
 print(df.isnull().sum())  # Count missing values per column
 ```
 
-### Choose a strategy:
+#### Choose a strategy:
 
 * 1. Drop rows with missing values
 
@@ -43,16 +43,16 @@ df.fillna(0, inplace=True)
 df.fillna(method='ffill', inplace=True)
 ```
 
-## 4.  Data Type Conversion
+### 4.  Data Type Conversion
 
-### Check for columns that need conversion (e.g., 'date' to datetime, 'price' to numeric)
+#### Check for columns that need conversion (e.g., 'date' to datetime, 'price' to numeric)
 
 ```python
 df['date'] = pd.to_datetime(df['date'])
 df['price'] = pd.to_numeric(df['price'], errors='coerce')  # Handle non-numeric values
 ```
 
-## 5.  Duplicate Removal
+### 5.  Duplicate Removal
 
 * Identify duplicate rows 
 
@@ -66,32 +66,33 @@ print(df.duplicated().sum())  # Count duplicate rows
 df.drop_duplicates(inplace=True)
 ```
 
-## 6.  Outlier Handling (I should probably use Jupyter here; I am still experimenting)
+### 6.  Outlier Handling 
+> (I should probably use Jupyter here; I am still experimenting)
 
-#   - Explore outliers visually (box plots, histograms)
-#   - Apply methods like:
-#     - Removing outliers directly
-#     - Capping outliers (setting limits)
-#     - Using robust statistical methods (e.g., interquartile range)
+* Explore outliers visually (box plots, histograms)
+* Apply methods like:
+  * Removing outliers directly
+  * Capping outliers (setting limits)
+  * Using robust statistical methods (e.g., interquartile range)
 
-## 7.  Standardization/Normalization (Optional)
+### 7.  Standardization/Normalization (Optional)
 
-#   - If required for machine learning or analysis, consider:
-#     - Standardization (zero mean, unit variance)
-#     - Normalization (scaling to a range like [0, 1])
+* If required for machine learning or analysis, consider:
+  * tandardization (zero mean, unit variance)
+  * Normalization (scaling to a range like [0, 1])
 
-## 8.  Encoding Categorical Features (Optional)
+### 8.  Encoding Categorical Features (Optional)
 
-#   - Convert categorical columns into numerical representations using methods like:
-#     - One-hot encoding (create dummy variables)
-#     - Label encoding (assign numerical labels)
+* Convert categorical columns into numerical representations using methods like:
+  * One-hot encoding (create dummy variables)
+  * Label encoding (assign numerical labels)
 
-## 9.  Data Validation (Optional)
-#   - Ensure data integrity using checks:
-#     - Range checks (e.g., age should be within a reasonable range)
-#     - Consistency checks (e.g., values in different columns should be logically related)
+### 9.  Data Validation (Optional)
+* Ensure data integrity using checks:
+  * Range checks (e.g., age should be within a reasonable range)
+  * Consistency checks (e.g., values in different columns should be logically related)
 
-## 10.  Save the cleaned data
+### 10.  Save the cleaned data
 
 ```python
 df.to_csv("cleaned_data/2015_cleaned.csv", index=False)
