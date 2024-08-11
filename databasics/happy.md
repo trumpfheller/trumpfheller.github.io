@@ -54,7 +54,7 @@ df['date'] = pd.to_datetime(df['date'])
 df['price'] = pd.to_numeric(df['price'], errors='coerce')  
 ```
 
-### 5.  Duplicate Removal
+### 5.  Duplicates
 
 * Identify/Count duplicate rows
 
