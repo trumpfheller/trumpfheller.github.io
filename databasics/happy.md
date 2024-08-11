@@ -77,19 +77,19 @@ df.drop_duplicates(inplace=True)
   * Capping outliers (setting limits)
   * Using robust statistical methods (e.g., interquartile range)
 
-### 7.  Standardization/Normalization (Optional)
+### 7.  Standardization/Normalization
 
 * If required for machine learning or analysis, consider:
   * tandardization (zero mean, unit variance)
   * Normalization (scaling to a range like [0, 1])
 
-### 8.  Encoding Categorical Features (Optional)
+### 8.  Encoding Categorical Features
 
 * Convert categorical columns into numerical representations using methods like:
   * One-hot encoding (create dummy variables)
   * Label encoding (assign numerical labels)
 
-### 9.  Data Validation (Optional)
+### 9.  Data Validation
 * Ensure data integrity using checks:
   * Range checks (e.g., age should be within a reasonable range)
   * Consistency checks (e.g., values in different columns should be logically related)
