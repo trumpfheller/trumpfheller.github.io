@@ -59,6 +59,7 @@ layout: default
 
 - [Price and range of EVs in US and Germany](./databasics/ev.html)
 - [Happiness of the world - Cleaning data](./databasics/happy.html)
+- [My car's gas consumption - Cleaning data](./databasics/bb.html)
 
 ---
 
