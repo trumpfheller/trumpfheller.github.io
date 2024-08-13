@@ -5,7 +5,7 @@
 
 * These logs, when used together, provide a comprehensive view of Bluetooth operations, from low-level hardware interactions to high-level application behavior.
 * They are crucial for troubleshooting, performance optimization, and ensuring compliance with Bluetooth specifications.
-* At Google and meta I pulled the logs with an adb cmd
+* At Google and meta I pulled the logs with an `adb` cmd
 
 ```bash
 adb devices
