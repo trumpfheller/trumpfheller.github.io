@@ -16,7 +16,7 @@ in a car’s infotainment system for instance include:
 ### 1.Pairing Issues:
 
 * Failure to Connect: The device fails to pair with the infotainment system or drops connection frequently.
-* Inconsistent Pairing: The system intermittently recognizes or fails to recognize paired devices.
+* Inconsistent Pairing: The system intermittently recognizes or fails to recognize paired devices. For instance: testing Oculus3 RCs, OOB in general. 
 
 ### 2.Audio Problems:
 
@@ -30,8 +30,8 @@ in a car’s infotainment system for instance include:
 
 ### 4.Command Recognition Problems:
 
-* Voice Commands: Failure to recognize or correctly execute voice commands.
-* Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth.
+* Voice Commands: Failure to recognize or correctly execute voice commands. (for instance, Google Assitant etc.)
+* Control Functions: Issues with controlling music, navigation, or other functions via Bluetooth. (for instance the volume controls via voice: Hey Google, turn up the beat!)
 
 > For some devices you will/might encounter on top additional device specific errors.
 Debugging these errors therefore involves several steps to identify and resolve the issue. 
