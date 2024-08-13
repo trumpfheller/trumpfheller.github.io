@@ -47,7 +47,7 @@ Debugging these errors therefore involves several steps to identify and resolve 
 
 ### 2.Inspect the Infotainment System:
 
-* Software Updates: Check if there are any firmware or software updates available for the infotainment system and apply them if necessary.
+* Software Updates: Check if there are any firmware or software updates available for the infotainment system and apply them if necessary. Infotainment systems are prone to show these errors.
 * Reset to Factory Settings: Perform a factory reset of the infotainment system if persistent issues occur, but be sure to back up important settings first.
 
 Use a Bluetooth Sniffer:
