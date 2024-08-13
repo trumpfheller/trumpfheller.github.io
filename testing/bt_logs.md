@@ -12,7 +12,8 @@ adb devices
 adb bugreport
 
 # or you pull a logcat
-# capture logcat output in real-time and save it to a file on your computer
+# capture logcat output in real-time and
+# save it to a file on your computer
 
 adb logcat > logcat.txt
 adb pull /sdcard/logcat.log /path/to/local/directory/
