@@ -44,7 +44,7 @@ layout: default
 >  in the works:
 
 - [Power testing](./testing/pwr.html)
-- [Battery chemistry](./testing/pwr.html)
+- [Battery chemistry](./testing/batterychemistry.html)
 
 ---
 
