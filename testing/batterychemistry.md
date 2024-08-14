@@ -2,7 +2,7 @@
 > Battery Validation Engineer: ensuring the safe and reliable performance of batteries in a wide range of applications.
 
 ### 1. Battery Types and Chemistries:
-* Lithium-ion (Li-ion): The most common type, understanding their variations is crucial.
+* Lithium-ion (Li-ion): most common type and there are variations.
   * Lithium Cobalt Oxide (LiCoO2): High energy density, but prone to overheating.
   * Lithium Manganese Oxide (LiMn2O4): Good safety profile, but lower energy density.
   * Lithium Nickel Manganese Cobalt Oxide (NMC): Widely used in EVs, offering good balance of performance and safety.
