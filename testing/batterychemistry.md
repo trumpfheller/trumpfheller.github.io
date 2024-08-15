@@ -41,7 +41,10 @@ Separator: A thin membrane that physically separates the electrodes, preventing 
 * Short Circuit Protection: Protecting against short circuits that can cause fires or explosions.
 
 ### 6. Battery Testing and Characterization:
-* Understanding Standard Test Methods: Learn how different test methods (e.g., constant current, constant voltage, pulse testing) can reveal specific performance characteristics.
+* Standard Test Methods to reveal specific performance characteristics.
+  * constant current,
+  * constant voltage,
+  * pulse testing
 * Interpretation of Data: Analyzing test results to assess battery performance, degradation, and potential failure mechanisms.
-* Correlation of Testing to Real-World Applications: Knowing how test results translate to real-world conditions and applications (e.g., driving range for electric vehicles).
+* Correlation of Testing to Real-World Applications: Knowing how test results translate to real-world conditions => driving range for electric vehicles.
 
