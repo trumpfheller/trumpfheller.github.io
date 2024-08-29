@@ -10,6 +10,11 @@ layout: default
 - Now, to get from cave paintings to AI, humans had to develop a way to conserve data, information and knowledge - each step, each item through time. 
 - to conserve knowledge, information and data, for the past 32.000 years humans used: <br>- stone<br>- clay<br>- leather<br>- Papurus<br>- paper<br>- book <br>- computer
 
+---
+
+
+---
+
 | <span style="width:250px">**BCE**</span> | **milestone** |
 |---|:---|
 | 30,000 | cave paintings (Chauvet Cave in France) |
@@ -24,7 +29,7 @@ layout: default
 | 2100 | - Epic of Gilgamesh<br>- The concept of area is first recognized in Babylonian clay tablets, and 3-dimensional volume is discussed in an Egyptian papyrus. This begins the study of geometry. |
 | 1550 | **1st** math book (Rhind Mathematical Papyrus) includes:<br>- arithmetic, geometry, algebraic equations, fractions, and proportions |
 | 700 | Earliest Greek inscriptions using modified alphabet data adopted from the Phoenician alphabet |
-| 690 | Library of Ashurbanipal, Mesopotamia [Library of Nineveh with Irving Finkel](https://www.youtube.com/live/Ls9JkxFEB9g) <br> - |
+| 690 | Library of Ashurbanipal, Mesopotamia [Library of Nineveh with Irving Finkel](https://www.youtube.com/live/Ls9JkxFEB9g) <br> - Gilgamesh story (which includes the big flood and the arch)<br> - Ark Before Noah with Irving [Finkel](https://youtu.be/s_fkpZSnz2I?si=e-UB304xbIPUhBA1)  |
 | 586 | Process of canonization of the Bible likely began during the Babylonian exile (6th century BCE) |
 | 350 | Aristotle's "Posterior Analytics," Aristotle's Organon<br>- introduces the concept of demonstration (apodeixis) as a method for acquiring scientific knowledge based on logical inference from first principles (axioms) and necessary truths, the structure of syllogistic reasoning and the criteria for valid scientific inference<br>- laying the groundwork for later developments in logic and epistemology.<br>- later translated in Cordoba during the Muslim rule |
 | 300 | Euclid - The Elements (Greek: Στοιχεῖα Stoikheîa)<br>- a mathematical treatise consisting of 13 books<br>- BOOK I Triangles, parallels, and area<br>- BOOK II Geometric algebra<br>- BOOK III Circles<br>- BOOK IV Constructions for inscribed and circumscribed figures<br>- BOOK V Theory of proportions<br>- translated in Cordoba during the Muslim rule |
