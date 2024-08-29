@@ -21,7 +21,7 @@ layout: default
 | 10.000 | Petroglyphs<br>- carvings into a rock surface |
 | ~9.500 | Göbekli Tepe |
 | 9000 | Pictograms<br>- a symbol representing a concept, object, activity, place or event by illustration |
-| 5,260 | Dispilio Tablet, Macedonia <br>- cryptic inscription that dates back to before 5,000 BC <br>- while ancient eastern civilizations would use ideograms, ancient Greeks were using syllables in a similar manner like we use today.| 
+| 5,260 | Dispilio Tablet, Macedonia <br>- ealiest evidence of writing<br>- cryptic inscription that dates back to before 5,000 BC <br>- while ancient eastern civilizations would use ideograms, ancient Greeks were using syllables in a similar manner like we use today.| 
 | 5000-3500 | - earliest evidence of wheels in Mesopotania<br>- cuneiform (Sumerians, include some pictographic elements, consists of abstract signs representing syllables, words, or sounds) |
 | 3000 | - Papyrus<br>- Sumerians developed writing and began keeping records. <br>- first deciphered numeral system is that of the Egyptian numerals, a sign-value system (as opposed to a place-value system) |
 | 2500 | - Ideograms<br>- graphical symbols that represent an idea<br>- Royal Archives of Ebla (library) |
