@@ -77,6 +77,7 @@ layout: default
 | 1474 | **first** book printed in England<br>- "The Recuyell of the Historyes of Troye"" (Collection of the Histories of Troy)<br>- William Caxton, a merchant, diplomat, and printer, produced the book in Bruges, Belgium |
 | 1476 | **first** book printed in Greece<br>- "Grammar of the Greek Language."(Γραμματική της Ελληνικής Γλώσσης)  |
 | 1480 | **first** English printed school book<br>- "The Accidence," <br>- William Caxton, Westminster |
+| 1487 | **first** book banned by the Pope<br>- Innocent VIII prohibited in 1487 the 900 theses of Pico della Mirandola in his bull Etsi ex injuncto. |
 | 1499 | **first** printed Greek dictionary<br>- "Lexicon Graecolatinum," ("Λεξικόν Ελληνολατινικόν")  |
 
 | <span style="width:350px">**date**</span> | **milestone** |
