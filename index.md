@@ -24,43 +24,7 @@ layout: default
 
 ---
 
-## Testing Bluetooth
-- [Bluetooth testing](./testing/bt.html)
-- [Bluetooth testing profiles](./testing/bt_profiles.html)
-- [BT test senario: Classic Bluetooth - continuous data streaming](./testing/bt_scenario_ClassicBluetooth.html)
-- [BT test senario: BLE - Data exchange](./testing/bt_scenario_BLE.html)
-- [BT test senario: Bluetooth Mesh - for nodes and messaging](./testing/bt_scenario_mesh.html)
-- [BT test senario: Bluetooth 4.x](./testing/bt_scenario_Bluetooth4.html)
-- [BT test senario: Bluetooth audio](./testing/bt_scenario_audio.html)
-- [Bluetooth testing tools](./testing/btt.html)
-- [Bluetooth testing tools Sniffer](./testing/btt_sniffers.html)
-- [Bluetooth testing tools Picolo](./testing/btt_picolo.html)
-- [Bluetooth bugs](./testing/bt_protocolerrors.html)
-- [Bluetooth logs](./testing/bt_logs.html)
 
----
-
-## Testing Power
->  in the works:
-
-- [Power testing](./testing/pwr.html)
-- [Battery chemistry](./testing/batterychemistry.html)
-
----
-
-## Testing Audio
->  in the works:
-
-- [Audio testing](./testing/audio.html)
-
----
-
-## Statistical Analysis
-> using python, numpy, pandas, prettytable and Matplotlib.
-
-- [Price and range of EVs in US and Germany](./databasics/ev.html)
-- [Happiness of the world - Cleaning data](./databasics/happy.html)
-- [My car's gas consumption - Cleaning data](./databasics/bb.html)
 
 ---
 
