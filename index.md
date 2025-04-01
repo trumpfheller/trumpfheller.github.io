@@ -15,7 +15,7 @@ layout: default
   - [Milestone 5: From Bug report to Bug Cycle](./playbook/05.html)
   - [Milestone 6: Triage Defects](./playbook/06.html)
   - [Milestone 7: Monitoring](./playbook/07.html)
-  - [Milestone 8: Realease Release - in progress](./playbook/0.html)
+  - [Milestone 8: Realease Release - in progress](./playbook/08.html)
   - [Milestone 9: Foster Continuous Learning and Knowledge Sharing](./another-page.html)
 
 ---
