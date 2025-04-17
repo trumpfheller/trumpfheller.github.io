@@ -155,7 +155,40 @@ layout: default
 - [05_Requests](./python/08_modulesPackageAPIs/08_05.html)
 - [06_APIs](./python/08_modulesPackageAPIs/08_06.html)
 
+---
 
+### Bluetooth testing lab
+> Using a **Raspberry Pi 5 Cluster** controlled by a Linux (Ubuntu) machine that allows for automated testing, multi-device compatibility, and signal analysis.
+
+#### General Use Cases
+
+* **Automated Bluetooth Device Testing** – Using scripts to automate pairing, unpairing, signal strength tests, and data transfer analysis.
+
+#### goal
+* **Multi-Device Performance Testing** – Measure how multiple Bluetooth connections impact performance.
+* **IoT & Wearable Compatibility Testing** – Ensure proper connectivity and low-latency data exchange with devices like smartwatches, fitness trackers, or IoT sensors. (I like to utilize past experience in Fitbit and want to expand).
+
+#### basic architecture
+* Controller Node – Manages test execution, collects logs, and analyzes results (Linux/Ubuntu with an AMD Ryzen7, 64GB RAM).
+* Test Nodes – Run Bluetooth tests, interact with target devices, and send results to the controller (RasPi4 and 5s). 
+
+| Node              | Role | Tools Installed |
+| :---------------- | :------: | ----: |
+| Pi 1 |   Controller   | Ansible, Grafana, Logstash |
+| Pi 2 |   Test Node   | PyBluez, hcitool, btmon |
+| Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |
+| Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |
+
+* **Ansible** to deploy scripts across all Raspberry Pi nodes.
+* **BlueZ** – Linux Bluetooth stack for scanning, pairing, and debugging.
+* **hcitool & hcidump** – For low-level Bluetooth device scanning and debugging.
+* **btmon** – A monitoring tool to capture Bluetooth events.
+* **Wireshark with Bluetooth Plugins** – Sniff and analyze Bluetooth traffic.
+* **BLE Sniffers** – for deeper BLE analysis (need to do research on Nordic Semiconductor nRF Sniffer). 
+
+#### Documentation 
+* using Jekyll (Markdown)
+  
 ---
 
 ## Private Research
