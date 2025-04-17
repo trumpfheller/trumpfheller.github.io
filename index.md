@@ -164,10 +164,6 @@ layout: default
 
 * **Automated Bluetooth Device Testing** – Using scripts to automate pairing, unpairing, signal strength tests, and data transfer analysis.
 
-#### Goal
-* **Multi-Device Performance Testing** – Measure how multiple Bluetooth connections impact performance.
-* **IoT & Wearable Compatibility Testing** – Ensure proper connectivity and low-latency data exchange with devices like smartwatches, fitness trackers, or IoT sensors. (I like to utilize past experience in Fitbit and want to expand).
-
 #### Basic architecture
 * Controller Node – Manages test execution, collects logs, and analyzes results (Linux/Ubuntu with an AMD Ryzen7, 64GB RAM).
 * Test Nodes – Run Bluetooth tests, interact with target devices, and send results to the controller (RasPi4 and 5s). 
@@ -179,6 +175,7 @@ layout: default
 | Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |
 | Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |
 
+#### Software used
 * **Ansible** to deploy scripts across all Raspberry Pi nodes.
 * **BlueZ** – Linux Bluetooth stack for scanning, pairing, and debugging.
 * **hcitool & hcidump** – For low-level Bluetooth device scanning and debugging.
