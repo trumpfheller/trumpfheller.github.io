@@ -177,10 +177,10 @@ layout: default
 
 #### Software used
 * **Ansible** to deploy scripts across all Raspberry Pi nodes.
-* **BlueZ** – Linux Bluetooth stack for scanning, pairing, and debugging.
-* **hcitool & hcidump** – For low-level Bluetooth device scanning and debugging.
-* **btmon** – A monitoring tool to capture Bluetooth events.
-* **Wireshark with Bluetooth Plugins** – Sniff and analyze Bluetooth traffic.
+* **BlueZ** – for scanning, pairing, and debugging (Linux Bluetooth stack).
+* **hcitool & hcidump** – for low-level Bluetooth device scanning and debugging.
+* **btmon** – for capturing Bluetooth events (a monitoring tool).
+* **Wireshark with Bluetooth Plugins** – for sniffing and analyzing Bluetooth traffic.
 * **BLE Sniffers** – for deeper BLE analysis (need to do research on Nordic Semiconductor nRF Sniffer). 
 
 #### Documentation 
