@@ -179,7 +179,7 @@ In technical terms:
 | Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |
 | Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |
 
-* Pi 1: Linux/Ubuntu (AMD Ryzen 7 5700u (8C/16T,up to 4.3 GHz), 64GB DDR4 RAM, 2TB PCIe SSD)
+* Pi 1: Linux/Ubuntu (AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD)
 * Pi 2: Raspberry Pi4 ()
 * Pi 3: Raspberry Pi5 ()
 * Pi 4: Raspberry Pi5 ()
