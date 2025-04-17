@@ -158,6 +158,10 @@ layout: default
 ---
 
 ### Bluetooth testing lab
+
+As an example, you have a Bluetooth loudspeaker and your marketing department wants to say: works within 20 feet distance, streams high quality sound and works on every device. 
+My Bluetooth testing lab will take your prototype, and test if it actally delivers what and then compromise a report based on the logs from the prototype or the phone.
+In technical terms:
 > Using a **Raspberry Pi 5 Cluster** controlled by a Linux (Ubuntu) machine that allows for automated testing, multi-device compatibility, and signal analysis.
 
 #### General Use Cases
