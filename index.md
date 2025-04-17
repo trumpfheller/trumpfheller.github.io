@@ -182,7 +182,7 @@ In technical terms:
 | machine              | OS | under the hood |
 | :---------------- | :------: | ----: |
 | Pi 1 |   Linux/Ubuntu    | AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD |
-| Pi 2 |   Raspberry Pi OS / Debian  |  |
+| Pi 2 |   Raspberry Pi OS / Debian  | ARM Cortex-A72, SanDisk 32GB MicroSD |
 | Pi 3 |   Raspberry Pi OS / Debian   |  |
 | Pi 4 |   Raspberry Pi OS / Debian   |  |
 
