@@ -179,10 +179,12 @@ In technical terms:
 | Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |
 | Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |
 
-* Pi 1: Linux/Ubuntu (AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD)
-* Pi 2: Raspberry Pi4 ()
-* Pi 3: Raspberry Pi5 ()
-* Pi 4: Raspberry Pi5 ()
+| machine              | OS | under the hood |
+| :---------------- | :------: | ----: |
+| Pi 1 |   Linux/Ubuntu    | AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD |
+| Pi 2 |   RasPi 4   |  |
+| Pi 3 |   RasPi 5   |  |
+| Pi 4 |   RasPi 5   |  |
 
 #### Software used
 * **Ansible** to deploy scripts across all Raspberry Pi nodes.
