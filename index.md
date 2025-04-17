@@ -176,8 +176,8 @@ In technical terms:
 | :---------------- | :------: | ----: | :------: | ----: |
 | Pi 1 |   Controller   | Ansible, Grafana, Logstash |   Linux/Ubuntu    | AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD |
 | Pi 2 |   Test Node   | PyBluez, hcitool, btmon |   Raspberry Pi OS / Debian  | Pi4, ARM Cortex-A72, SanDisk 32GB MicroSD |
-| Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |   Raspberry Pi OS / Debian   | P5 |
-| Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |   Raspberry Pi OS / Debian   | P5 |
+| Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |   Raspberry Pi OS / Debian   | Pi5 |
+| Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |   Raspberry Pi OS / Debian   | Pi5 |
 
 #### Software used
 * **Ansible** to deploy scripts across all Raspberry Pi nodes.
