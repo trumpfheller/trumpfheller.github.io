@@ -172,19 +172,19 @@ In technical terms:
 * Controller Node – Manages test execution, collects logs, and analyzes results (Linux/Ubuntu with an AMD Ryzen7, 64GB RAM).
 * Test Nodes – Run Bluetooth tests, interact with target devices, and send results to the controller (RasPi4 and 5s). 
 
-| Node              | Role | Tools Installed |
-| :---------------- | :------: | ----: |
-| Pi 1 |   Controller   | Ansible, Grafana, Logstash |
-| Pi 2 |   Test Node   | PyBluez, hcitool, btmon |
-| Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |
-| Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |
+| Node              | Role | Tools Installed | OS | under the hood |
+| :---------------- | :------: | ----: | :------: | ----: |
+| Pi 1 |   Controller   | Ansible, Grafana, Logstash |   Linux/Ubuntu    | AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD |
+| Pi 2 |   Test Node   | PyBluez, hcitool, btmon |   Raspberry Pi OS / Debian  | ARM Cortex-A72, SanDisk 32GB MicroSD |
+| Pi 3    |  Test Node   | PyBluez, hcitool, Ubertooth |   Raspberry Pi OS / Debian   |  |
+| Pi 4  |  Test Node   | PyBluez, hcitool, nRF Sniffer |   Raspberry Pi OS / Debian   |  |
 
-| machine              | OS | under the hood |
-| :---------------- | :------: | ----: |
-| Pi 1 |   Linux/Ubuntu    | AMD Ryzen 7 5700u, 64GB DDR4 RAM, 2TB PCIe SSD |
-| Pi 2 |   Raspberry Pi OS / Debian  | ARM Cortex-A72, SanDisk 32GB MicroSD |
-| Pi 3 |   Raspberry Pi OS / Debian   |  |
-| Pi 4 |   Raspberry Pi OS / Debian   |  |
+| machine              | 
+| :---------------- | 
+| Pi 1 | 
+| Pi 2 | 
+| Pi 3 | 
+| Pi 4 | 
 
 #### Software used
 * **Ansible** to deploy scripts across all Raspberry Pi nodes.
