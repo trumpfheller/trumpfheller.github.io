@@ -61,6 +61,7 @@ layout: default
 | 1248 | **first** University in England<br>- University of Oxford<br>- specialized in theology, philosophy, and science study |
 | 1257 | **first** University in France<br>- Sarbonne |
 | 1286 | **first** German schoolbook<br>- ("Catholicon," by Johannes Balbi) |
+| 1304 | The father of humanismus: Petrarch Francesco Petrarca (born July 20, 1304, Arezzo, Tuscany [Italy]—died July 18/19, 1374, Arquà, near Padua, Carrara)
 | 1321 | Portolan Charts/map by Pietro Vesconte,<br>- Magellan used it |
 | 1339 | Portolan Charts/map by Angelino Dulcert,<br>- Magellan used it |
 | 1347-1351 | The Black Death<br>- in some places, it's believed that up to 60% of the population perished due to the disease. |
